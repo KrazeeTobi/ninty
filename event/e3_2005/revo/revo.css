@@ -1,0 +1,19 @@
+body {
+	background-color: #FFFFFF;
+}
+
+td {
+	color:#666666;
+	font-size: 14px;
+	line-height: 170%;
+}
+
+.point {
+	font-weight:bold;
+}
+
+.small {
+	font-family: "ÇlÇr ÉSÉVÉbÉN", Osaka;	
+	font-size: 10px;
+	line-height: 140%;
+}

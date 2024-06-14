@@ -1,0 +1,9 @@
+* html #contents{ 
+	position:relative; 
+}
+
+* html #footer{ 
+	position: static;
+	width:expression(document.body.clientWidth - 18);
+ 	bottom: expression(this.parentNode.clientHeight % 2 == 0 ? 0 : -1); 
+}

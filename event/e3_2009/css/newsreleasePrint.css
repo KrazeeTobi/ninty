@@ -1,0 +1,50 @@
+html,body {
+	color: #666;
+	line-height: 1.6;
+}
+
+#header {
+}
+
+#header .nintendo {
+	float: left;
+}
+
+#header .e3 {
+	float: right;
+}
+
+img {
+	border: 0;
+}
+
+#title {
+	visibility: hidden;
+}
+
+#main {
+	margin: 0 50px;
+}
+
+#releaseContentsEN { 
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.6;
+}
+
+#releaseContentsJP { 
+	font-size: 12px;
+	line-height: 1.6;
+}
+
+#releaseContentsEN .btnBack, #releaseContentsJP .btnBack {
+	visibility: hidden;
+}
+
+.mainTxt {
+	margin-top: 25px;
+}
+
+#footer {
+	visibility: hidden;
+}

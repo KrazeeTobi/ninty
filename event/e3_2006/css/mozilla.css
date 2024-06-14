@@ -1,0 +1,18 @@
+/*  mozilla.css  */
+/*  Firefox、Opera、Netscape用のスタイル  */
+
+	
+.tx16 {
+	font-size: medium;
+	line-height: 1.2;
+	}
+	
+.tx12 {
+	font-size: small;
+	line-height: 1.2;
+	}
+
+.tx10 {
+	font-size: x-small;
+	line-height: 1.3;
+	}

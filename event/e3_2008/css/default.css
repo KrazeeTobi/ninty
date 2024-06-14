@@ -1,0 +1,137 @@
+/*  default.css  */
+/*  WinIEおよびデフォルト指定用のスタイル  */
+
+
+/* 共通のスタイル */
+body {
+	font-family:"ＭＳ Ｐゴシック",Arial,Verdana,Helvetica;
+	color: #555555;
+	background: #eeeeee;
+	margin: 0;
+	padding: 0;
+	}
+a {
+	color: #295178;
+	text-decoration: none;
+	}
+a:hover {
+	color: #1c7bd8;
+	text-decoration: underline;
+	}	
+
+a.ul {
+	text-decoration: underline;
+	}
+
+.caption {
+	color: #666666;
+	}
+
+.txtlink {
+	color: #999999;
+	}
+
+.txtlink_off {
+	color: #AAAAAA;
+	}
+.notice {
+	color: #999999;
+	}
+.red {
+	color: #ce0000;
+	}
+.note {
+	text-indent: -15px;
+	padding-left: 15px;
+	}
+
+
+#base {
+	width: 670px;
+	background-image: url('../img_cmn/bg.jpg');
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#header {
+	width: 617px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 13px 0 15px;
+	}
+
+#naviTop {
+	width: 660px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#naviTop .links {
+	padding-left: 10px;
+	font-size: 10px;
+	}
+
+#naviTop .subLinks {
+	padding-right: 20px;
+	}
+
+#contentsArea {
+	width: 660px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#naviLeft {
+	padding-top: 1px;
+	}
+	
+#naviLeft img {
+	margin-bottom: 1px;
+	}
+
+#naviLeft_sub {
+	padding-top: 5px;
+	}
+
+#mainArea {
+	padding: 25px 0 25px;
+	text-align: center;
+	}
+
+#mainArea .lead {
+	width: 470px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding-bottom: 30px;
+	}
+
+#footer {
+	width: 660px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#footer .links {
+	padding-left: 10px;
+	}
+	
+#footer .subLinks {
+	padding-right: 20px;
+	}
+
+/* 固有のスタイル */
+.tx16 {
+	font-size: 16px;
+	line-height: 1.2;
+	}
+	
+.tx12 {
+	font-size: 12px;
+	line-height: 1.3;
+	}
+
+.tx10 {
+	font-size: xx-small;
+	line-height: 1.3;
+	}

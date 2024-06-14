@@ -1,0 +1,38 @@
+/*  default.css  */
+/*  WinIEおよびデフォルト指定用のスタイル  */
+
+
+/* 共通のスタイル */
+body {
+	font-family:"ＭＳ Ｐゴシック",Arial,Verdana,Helvetica;
+	color: #555555;
+	}
+body, td, th {
+	font-size: small;
+	line-height: 1.2;
+	}
+a {
+	color: #666666;
+	text-decoration: none;
+	}
+a:hover {
+	color: #AAAAAA;
+	text-decoration: underline;
+	}
+	
+
+/* 固有のスタイル */
+.tx16 {
+	font-size: small;
+	line-height: 1.2;
+	}
+	
+.tx12 {
+	font-size: small;
+	line-height: 1.3;
+	}
+
+.tx10 {
+	font-size: x-small;
+	line-height: 1.3;
+	}

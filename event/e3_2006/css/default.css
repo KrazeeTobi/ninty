@@ -1,0 +1,52 @@
+/*  default.css  */
+/*  WinIEおよびデフォルト指定用のスタイル  */
+
+
+/* 共通のスタイル */
+body {
+	font-family:"ＭＳ Ｐゴシック",Arial,Verdana,Helvetica;
+	color: #333333;
+	}
+a {
+	color: #3399cc;
+	text-decoration: none;
+	}
+a:hover {
+	color: #3399cc;
+	text-decoration: underline;
+	}	
+
+a.bl {
+	color: #666666;
+	text-decoration: underline;
+	}
+
+.txtlink {
+	color: #999999;
+	}
+	
+.txtlink2 {
+	color: #666666;
+	}
+
+.txtlink_self {
+	color: #897F79;
+	font-weight: bold;
+	}
+
+
+/* 固有のスタイル */
+.tx16 {
+	font-size: small;
+	line-height: 1.2;
+	}
+	
+.tx12 {
+	font-size: x-small;
+	line-height: 1.3;
+	}
+
+.tx10 {
+	font-size: xx-small;
+	line-height: 1.3;
+	}

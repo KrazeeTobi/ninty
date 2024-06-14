@@ -1,0 +1,23 @@
+#title {
+	clear: both;
+	width:100%;
+	position: fixed;
+	top: 50%;
+	margin-top: -44px;
+}
+
+#contents { 
+	clear: both;
+	width:750px;
+	height: 308px;
+	position: absolute;
+	text-align: right;
+	top: 50%;
+	left: 50%;
+	margin: -198px 0 0 -375px;
+}
+
+/* IE6 */ 
+* html #title{ 
+	position:absolute; 
+}

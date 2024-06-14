@@ -1,0 +1,18 @@
+td {
+	font-family: "Times New Roman", "Times", "serif";
+	font-size: 16px;
+	line-height: 170%;
+}
+
+.bigsize {
+	font-family: "Times New Roman", "Times", "serif";
+	font-size: 20px;
+	line-height: 150%;
+	font-weight: bold;
+}
+
+.smallsize {
+	font-family: "Times New Roman", "Times", "serif";
+	font-size: 12px;
+	line-height: 150%;
+}

@@ -1,0 +1,21 @@
+/*  safari.css  */
+/*  Mac Safari用のスタイル  */
+
+body {
+	color: #333333;
+	}
+
+.tx16 {
+	font-size: large;
+	line-height: 1.2;
+	}
+	
+.tx12 {
+	font-size: small;
+	line-height: 1.2;
+	}
+
+.tx10 {
+	font-size: xsmall;
+	line-height: 1.2;
+	}

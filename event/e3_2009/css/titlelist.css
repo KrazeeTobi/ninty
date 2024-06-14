@@ -1,0 +1,89 @@
+#title {
+	clear: both;
+	width:100%;
+	position: fixed;
+	top: 75px;
+}
+
+#leftNavi {
+	position: fixed;
+	width: 190px;
+	top: 145px;
+	z-index: 299;
+	margin-left: 40px;
+}
+
+#leftNavi .leftNaviLeft, #leftNavi .leftNavierRight {
+	width:auto;
+}
+
+#leftNavi .leftNaviCenter {
+	width:700px;
+	position: relative;
+}
+
+#allOn, #wiiOn, #dsOn {
+	display: none;
+}
+
+#contents { 
+	clear: both;
+	width:750px;
+	height: 312px;
+	position: absolute;
+	text-align: right;
+	top: 70px;
+	left: 50%;
+	margin: 0 0 0 -375px;
+}
+
+#contents #wii .titlehard, #contents #ds .titlehard {
+	text-align: left;
+	padding: 0 0 3px 300px;
+}
+
+#contents #wii {
+	padding-bottom: 50px;
+}
+
+#contents #ds {
+	padding-bottom: 120px;
+}
+
+#contents .listbtn {
+	margin-left: 300px;
+	height: 118px;
+}
+#contents .listbtn a {
+	background: url(../img/listBtn/bg.png) no-repeat 0 0;
+	width:452px;
+	display: block;
+}
+
+#contents .listbtn a:hover {	
+	background: url(../img/listBtn/bgOn.png) no-repeat 0 0;
+}
+
+/* IE6 */ 
+* html #title {
+	position:absolute; 
+	left: 0px;
+}
+* html #leftNavi{ 
+	position:absolute; 
+}
+* html #contents{ 
+	position:relative; 
+}
+* html #contents .listbtn a {
+	background: url(../img/listBtn/bg.gif) no-repeat 0 0;
+}
+
+* html #contents .listbtn a:hover {	
+	background: url(../img/listBtn/bgOn.gif) no-repeat 0 0;
+}
+* html #footer{ 
+	position: static;
+	width:expression(document.body.clientWidth - 18);
+ 	bottom: expression(this.parentNode.clientHeight % 2 == 0 ? 0 : -1); 
+}

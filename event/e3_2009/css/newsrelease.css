@@ -1,0 +1,95 @@
+#title {
+	clear: both;
+	width:100%;
+	position: fixed;
+	top: 50%;
+	margin-top: -44px;
+}
+
+#contents { 
+	clear: both;
+	width:750px;
+	height: 200px;
+	position: absolute;
+	text-align: right;
+	top: 50%;
+	left: 50%;
+	margin: -100px 0 0 -375px;
+}
+
+#releaseContentsEN, #releaseContentsJP { 
+	clear: both;
+	width:750px;
+	position: absolute;
+	text-align: left;
+	top: 65px;
+	left: 50%;
+	margin: 0 0 0 -375px;
+}
+
+#releaseContentsEN { 
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.6;
+}
+
+#releaseContentsJP { 
+	line-height: 1.6;
+}
+
+#releaseContentsJP .mainTxt a {
+	text-decoration: underline;
+	padding-left: 15px;
+	background: url(../img/newsrelease_icon_photo.gif) no-repeat 0 50%;
+}
+
+#releaseContentsEN .mainTxt a {	
+	color: #666666;
+	text-decoration: underline;
+	padding-left: 15px;
+	background: url(../img/newsrelease_icon_photo.gif) no-repeat 0 50%;
+}
+
+#releaseContentsEN .mainTxt a:hover {	
+	color: #AAAAAA;
+}
+
+
+#releaseContentsEN .textArea, #releaseContentsJP .textArea {
+	padding: 0 0 120px 300px;
+}
+
+#releaseContentsEN .title, #releaseContentsJP .title {
+	font-weight: bold;
+	font-size: 14px;
+	padding: 0 0 30px;
+}
+
+#releaseContentsEN .btnBack, #releaseContentsJP .btnBack {
+	text-align: right;
+	margin: 25px 0 0 0;
+}
+
+#contents .subttl {
+	text-align: left;
+	padding: 40px 0 7px 300px;
+}
+
+sup {
+	font-size: 6px;
+	font-weight: normal;
+}
+
+
+
+/* IE6 */ 
+* html #title {
+	position:absolute; 
+	left: 0px;
+}
+* html #releaseContentsJP { 
+	position:relative; 
+}
+* html #releaseContentsEN { 
+	position:relative; 
+}
