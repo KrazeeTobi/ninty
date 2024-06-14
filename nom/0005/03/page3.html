@@ -1,0 +1,172 @@
+<HTML>
+<HEAD>
+<TITLE>ゲームボーイができるまで（ソフト開発編）　プログラム・サウンド・確認と修正・デバッグ</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#696969" LINK="#3333FF" VLINK="#9933FF" ALINK="#FFFF00" BACKGROUND="../bg.gif">
+
+<MAP NAME="b">
+<AREA SHAPE="RECT" COORDS="96,0,131,9" HREF="./index.html" ALT="ゲームボーイができるまで（ソフト開発編）のトップページへ" onMouseOver="window.status='ゲームボーイができるまで（ソフト開発編）のトップページへ';return true">
+<AREA SHAPE="RECT" COORDS="108,16,121,31" HREF="./index.html" ALT="ゲームボーイができるまで（ソフト開発編）のトップページへ" onMouseOver="window.status='ゲームボーイができるまで（ソフト開発編）のトップページへ';return true">
+<AREA SHAPE="RECT" COORDS="68,21,101,35" HREF="./page2.html" ALT="ゲームボーイができるまで（ソフト開発編）企画・デザイン・グラフィックのページへ" onMouseOver="window.status='ゲームボーイができるまで（ソフト開発編）企画・デザイン・グラフィックのページへ';return true">
+<AREA SHAPE="RECT" COORDS="5,23,59,34" HREF="./page2.html" ALT="ゲームボーイができるまで（ソフト開発編）企画・デザイン・グラフィックのページへ" onMouseOver="window.status='ゲームボーイができるまで（ソフト開発編）企画・デザイン・グラフィックのページへ';return true">
+</MAP>
+
+<BR>
+<A NAME="top">　</A>
+<CENTER>
+<IMG SRC="./top.jpg" WIDTH="467" HEIGHT="52" BORDER="0" ALT="ゲームボーイができるまで（ソフト開発編）">
+</CENTER>
+
+<CENTER>
+<TABLE BORDER="0">
+<TR>
+<TD ALIGN="RIGHT" WIDTH="450"><FONT SIZE="2"><A HREF="./index.html#menu">ゲームボーイができるまで（ソフト開発編）インデックスへ</A></FONT></TD>
+</TR>
+</TABLE>
+<BR>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD ALIGN="LEFT" WIDTH="27"><IMG SRC="./04.gif" WIDTH="27" HEIGHT="29" BORDER="0" ALT="4"></TD>
+<TD ALIGN="LEFT" WIDTH="88"><IMG SRC="./k_4.gif" WIDTH="88" HEIGHT="29" BORDER="0" ALT="プログラム"></TD>
+<TD ALIGN="LEFT" WIDTH="345"><FONT SIZE="2" COLOR="#669966">キャラクターの動きを固める</FONT></TD>
+</TR>
+<TR>
+<TD COLSPAN="2"><IMG SRC="../space.gif" WIDTH="10" HEIGHT="4" BORDER="0" ALT="・"></TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<CENTER>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="6">
+<TR>
+<TD><IMG SRC="../space.gif" WIDTH="10" HEIGHT="10" BORDER="0" ALT="・"></TD>
+<TD ALIGN="RIGHT" VALIGN="TOP" BGCOLOR="#FFFFFF"><FONT SIZE="3" COLOR="#0033FF"><B>細川</B></FONT></TD>
+<TD ALIGN="LEFT" WIDTH="380" BGCOLOR="#FFFFFF"><IMG SRC="./032.jpg" WIDTH="140" HEIGHT="105" ALIGN="RIGHT" BORDER="0" ALT="スタッフ画像"><FONT SIZE="3">私たちが作り上げたキャラクターを渡して、プログラマに指示通りにプログラムしてもらいます。プログラムはウィンドウズ上でアセンブラという言語を使って書きますが、命令の内容はゲームボーイ専用のものなのでゲームボーイのソフトしか動かせない特殊なプログラムです。プログラムもまた、動かしてみると予想と違うことも多いので……それを、プログラマと相談しながら修正していきます。プログラムに関しても、「こういう雰囲気にしてほしい」ということを指示して、あとはその人なりに解釈して作ってもらうわけで、想像力が問われるわけですね。ですから、ゲームのプログラマは、単にプログラムを組めるというだけではつとまらないんです。</FONT></TD>
+</TR>
+<TR>
+<TD><IMG SRC="../space.gif" WIDTH="10" HEIGHT="10" BORDER="0" ALT="・"></TD>
+<TD ALIGN="RIGHT" VALIGN="TOP" BGCOLOR="#FFFFFF"><FONT SIZE="3" COLOR="#0033FF"><B>清武</B></FONT></TD>
+<TD ALIGN="LEFT" WIDTH="380" BGCOLOR="#FFFFFF"><FONT SIZE="3">「キャラクターがジャンプする」というアクションひとつとっても、人によって組み方が違います。プログラマにもセンスが問われるんですよ。</FONT></TD>
+</TR>
+<TR>
+<TD><IMG SRC="../space.gif" WIDTH="10" HEIGHT="10" BORDER="0" ALT="・"></TD>
+<TD ALIGN="RIGHT" VALIGN="TOP" BGCOLOR="#FFFFFF"><FONT SIZE="3" COLOR="#0033FF"><B>細川</B></FONT></TD>
+<TD ALIGN="LEFT" WIDTH="380" BGCOLOR="#FFFFFF"><FONT SIZE="3">今回は４人のプログラマが各エリアを担当し、最後にメインプログラマーが全体をまとめました。プログラムもグラフィックも、作ってみては修正し、作ってみては修正し、とその繰り返しです。</FONT></TD>
+</TR>
+<TR>
+<TD ALIGN="RIGHT" COLSPAN="3"><FONT SIZE="2"><A HREF="#top">▲トップへ</A></FONT></TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<A NAME="05">　</A>
+<CENTER>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD ALIGN="LEFT" WIDTH="27"><IMG SRC="./05.gif" WIDTH="27" HEIGHT="29" BORDER="0" ALT="5"></TD>
+<TD ALIGN="LEFT" WIDTH="71"><IMG SRC="./k_5.gif" WIDTH="71" HEIGHT="29" BORDER="0" ALT="サウンド"></TD>
+<TD ALIGN="LEFT" WIDTH="362"><FONT SIZE="2" COLOR="#669966">ゲーム中の効果音やＢＧＭを作成する</FONT></TD>
+</TR>
+<TR>
+<TD COLSPAN="2"><IMG SRC="../space.gif" WIDTH="10" HEIGHT="4" BORDER="0" ALT="・"></TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<CENTER>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="6">
+<TR>
+<TD><IMG SRC="../space.gif" WIDTH="10" HEIGHT="10" BORDER="0" ALT="・"></TD>
+<TD ALIGN="RIGHT" VALIGN="TOP" BGCOLOR="#FFFFFF"><FONT SIZE="3" COLOR="#0033FF"><B>細川</B></FONT></TD>
+<TD ALIGN="LEFT" WIDTH="380" BGCOLOR="#FFFFFF"><FONT SIZE="3">サウンドも同じで、「こういう音楽を作ってください」と音楽担当のスタッフに依頼します。キャラクターの動きは最初の段階で決まっているので、効果音に関しては比較的早い時期に作ってもらいます。次に、コースが決まってから、コースに合ったＢＧＭや、敵キャラに会ったときのサウンドを作ってもらいます。最後に、オープニング、エンディングなどのゲーム中以外のサウンドを作ってもらいます。<BR>
+ゲーム音楽といっても、作曲はピアノやギターで普通に作ります。開発用のツールを使って、それをゲームボーイ用の音楽に変換していくんです。効果音も同じで、普通の楽器で作ります。ゲームボーイの音楽で一番苦労するのは、６４などとは違って楽器そのものの音が再現できないこと。発音数も限られていて、たった３音なんです。その３音でいかに音楽を表現するかが勝負です。</FONT></TD>
+</TR>
+<TR>
+<TD ALIGN="RIGHT" COLSPAN="3"><FONT SIZE="2"><A HREF="#top">▲トップへ</A></FONT></TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<A NAME="06">　</A>
+<CENTER>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD ALIGN="LEFT" WIDTH="27"><IMG SRC="./06.gif" WIDTH="27" HEIGHT="29" BORDER="0" ALT="6"></TD>
+<TD ALIGN="LEFT" WIDTH="87"><IMG SRC="./k_6.gif" WIDTH="87" HEIGHT="29" BORDER="0" ALT="確認と修正"></TD>
+<TD ALIGN="LEFT" WIDTH="346"><FONT SIZE="2" COLOR="#669966">グラフィック、プログラム、サウンドを統合し、バランス調整をする</FONT></TD>
+</TR>
+<TR>
+<TD COLSPAN="2"><IMG SRC="../space.gif" WIDTH="10" HEIGHT="4" BORDER="0" ALT="・"></TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<CENTER>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="6">
+<TR>
+<TD><IMG SRC="../space.gif" WIDTH="10" HEIGHT="10" BORDER="0" ALT="・"></TD>
+<TD ALIGN="RIGHT" VALIGN="TOP" BGCOLOR="#FFFFFF"><FONT SIZE="3" COLOR="#0033FF"><B>細川</B></FONT></TD>
+<TD ALIGN="LEFT" WIDTH="380" BGCOLOR="#FFFFFF"><FONT SIZE="3">実際にキャラクターにアクションをさせたり、コースを進んでみて、それがおもしろいかどうかを検証します。</FONT></TD>
+</TR>
+<TR>
+<TD><IMG SRC="../space.gif" WIDTH="10" HEIGHT="10" BORDER="0" ALT="・"></TD>
+<TD ALIGN="RIGHT" VALIGN="TOP" BGCOLOR="#FFFFFF"><FONT SIZE="3" COLOR="#0033FF"><B>清武</B></FONT></TD>
+<TD ALIGN="LEFT" WIDTH="380" BGCOLOR="#FFFFFF"><FONT SIZE="3">ここで、システムがガラッと変わることもあります。例えば、最初に「アイテムを集めるゲームを作ろう！」という企画があがっていても、実際にできたゲームをプレイしてみると、「なんだかうっとうしいなあ」ということもあるんです。システムが変わればゲームの作り直しになるのでこの時点でシステムを変えるというのは大変なことなのですが、ここがゲームのクオリティを決める一番大事なところですから、妥協はできません。</FONT></TD>
+</TR>
+<TR>
+<TD><IMG SRC="../space.gif" WIDTH="10" HEIGHT="10" BORDER="0" ALT="・"></TD>
+<TD ALIGN="RIGHT" VALIGN="TOP" BGCOLOR="#FFFFFF"><FONT SIZE="3" COLOR="#0033FF"><B>細川</B></FONT></TD>
+<TD ALIGN="LEFT" WIDTH="380" BGCOLOR="#FFFFFF"><IMG SRC="./itodama.gif" WIDTH="80" HEIGHT="88" ALIGN="RIGHT" BORDER="0" ALT="糸玉"><FONT SIZE="3">今回は、私が何人かのスタッフと相談しながら、最初に考えたゲームシステムでいいかどうかを検討しました。バランス調整は、アクションの難易度の調整などですね。作っているほうは、ゲームに慣れてしまっているので、ほかのチームのスタッフにプレイしてもらって、初めてプレイする人がおもしろいかどうかを確かめます。</FONT></TD>
+</TR>
+<TR>
+<TD ALIGN="RIGHT" COLSPAN="3"><FONT SIZE="2"><A HREF="#top">▲トップへ</A></FONT></TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<A NAME="07">　</A>
+<CENTER>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD ALIGN="LEFT" WIDTH="27"><IMG SRC="./07.gif" WIDTH="27" HEIGHT="29" BORDER="0" ALT="7"></TD>
+<TD ALIGN="LEFT" WIDTH="71"><IMG SRC="./k_7.gif" WIDTH="71" HEIGHT="29" BORDER="0" ALT="デバッグ"></TD>
+<TD ALIGN="LEFT" WIDTH="362"><FONT SIZE="2" COLOR="#669966">テストプレイを繰り返して、不都合がないか調べる</FONT></TD>
+</TR>
+<TR>
+<TD COLSPAN="2"><IMG SRC="../space.gif" WIDTH="10" HEIGHT="4" BORDER="0" ALT="・"></TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<CENTER>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="6">
+<TR>
+<TD><IMG SRC="../space.gif" WIDTH="10" HEIGHT="10" BORDER="0" ALT="・"></TD>
+<TD ALIGN="RIGHT" VALIGN="TOP" BGCOLOR="#FFFFFF"><FONT SIZE="3" COLOR="#0033FF"><B>細川</B></FONT></TD>
+<TD ALIGN="LEFT" WIDTH="380" BGCOLOR="#FFFFFF"><IMG SRC="./033_2.jpg" WIDTH="160" HEIGHT="120" ALIGN="RIGHT" BORDER="0" ALT="マリオクラブ画像"><FONT SIZE="3">ほぼできあがっているゲームを、スーパーマリオクラブの人たちにプレイしてもらい、デバッグを行ないます。これは、ゲームをプレイするうえで不都合な部分がないかどうかを検証する作業ですね。何週間もかけてしっかりチェックしてもらい、ようやくみなさんにご提供できる完成品ができあがります。</FONT></TD>
+</TR>
+<TR>
+<TD ALIGN="RIGHT" COLSPAN="3"><FONT SIZE="2"><A HREF="#top">▲トップへ</A></FONT></TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<CENTER>
+<TABLE BORDER="0">
+<TR>
+<TD ALIGN="RIGHT" WIDTH="450"><FONT SIZE="2"><A HREF="./index.html#menu">ゲームボーイができるまで（ソフト開発編）インデックスへ</A></FONT></TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<CENTER>
+<HR WIDTH="500"><BR>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD ALIGN="CENTER"><IMG SRC="../b_rd.gif" USEMAP="#b" WIDTH="230" HEIGHT="35" BORDER="0" ALT="下ボタン"></TD>
+</TR>
+</TABLE>
+</CENTER>
+<BR>
+</BODY>
+</HTML>

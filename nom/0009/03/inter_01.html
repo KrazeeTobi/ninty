@@ -1,0 +1,132 @@
+<HTML>
+<HEAD>
+<TITLE>アドバンスはこう作られた！　～ゲームボーイアドバンス　開発者インタビュー　ＰＡＲＴ２～</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#FF0000" ALINK="#48D1CC" VLINK="#FF6600" BACKGROUND="../bg.jpg">
+
+<CENTER>
+<IMG SRC="./t_03.jpg" WIDTH="540" HEIGHT="60" BORDER="0" ALT="アドバンスはこう作られた！　～ゲームボーイアドバンス　開発者インタビュー　ＰＡＲＴ２～" VSPACE="0" HSPACE="0">
+</CENTER>
+
+<BR><BR>
+
+<!---ＣＰＵだけで１年かかった--->
+<CENTER>
+<TABLE BORDER="0" CELLPADDING="3" CELLSPACING="0" WIDTH="540">
+<TR>
+<TD BGCOLOR="#FFCC00" COLSPAN="2"><B><FONT COLOR="#663300">■ＣＰＵだけで１年かかった</FONT></B></TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<BR>
+
+<CENTER>
+<TABLE BORDER="0" CELLPADDING="3" CELLSPACING="0" WIDTH="540">
+<TR>
+<TD BGCOLOR="#FFFFCC"><B><FONT COLOR="#FF0000">編集長</FONT>：<FONT COLOR="#008080">開発にはどれくらいかかったのですか？</FONT></B></TD>
+</TR>
+<TR>
+<TD><FONT COLOR="#0066FF"><B>津川</B></FONT>　約２年ですね。</TD>
+</TR>
+<TR>
+<TD BGCOLOR="#FFFFCC"><B><FONT COLOR="#FF0000">編集長</FONT>：<FONT COLOR="#008080">開発の手順を教えてください。</FONT></B></TD>
+</TR>
+<TR>
+<TD><IMG SRC="./01_3.jpg" WIDTH="90" HEIGHT="120" BORDER="0" ALT="画像" VSPACE="3" HSPACE="6"ALIGN="RIGHT"><FONT COLOR="#0066FF"><B>津川</B></FONT>　一番最初はＣＰＵを決めます。ＣＰＵを決めるには画像のサイズ、つまり解像度を決めないといけませんので、同時に解像度も決定します。アドバンスの解像度は横240ドット、縦160ドットですね。カラーゲームボーイが160×144なので、かなり大きくなりました。画面を表示する液晶のサイズというのは解像度によって決まりますので、ここで液晶の大きさも決定しました。</TD>
+</TR>
+<TR>
+<TD BGCOLOR="#FFFFCC"><B><FONT COLOR="#FF0000">編集長</FONT>：<FONT COLOR="#008080">やはりこれくらいの画面サイズは欲しいということで決まったんですか？</FONT></B></TD>
+</TR>
+<TR>
+<TD><IMG SRC="./01_1.jpg" WIDTH="160" HEIGHT="120" BORDER="0" ALT="" VSPACE="3" HSPACE="6" ALIGN="RIGHT"><FONT COLOR="#0066FF"><B>津川</B></FONT>　液晶には経済サイズというのがあるんです。大きな板状の液晶を必要なサイズに切りとっていくので、余らせないようにしないといけないんです。そうしないと単価があがってしまうんです。いくつかパターンがあって、その中でゲームに一番ふさわしい大きさのものに決めました。</TD>
+</TR>
+<TR>
+<TD BGCOLOR="#FFFFCC"><B><FONT COLOR="#FF0000">編集長</FONT>：<FONT COLOR="#008080">液晶が決まって、ＣＰＵが決まったあとというのは？</FONT></B></TD>
+</TR>
+<TR>
+<TD><IMG SRC="./kiban.jpg" WIDTH="160" HEIGHT="120" BORDER="0" ALT="" VSPACE="3" HSPACE="6" ALIGN="RIGHT"><FONT COLOR="#0066FF"><B>梅津</B></FONT>　まず、ＣＰＵの仕様を決めるのに時間がかかるんです。途中段階でこういうサンプル基板を作るんですね。<BR>
+そして、スタッフやソフト開発者に評価してもらうんですよ。実際に基板をさわってもらって、「こんな機能が欲しい」とか、「こんな機能はいらない」という意見をもらい、どんどん仕様を変えていくんです。</TD>
+</TR>
+<TR>
+<TD BGCOLOR="#FFFFCC"><B><FONT COLOR="#FF0000">編集長</FONT>：<FONT COLOR="#008080">ＣＰＵを検討している期間というのはどれくらいだったんですか？</FONT></B></TD>
+</TR>
+<TR>
+<TD><FONT COLOR="#0066FF"><B>梅津</B></FONT>　１年以上ですね。</TD>
+</TR>
+<TR>
+<TD BGCOLOR="#FFFFCC"><B><FONT COLOR="#FF0000">編集長</FONT>：<FONT COLOR="#008080">開発期間の半分くらいはＣＰＵの検討？</FONT></B></TD>
+</TR>
+<TR>
+<TD><IMG SRC="./01_2.jpg" WIDTH="160" HEIGHT="120" BORDER="0" ALT="梅津氏" VSPACE="3" HSPACE="6" ALIGN="RIGHT"><FONT COLOR="#0066FF"><B>梅津</B></FONT>　「こういう機能を入れてほしい」と言われたとき、あらかじめＣＰＵの中にその機能を入れておかなくてはならないことがほとんどなんです。そうすると、ＣＰＵの設計から変えなくてはいけませんよね。ですから、今日仕様を変えて明日あがってくるというものではないんです。やはり仕様を変えて新しいＣＰＵを作るまでに何ヶ月もかかかるんですね。ＣＰＵが大きく変わったのは１回ですけど、細かい部分を２回、３回とマイナーチェンジしていってそのたびに評価してきました。この３人（津川さん、梅津さん、中島さん）というのは最初から最後まで、ずーっと変更、変更でＣＰＵや回路の検討を行ってきたんです。</TD>
+</TR>
+<TR>
+<TD BGCOLOR="#FFFFCC"><B><FONT COLOR="#FF0000">編集長</FONT>：<FONT COLOR="#008080">評価してもらう間に、無理な注文はありましたか？</FONT></B></TD>
+</TR>
+<TR>
+<TD><FONT COLOR="#0066FF"><B>中島</B></FONT>　ＣＰＵ内蔵プログラムに関しましては開発が進むにつれていろいろな要望が出て来まして、徐々に機能を追加して行きましたので、最終的に内蔵ＲＯＭへ収めるのに苦労しましたね。</TD>
+</TR>
+<TR>
+<TD><BR>
+<FONT SIZE="2">※ＣＰＵ……コンピュータの中枢部分。基本処理装置、制御装置など主要部分をまとめた装置のことを呼ぶ。</FONT></TD>
+</TR>
+
+<TR><TD HEIGHT="30"><IMG SRC="../02/sen.gif" WIDTH="540" HEIGHT="5" BORDER="0" ALT="・" VSPACE="0" HSPACE="0"></TD></TR>
+</TABLE>
+</CENTER>
+
+
+<BR>
+
+<CENTER>
+<TABLE BORDER="0" CELLPADDING="5" CELLSPACING="0" WIDTH="450" BGCOLOR="#87CEFA">
+<TR>
+<TD VALIGN="TOP" ALIGN="LEFT"><FONT SIZE="2" COLOR="#0066CC"><B>インタビュー<BR>■ＩＮＤＥＸ</B></FONT></TD>
+<TD ALIGN="RIGHT">
+<TABLE BORDER="0" CELLPADDING="3" CELLSPACING="0" BGCOLOR="#E0FFFF" WIDTH="270">
+<TR>
+<TD ALIGN="LEFT"><IMG SRC="../sankaku.gif" WIDTH="9" HEIGHT="10" BORDER="0" ALT="・" VSPACE="0" HSPACE="3"><FONT SIZE="2">ＣＰＵだけで１年かかった</FONT></TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT"><IMG SRC="../sankaku.gif" WIDTH="9" HEIGHT="10" BORDER="0" ALT="・" VSPACE="0" HSPACE="3"><A HREF="./inter_02.html"><FONT SIZE="2">本体デザインのシェイプアップ</FONT></A></TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT"><IMG SRC="../sankaku.gif" WIDTH="9" HEIGHT="10" BORDER="0" ALT="・" VSPACE="0" HSPACE="3"><A HREF="./inter_03.html"><FONT SIZE="2">電池のふくらみがなくなった！</FONT></A></TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT"><IMG SRC="../sankaku.gif" WIDTH="9" HEIGHT="10" BORDER="0" ALT="・" VSPACE="0" HSPACE="3"><A HREF="./inter_04.html"><FONT SIZE="2">部品のことから考える</FONT></A></TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT"><IMG SRC="../sankaku.gif" WIDTH="9" HEIGHT="10" BORDER="0" ALT="・" VSPACE="0" HSPACE="3"><A HREF="./inter_05.html"><FONT SIZE="2">内外から注目されたハード</FONT></A></TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT"><IMG SRC="../sankaku.gif" WIDTH="9" HEIGHT="10" BORDER="0" ALT="・" VSPACE="0" HSPACE="3"><A HREF="./inter_06.html"><FONT SIZE="2">アドバンスで広がる世界</FONT></A></TD>
+</TR>
+<TR>
+<TD ALIGN="RIGHT"><IMG SRC="../sankaku2.gif" WIDTH="9" HEIGHT="10" BORDER="0" ALT="・" VSPACE="0" HSPACE="3"><FONT SIZE="2"><A HREF="./index.html">開発技術部のみなさん</A></FONT></TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<BR><BR>
+
+<CENTER>
+<HR WIDTH="540" SIZE="1" NOSHADE>
+</CENTER>
+
+<CENTER>
+<TABLE BORDER="0" WIDTH="540" CELLPADDING="3" CELLSPACING="0">
+<TR>
+<TD ALIGN="CENTER">
+<A HREF="../02/index.html"><IMG SRC="../b_left.gif" WIDTH="40" HEIGHT="42" BORDER="0" ALT="「ゲームボーイアドバンス　開発者インタビュー　ＰＡＲＴ１」のページへ" VSPACE="0" HSPACE="5"></A>
+<A HREF="../index.html"><IMG SRC="../b_up.gif" WIDTH="40" HEIGHT="42" BORDER="0" ALT="NOM9月号のトップページへ" VSPACE="0" HSPACE="5"></A>
+<IMG SRC="../d_right.gif" WIDTH="40" HEIGHT="42" BORDER="0" ALT="リンクなし" VSPACE="0" HSPACE="5">
+</TD></TR>
+</TABLE>
+</CENTER>
+
+</BODY>
+</HTML>
