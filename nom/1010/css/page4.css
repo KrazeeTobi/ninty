@@ -1,0 +1,157 @@
+@charset "Shift_JIS";
+
+
+/*--- information
+--------------------------------------------------------------------------	
+
+	Build Date : 2010/09/28;
+	Site Name : N.O.M Nintendo Online Magazine No.147;
+	About : N.O.M 2010îN10åéçÜ No.147 page4;
+
+	00.common
+	01.body container wrapper
+	02.header
+	03.main
+	04.interview
+	05.link
+	06.footer
+
+--------------------------------------------------------------------------*/
+
+/*--- 00.common
+--------------------------------------------------------------------------*/
+
+/*--- font-size adjustment
+
+ -------------+-------------
+  pixels (px) | percent (%)
+ -------------+-------------
+       10     |     77
+       11     |     85
+       12     |     93
+       13     |    100
+       14     |    107
+       15     |    114
+       16     |    122
+       17     |    129
+       18     |    136
+       19     |    144
+       20     |    152
+       21     |    159
+       22     |    167
+       23     |    174
+       24     |    182
+       25     |    189
+       26     |    197
+ -------------+-------------
+ 
+--------------------------------------------------------------------------*/
+
+
+/*--- 03.main
+--------------------------------------------------------------------------*/
+
+
+.p4-text01 {
+	width:704px;
+	margin:30px 12px 30px 12px;
+}
+
+.p4-text02 {
+	width:704px;
+	padding:0 12px 40px 12px;
+}
+
+.p4-point01{
+ width:688px;
+ padding:0 20px 30px 20px;
+}
+
+.p4-point-img{
+ width:208px;
+ padding:0 30px 0 0;
+ float:left;
+}
+
+.p4-point-caption{
+ padding:8px 0 0 0;
+}
+
+.p4-point-text{
+ width:450px;
+ float:right;
+}
+
+.p4-point-text-area{
+ padding:0 0 20px 0;
+}
+
+.p4-point-text-area2{
+ padding:0;
+}
+
+.p4-point-text01{
+ width:43px;
+ padding:0 20px 0 0;
+ float:left;
+}
+
+.p4-point-text02{
+ width:387px;
+ padding:2px 0 0 0;
+ float:right;
+}
+
+.bonus-area{
+ width:704px;
+ padding:0 12px 0 12px;
+}
+.bonus-text01{
+ width:704px;
+ padding:30px 0 30px 0; 
+}
+.bonus-text02{
+ width:704px;
+ padding:30px 0 40px 0; 
+}
+.bonus-text03{
+ width:704px;
+ padding:30px 0 60px 0; 
+}
+.bonus{
+ width:628px;
+ padding:0 38px 0 38px;
+}
+.bonus01{
+ float:left;
+}
+.bonus02{
+ width:150px;
+ padding:8px 12px 0 10px;
+ float:left;
+}
+.bonus02-1{
+ width:140px;
+ padding:8px 12px 0 10px;
+ float:left;
+}
+.bonus02-2{
+ width:150px;
+ padding:8px 0 0 10px;
+ float:left;
+}
+.bonus03{
+ padding:0 0 8px 0;
+ float:left;
+}
+.bonus04{
+ width:500px;
+ padding:8px 12px 0 10px;
+ float:left;
+}
+
+
+.member-bonus-area{
+ width:704px;
+ padding:0 12px 0 12px;
+}

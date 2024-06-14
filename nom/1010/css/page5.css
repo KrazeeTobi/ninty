@@ -1,0 +1,144 @@
+@charset "Shift_JIS";
+
+
+/*--- information
+--------------------------------------------------------------------------	
+
+	Build Date : 2010/09/28;
+	Site Name : N.O.M Nintendo Online Magazine No.147;
+	About : N.O.M 2010îN10åéçÜ No.147 page5;
+
+	00.common
+	01.body container wrapper
+	02.header
+	03.main
+	04.interview
+	05.link
+	06.footer
+
+--------------------------------------------------------------------------*/
+
+/*--- 00.common
+--------------------------------------------------------------------------*/
+
+/*--- font-size adjustment
+
+ -------------+-------------
+  pixels (px) | percent (%)
+ -------------+-------------
+       10     |     77
+       11     |     85
+       12     |     93
+       13     |    100
+       14     |    107
+       15     |    114
+       16     |    122
+       17     |    129
+       18     |    136
+       19     |    144
+       20     |    152
+       21     |    159
+       22     |    167
+       23     |    174
+       24     |    182
+       25     |    189
+       26     |    197
+ -------------+-------------
+ 
+--------------------------------------------------------------------------*/
+
+
+/*--- 03.main
+--------------------------------------------------------------------------*/
+
+a{
+ color:#0ec6ed;
+}
+
+.surinuke-page-main05{
+ width:728px;
+ height:290px;
+ background-image:url(../page5/img/page_main_img.jpg);
+ background-repeat:no-repeat;
+ background-position:0 0;
+ margin:20px 0 15px 0;
+}
+
+.p5-img{
+ width:634px;
+ padding:0 47px 30px 47px;
+}
+
+.p5-img01{
+ width:302px;
+ padding:0 30px 0 0;
+ float:left;
+}
+
+.p5-img02{
+ width:302px;
+ float:right;
+}
+
+.p5-text01 {
+ width:704px;
+ padding:0 12px 30px 12px;
+}
+
+.p5-text02 {
+ width:689px;
+ padding:0 19px 60px 20px;
+}
+
+.kakomi{
+ padding:0 20px 40px 20px;
+}
+
+.kakomi-caption{
+ padding:4px 0 0 0;
+}
+
+.mode-area{
+ width:689px;
+ padding:0 19px 30px 20px;
+}
+
+.mode-area_l{
+ width:689px;
+ padding:0 19px 40px 20px;
+}
+
+.mode-area01{
+ width:387px;
+ float:left;
+}
+
+.mode-area02{
+ width:302px;
+ float:right;
+}
+
+.mode-area01-text{
+ width:357px;
+ padding:20px 30px 0 0;
+}
+
+.world{
+ width:689px;
+ padding:30px 19px 30px 20px;
+}
+
+.world-area01{
+ width:387px;
+ float:left;
+}
+
+.world-area02{
+ width:302px;
+ float:right;
+}
+
+.world-area01-text{
+ width:357px;
+ padding:0 30px 0 0;
+}

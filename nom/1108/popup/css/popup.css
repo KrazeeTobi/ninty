@@ -1,0 +1,33 @@
+@charset "shift-jis";
+/* ===================================================================
+	CSS information
+	file name  :  popup.css
+	date:2011.07.27
+=================================================================== */
+
+
+
+/*-----------popup.html------------*/
+
+.pop .pop_comment{
+	width: 860px;
+	border-bottom: 0 ! important;
+}
+.pop .pop_comment #pop_header{
+	width: 860px;
+}
+.pop_comment #primary{
+	width: 768px;
+	text-align: left;
+}
+
+.pop_comment #primary h2{
+	margin-bottom: 50px;
+}
+
+.pop_comment #primary p.txt01{
+	margin:0 31px 50px 31px;
+}
+
+
+

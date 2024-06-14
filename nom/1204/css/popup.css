@@ -1,0 +1,250 @@
+@charset "Shift_JIS";
+
+/*--- font-size adjustment
+
+ -------------+-------------
+  pixels (px) | percent (%)
+ -------------+-------------
+       10     |     77
+       11     |     85
+       12     |     93
+       13     |    100
+       14     |    107
+       15     |    114
+       16     |    122
+       17     |    129
+       18     |    136
+       19     |    144
+       20     |    152
+       21     |    159
+       22     |    167
+       23     |    174
+       24     |    182
+       25     |    189
+       26     |    197
+ -------------+-------------
+ 
+--------------------------------------------------------------------------*/
+
+body {
+	text-align:center;
+	font-size:13px;
+	background-position:top;
+	background-color:#39678b;
+}
+
+* {
+	margin:0;
+	padding:0;
+	border:0;
+	font-family:"Hiragino Kaku Gothic Pro","Hiragino Kaku Gothic Pro W3","HiraKakuPro-W3","MS P Gothic","MS Gothic","Meiryo";
+	font-weight:normal;
+	line-height:1.6;
+	outline:none;
+	/*For IE Only*/
+	/*word-break:break-all;
+	line-break:normal;*/
+}
+
+img {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+p {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+a {
+	outline:none;
+	text-decoration:underline;
+	color:#c23200;
+}
+
+.hide {
+	position:absolute;
+	left:-9999px;
+	top:-9999px;
+}
+
+.clear {
+	clear:both;
+}
+
+#popup {
+	width:768px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.popup-title01 {
+	width:768px;
+	height:142px;
+	background-image:url(../page2/popup/img/popup_title01.jpg);
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
+
+.popup-title02 {
+	width:768px;
+	height:142px;
+	background-image:url(../page2/popup/img/popup_title02.jpg);
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
+
+.popup-title03 {
+	width:768px;
+	height:142px;
+	background-image:url(../page2/popup/img/popup_title03.jpg);
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
+
+.popup-title04 {
+	width:768px;
+	height:142px;
+	background-image:url(../page2/popup/img/popup_title04.jpg);
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
+
+.popup-title05 {
+	width:768px;
+	height:142px;
+	background-image:url(../page2/popup/img/popup_title05.jpg);
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
+
+.ue-close {
+	width:55px;
+	height:67px;
+	margin:0 0 56px 0;
+	padding:19px 21px 0 692px;
+}
+
+.ue-close_a {
+	display:block;
+	width:55px;
+	height:67px;
+	background-image:url(../page2/popup/img/close01.jpg);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	font-size:0.1%;
+	line-height:0.1%;
+	text-indent:-9999px;
+}
+
+.ue-close_a:hover , .shita-close_a:hover {
+	background-position:0 -67px;
+}
+
+.popup-end {
+	width:768px;
+	height:142px;
+	background-image:url(../page2/popup/img/popup_end.jpg);
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
+
+.shita-close {
+	width:55px;
+	height:67px;
+	float:right;
+	padding:62px 21px 0 263px;
+}
+
+.shita-close_a {
+	display:block;
+	width:55px;
+	height:67px;
+	background-image:url(../page2/popup/img/close02.jpg);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	font-size:0.1%;
+	line-height:0.1%;
+	text-indent:-9999px;
+}
+
+.popup-linkarea {
+	width:343px;
+	height:28px;
+	float:left;
+	margin:50px 0 0 0;
+	padding:0 0 0 86px;
+}
+
+.popup-link-prev {
+	width:74px;
+	height:28px;
+	float:left;
+}
+
+.popup-link-next {
+	width:74px;
+	height:28px;
+	float:right;
+}
+
+.popup-link-prev_a {
+	display:block;
+	width:74px;
+	height:28px;
+	background-image:url(../page2/popup/img/prev.jpg);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	font-size:0.1%;
+	line-height:0.1%;
+	text-indent:-9999px;
+}
+
+.popup-link-next_a {
+	display:block;
+	width:74px;
+	height:28px;
+	background-image:url(../page2/popup/img/next.jpg);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	font-size:0.1%;
+	line-height:0.1%;
+	text-indent:-9999px;
+}
+
+.popup-link-prev_a:hover , .popup-link-next_a:hover {
+	background-position:0 -28px;
+}
+
+.epi01 {
+	width:768px;
+	height:222px;
+	background-image:url(../page2/popup/img/ep01.jpg);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	font-size:0.1%;
+	line-height:0.1%;
+	text-indent:-9999px;	
+}
+
+.epi01-link {
+	width:73px;
+	height:17px;
+	padding:93px 0 0 0;
+	margin:0 479px 0 216px;
+}
+
+.epi01-link_a {
+	display:block;
+	width:73px;
+	height:17px;
+	background-image:url(../page2/popup/img/irochin.jpg);
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
+
+.epi01-link_a:hover {
+	background-position:0 -17px;
+}

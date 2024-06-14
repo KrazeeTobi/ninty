@@ -1,0 +1,90 @@
+@charset "shift_jis";
+/* CSS Document */
+
+/*---------------------------------------------------------------------
+Style Reset
+---------------------------------------------------------------------*/
+/* -- html -- */
+*    {margin:0;padding:0;} 
+html {overflow-y:scroll;}
+
+/* -- body -- */
+	* html body             {font-family:"ÇlÇr ÇoÉSÉVÉbÉN", sans-serif; font-size:75%;}/* for IE6 */
+	*+html body             {font-family:"ÉÅÉCÉäÉI", Meiryo, "ÇlÇr ÇoÉSÉVÉbÉN"; font-size:75%;}/* for IE7 */
+	html>/**/body           {font-family:"ÉÅÉCÉäÉI", Meiryo, "ÇlÇr ÇoÉSÉVÉbÉN", sans-serif; font-size:75%;}/* for IE8 */
+	html:not(:target) body  {font:12.4px/1.5 Osaka, "ÇlÇr ÇoÉSÉVÉbÉN", sans-serif;}/* for modern browser not IE8(FF,safari,chrome,opera) */
+
+/* -- other tags -- */
+a {overflow:hidden;}
+a img, img {border:0;}
+img {line-height:100%; vertical-align:bottom;}
+abbr, acronym {border:0;}
+address, caption, cite, code, dfn, em, th, var {font-style:normal; font-weight:normal;}
+caption, th {text-align:left;}
+code, kbd, pre, samp, tt {font-family:monospace; line-height:100%;}
+	*+html code, kbd, pre, samp, tt {font-size:108%;}/* for IE7 */
+h1, h2, h3, h4, h5, h6 {font-size:100%; font-weight:normal; font-family:"ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro", "ÉÅÉCÉäÉI", Meiryo, Osaka, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif;}
+ol, ul {list-style:none;}
+q:before, q:after {content:'';}
+button, fieldset, form, input, label, legend, select, textarea {font-family:inherit; font-size:100%; font-style:inherit; font-weight:inherit; margin:0; padding:0; vertical-align:baseline;}
+fieldset {border:none;}
+table {border-collapse:collapse; border-spacing:0; font-size:100%;}/* tables still need 'cellspacing="0"' */
+object {outline:none;}
+
+/* clearfix */
+.clearfix:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix {display:inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height:1%;}
+.clearfix {display:block;}
+/* End hide from IE-mac */
+	* html .clearfix {display:inline-block;}/* for IE6 */
+	*+html .clearfix {display:inline-block;}/* for IE7 */
+
+
+#selected	{background:url(../common-img/bg_selected.gif) no-repeat left top; margin-bottom:20px;}
+#selected.result ul li	{float:left; width:164px; height:164px; text-align:center; margin:0 16px 0 0;}
+#selected.result ul li.comingsoon	{height:139px;}
+#selected.result ul li .newmark		{margin-right:7px;}
+
+/* popup layout */
+#bg-layer	{position:fixed; top:0; left:0; display:none; width:100%; height:100%; background:#000; opacity:0.6;}
+
+.fadebox		{position:absolute; z-index:9999; display:none; width:692px; height:594px;}
+.boxTitle		{
+	position:absolute;
+	top:17px;
+	left:21px;
+	width:653px;
+	height:0;
+	padding-top:48px;
+	overflow:hidden;
+}
+.memoName		{text-align:center; padding-top:88px;}
+#outer			{position:absolute; top:120px; left:156px;}
+.memoComment		{position:absolute; top:425px; left:20px;}
+.memoComment dt	{margin-bottom:20px; width:653px; height:0; padding-top:23px; overflow:hidden;}
+.memoComment dd	{padding-left:15px;}
+
+	.group_select						{background:url(../common-img/bg_box-select.gif) no-repeat left top;}
+  .group_select .boxTitle	{background:url(../common-img/title_box-select.gif) no-repeat left top;}
+  .group_select dt				{background:url(../common-img/title_box-comment.gif) no-repeat left top;}
+	
+#controler	{position:absolute; top:552px; left:20px; width:652px;}
+	#controler li	{position:absolute;}
+	
+	#controler li.prev	{background:url(../common-img/btn_prev.gif) no-repeat left top; width:100px; top:5px; left:0;}
+	#controler li.next	{background:url(../common-img/btn_next.gif) no-repeat left top; width:101px; top:5px; right:0;}
+	#controler li.close	{background:url(../common-img/btn_close.gif) no-repeat left top; width:204px; top:0; left:220px;}
+	#controler li a				{display:block; overflow:hidden; height:0;}
+	#controler li.prev a 	{background:url(../common-img/btn_prev.gif) no-repeat left top; width:100px; padding-top:16px;}
+	#controler li.next a 	{background:url(../common-img/btn_next.gif) no-repeat left top; width:101px; padding-top:16px;}
+	#controler li.close a	{background:url(../common-img/btn_close.gif) no-repeat left top; width:204px; padding-top:26px;}
+	#controler li.prev a:hover 	{background:url(../common-img/btn_prev_on.gif) no-repeat left top;}
+	#controler li.next a:hover 	{background:url(../common-img/btn_next_on.gif) no-repeat left top;}
+	#controler li.close a:hover {background:url(../common-img/btn_close_on.gif) no-repeat left top;}
+	
+
+/* äOïîpopup layout */
+#popup	{padding-top:30px; background:#E60012;}
+#popup .fadebox	{margin:0 auto; position:relative; display:block;}
