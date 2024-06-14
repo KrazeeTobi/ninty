@@ -1,0 +1,104 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	overflow: hidden;
+}
+
+img {
+	border: 0;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	left: 930px;
+	z-index: 2;
+}
+
+.title {
+	position: absolute;
+	top: 1px;
+	left: 20px;
+	z-index: 4;
+}
+
+.btn1 img, .btn2 img, .btn3 img, .btn4 img, .btn5 img, .btn6 img, .btn7 img, .btn8 img {
+	cursor: pointer;
+}
+
+.btn1 {
+	position: absolute;
+	top: 600px;
+	z-index: 50;
+	background: url(../02/img//imageBtn1_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+.btn2 {
+	position: absolute;
+	top: 600px;
+	z-index: 50;
+	background: url(../02/img//imageBtn2_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+.btn3 {
+	position: absolute;
+	top: 600px;
+	z-index: 50;
+	background: url(../02/img//imageBtn3_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+.btn4 {
+	position: absolute;
+	top: 600px;
+	z-index: 50;
+	background: url(../02/img//imageBtn4_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+.btn5 {
+	position: absolute;
+	top: 600px;
+	z-index: 50;
+	background: url(../02/img//imageBtn5_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+.btn6 {
+	position: absolute;
+	top: 600px;
+	z-index: 50;
+	background: url(../02/img//imageBtn6_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+.btn7 {
+	position: absolute;
+	top: 600px;
+	z-index: 50;
+	background: url(../02/img//imageBtn7_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+.base {
+	background: #fff;
+	width: 928px;
+	height: 611px;
+	position: absolute;
+	border: 1px solid #bebebe;
+}
+#ph {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	z-index: 3;
+}

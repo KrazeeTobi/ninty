@@ -1,0 +1,44 @@
+
+.hdrBG {
+	display: none;
+}
+.ftrBG {
+	display: none;
+}
+ 
+#ftrWrap .naviBG {
+	display: none;
+}
+#ftrWrap  {
+	background-color: #efefef;
+}
+
+#title .titleMain {
+	margin: 17px 25px 0 20px;
+}
+#title .titleMes {
+	padding-left: 20px;
+}
+
+
+
+#wrap #contentsWrap .detail .ssArea3DS a {
+	padding: 3px 0 0 3px;
+	margin-left: 11px;
+	margin-bottom: 11px;
+}
+
+#wrap #contentsWrap .detail .ssArea3DS a.btm {
+	margin-left: 11px;
+	margin-bottom: 11px;
+}
+#wrap #contentsWrap .detail .ssAreaDS a {
+	padding: 3px 0 0 3px;
+	margin-left: 11px;
+	margin-bottom: 11px;
+}
+#wrap #contentsWrap .detail .ssAreaWii a {
+	padding: 3px 0 0 3px;
+	margin-left: 11px;
+	margin-bottom: 11px;
+}

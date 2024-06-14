@@ -1,0 +1,54 @@
+#wrap #contentsWrap .title {
+	margin: 60px 0 15px;
+	clear: both;
+}
+#wrap #contentsWrap .textWrap {
+	width: 960px;
+	clear: both;
+	padding-top: 60px;
+}
+#wrap #contentsWrap .textWrap .sttl {
+	float: left;
+}
+#wrap #contentsWrap .textWrap .text {
+	float: right;
+	width: 690px;
+	border-left: 5px solid #bebebe;
+	padding: 3px 0 3px 40px;
+	line-height: 1.8;
+}
+.specTitle02 {
+	padding-top: 100px;
+	margin: 60px 0 15px;
+	clear: both;
+}
+#wrap #contentsWrap .specMain {
+	margin-bottom: 30px;
+}
+#wrap #contentsWrap .specMainTitle {
+	margin: 30px 0 10px;
+}
+
+#wrap #contentsWrap .end {
+	height: 100px;
+	clear: both;
+	text-align: left;
+	padding-top: 45px;
+	font-size: 85%;
+	letter-spacing: 0.1em;
+}
+#wrap #contentsWrap .textWrap .text .controller {
+	float: right;
+}
+
+#wrap #contentsWrap #mainPhoto {
+	width: 960px;
+	height: 385px;
+	background:url(../02/spec/img/specMain2.jpg) top left no-repeat;
+}
+
+#wrap #contentsWrap #mainPhoto .bnr2012 {
+	position: relative;
+	top: 240px;
+	left: 625px;
+}

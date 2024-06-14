@@ -1,0 +1,175 @@
+#wrap #contentsWrap #indexArea {
+	margin: 30px 0 5px;
+	position: relative;
+	height: 202px;
+}
+#wrap #contentsWrap #indexArea .titleIndex {
+	margin-bottom: 5px;
+}
+#movArea {
+	width: 960px;
+	height: 418px;
+	position: relative;
+	background: url(../02/interview/img/bgMovie.png) no-repeat left top;
+}
+#movTime {
+	position: absolute;
+	top: 360px;
+	left: 20px;
+	width: 245px;
+	font-size: 85%;
+	color: #8c8c8c;
+	letter-spacing: 0.08em;
+}
+#mainSWF {
+	position: absolute;
+	left: 284px;
+	width: 676px;
+	height: 418px;
+}
+#wrap #contentsWrap #indexArea .menu {
+	width: 327px;
+	height: 38px;
+	display: block;
+	background: url(../02/interview/img/bgIndex.png) no-repeat -654px 0;
+	float: left;
+	margin-bottom: 12px;
+}
+#wrap #contentsWrap #indexArea .current {
+	width: 232px;
+	height: 46px;
+	display: block;
+	background: url(../02/interview/img/bgIndex.png) no-repeat -312px 0;
+	float: left;
+	margin-bottom: 12px;
+}
+#wrap #contentsWrap #indexArea .ctr {
+	margin-left: 10px;
+}
+#wrap #contentsWrap #textArea .interviewWrap {
+	clear:both;
+	width: 520px;
+}
+#wrap #contentsWrap #textArea .noteWrap {
+	clear:both;
+	width: 570px;
+}
+#wrap #contentsWrap #textArea .interviewWrap .name {
+	width: 95px;
+	float: left;
+	font-size: 108%;
+	font-weight: bold;
+	margin-left: 5px;
+	padding-top: 4px;
+}
+#wrap #contentsWrap #textArea .interviewWrap .text {
+	width: 420px;
+	float: right;
+	padding-bottom: 35px;
+	font-size: 108%;
+	line-height: 1.8;
+}
+#wrap #contentsWrap #textArea .interviewWrap .text a {
+	font-size: 100%;
+	line-height: 1.8;
+	text-decoration: underline;
+}
+#wrap #contentsWrap #textArea .interviewWrap .text img {
+	padding-left: 2px;
+	padding-right: 4px;
+	padding-bottom: 1px;
+}
+#wrap #contentsWrap #textArea .interviewWrap .text a:hover {
+	color: #999;
+}
+#wrap #contentsWrap #textArea .interviewWrap sup {
+	font-size: 68%;
+}
+#wrap #contentsWrap #textArea .noteWrap .no {
+	width: 25px;
+	float: left;
+	font-size: 85%;
+	margin-left: 100px;
+	margin-top: 3px;
+}
+#wrap #contentsWrap #textArea .noteWrap .note {
+	width: 440px;
+	float: right;
+	padding-bottom: 35px;
+	font-size: 85%;
+	line-height: 1.4;
+	letter-spacing: 0.1em;
+}
+#wrap #contentsWrap #textArea .photoWrap {
+	clear:both;
+	margin-left: 100px;
+	margin-bottom: 40px;
+}
+#wrap #contentsWrap #pagerNavi {
+	width: 960px;
+}
+#wrap #contentsWrap #pagerNavi .prev {
+	width: 50%;
+	float: left;
+	margin: 40px 0 140px;
+}
+#wrap #contentsWrap #pagerNavi .next {
+	width: 50%;
+	float: right;
+	text-align: right;
+	margin: 40px 0 140px;
+}
+
+#wrap #contentsWrap #textArea {
+	clear: both;
+	width: 520px;
+	margin: 0 0 55px 220px;
+}
+#wrap #contentsWrap #textArea .title {
+	padding: 95px 0 55px;
+}
+#wrap #contentsWrap #movArea #mainSWF #noScript {
+	position: absolute;
+	top:2px;
+	left: -1px;
+}
+#wrap #contentsWrap #indexArea .b1 {
+	position: absolute;
+	top: 11px;
+	left: 0;
+}
+#wrap #contentsWrap #indexArea .b2 {
+	position: absolute;
+	top: 11px;
+	left: 337px;
+}
+#wrap #contentsWrap #indexArea .b3 {
+	position: absolute;
+	top: 61px;
+	left: 0;
+}
+#wrap #contentsWrap #indexArea .b4 {
+	position: absolute;
+	top: 61px;
+	left: 337px;
+}
+#wrap #contentsWrap #indexArea .b5 {
+	position: absolute;
+	top: 111px;
+	left: 0;
+}
+#wrap #contentsWrap #indexArea .b6 {
+	position: absolute;
+	top: 111px;
+	left: 337px;
+}
+#wrap #contentsWrap #indexArea .b7 {
+	position: absolute;
+	top: 161px;
+	left: 0;
+}
+#wrap #contentsWrap #indexArea .b8 {
+	position: absolute;
+	top: 11px;
+	left: 687px;
+}

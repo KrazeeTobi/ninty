@@ -1,0 +1,99 @@
+/* 3DS */
+#wrap #contentsWrap #list3ds {
+	position: relative;
+	width: 960px;
+	height: 824px;
+	margin-top: 30px;
+}
+#wrap #contentsWrap #list3ds .sttl3dsTitleList {
+	position: absolute;
+}
+#wrap #contentsWrap #list3ds .logo3DSTitleList {
+	position: absolute;
+	top: 46px;
+}
+#wrap #contentsWrap #list3ds .listWrap {
+	position: absolute;
+	width: 729px;
+	top: 44px;
+	left: 231px;
+}
+#wrap #contentsWrap #list3ds a {
+	width: 228px;
+	height: 180px;
+	display: block;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	float: left;
+	background: url(../03/img/list3DSbg.png) no-repeat left bottom;
+}
+#wrap #contentsWrap #list3ds a:hover {
+	background-position: left top;
+}
+
+/* DS */
+#wrap #contentsWrap #listds {
+	clear: both;
+	position: relative;
+	width: 960px;
+	height: 300px;
+	margin-top: 65px;
+}
+#wrap #contentsWrap #listds .sttldsTitleList {
+	position: absolute;
+}
+#wrap #contentsWrap #listds .logoDSTitleList {
+	position: absolute;
+	top: 46px;
+}
+#wrap #contentsWrap #listds .listWrap {
+	position: absolute;
+	width: 729px;
+	top: 44px;
+	left: 231px;
+}
+#wrap #contentsWrap #listds a {
+	width: 228px;
+	height: 208px;
+	display: block;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	float: left;
+	background: url(../03/img/listDSbg.png) no-repeat left bottom;
+}
+#wrap #contentsWrap #listds a:hover {
+	background-position: left top;
+}
+
+/* Wii */
+#wrap #contentsWrap #listWii {
+	position: relative;
+	width: 960px;
+	height: 640px;
+	margin-top: 30px;
+}
+#wrap #contentsWrap #listWii .sttlWiiTitleList {
+	position: absolute;
+}
+#wrap #contentsWrap #listWii .logoWiiTitleList {
+	position: absolute;
+	top: 46px;
+}
+#wrap #contentsWrap #listWii .listWrap {
+	position: absolute;
+	width: 729px;
+	top: 44px;
+	left: 231px;
+}
+#wrap #contentsWrap #listWii a {
+	width: 228px;
+	height: 167px;
+	display: block;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	float: left;
+	background: url(../04/img/listWiibg.png) no-repeat left bottom;
+}
+#wrap #contentsWrap #listWii a:hover {
+	background-position: left top;
+}

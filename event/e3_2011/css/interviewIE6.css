@@ -1,0 +1,38 @@
+
+.hdrBG {
+	display: none;
+}
+.ftrBG {
+	display: none;
+}
+ 
+#ftrWrap .naviBG {
+	display: none;
+}
+#ftrWrap  {
+	background-color: #efefef;
+}
+#title .titleMain {
+	margin: 17px 25px 0 20px;
+}
+#title .titleMes {
+	padding-left: 20px;
+}
+#wrap #contentsWrap #textArea .interviewWrap .name {
+	width: 85px;
+}
+#wrap #contentsWrap #textArea .interviewWrap .text {
+	width: 400px;
+}
+
+#wrap #contentsWrap #textArea .noteWrap {
+	clear:both;
+	width: 650px;
+	margin-left: -80px;
+}
+#wrap #contentsWrap #textArea .noteWrap .no {
+	width: 25px;
+}
+#wrap #contentsWrap #textArea .noteWrap .note {
+	width: 420px;
+}

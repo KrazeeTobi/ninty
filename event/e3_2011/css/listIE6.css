@@ -1,0 +1,30 @@
+
+.hdrBG {
+	display: none;
+}
+.ftrBG {
+	display: none;
+}
+ 
+#ftrWrap .naviBG {
+	display: none;
+}
+#ftrWrap  {
+	background-color: #efefef;
+}
+
+
+#wrap #contentsWrap #list3ds a {
+	margin-left: 11px;
+	margin-bottom: 11px;
+}
+#wrap #contentsWrap #listWii a {
+	margin-left: 11px;
+	margin-bottom: 11px;
+}
+#title .titleMain {
+	margin: 17px 25px 0 20px;
+}
+#title .titleMes {
+	padding-left: 20px;
+}

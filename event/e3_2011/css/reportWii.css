@@ -1,0 +1,12 @@
+#wrap {
+	width: 960px;
+}
+.hdrBG {
+	display: none;
+}
+.ftrBG {
+	display: none;
+}
+#ftrWrap {
+	height: 80px;
+}

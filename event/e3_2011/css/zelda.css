@@ -1,0 +1,41 @@
+#wrap #contentsWrap #movieArea {
+	width: 960px;
+	height: 419px;
+	background: url(../img/bgMovie.png) no-repeat left top;
+	position: relative;
+}
+#wrap #contentsWrap #movieArea #mov {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+}
+#wrap #contentsWrap #infoArea {
+	width: 960px;
+	height: 246px;
+	position: relative;
+	margin-top: 50px;
+}
+#wrap #contentsWrap #infoArea .logoZelda25th {
+	position: absolute;
+	left: 42px;
+}
+#wrap #contentsWrap #infoArea .aboutZelda25th {
+	position: absolute;
+	top: 30px;
+	left: 240px;
+}
+#wrap #contentsWrap #movieArea #movTitle {
+	position: absolute;
+	top: 1px;
+	left: 698px;
+}
+#wrap #contentsWrap #movieArea #movTime {
+	position: absolute;
+	top: 360px;
+	left: 698px;
+	width: 245px;
+	text-align: right;
+	font-size: 85%;
+	color: #8c8c8c;
+	letter-spacing: 0.08em;
+}

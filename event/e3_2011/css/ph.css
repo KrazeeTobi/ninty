@@ -1,0 +1,358 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	overflow: hidden;
+}
+
+img {
+	border: 0;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	left: 701px;
+	z-index: 2;
+}
+
+.btn1 img, .btn2 img, .btn3 img, .btn4 img, .btn5 img, .btn6 img, .btn7 img, .btn8 img {
+	cursor: pointer;
+}
+
+/* 3DS */
+#n3ds .photoTop {
+	position: absolute;
+	top: 31px;
+	left: 193px;
+	z-index: 2;
+}
+
+#n3ds .photoBtm {
+	position: absolute;
+	top: 315px;
+	left: 229px;
+	z-index: 2;
+}
+
+#n3ds .btn1 {
+	position: absolute;
+	top: 600px;
+	z-index: 50;
+	background: url(../03/img/imgBtn3DS/imageBtn1_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#n3ds .btn2 {
+	position: absolute;
+	top: 600px;
+	z-index: 50;
+	background: url(../03/img/imgBtn3DS/imageBtn2_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#n3ds .btn3 {
+	position: absolute;
+	top: 600px;
+	z-index: 50;
+	background: url(../03/img/imgBtn3DS/imageBtn3_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#n3ds .btn4 {
+	position: absolute;
+	top: 600px;
+	z-index: 50;
+	background: url(../03/img/imgBtn3DS/imageBtn4_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#n3ds .btn5 {
+	position: absolute;
+	top: 600px;
+	z-index: 50;
+	background: url(../03/img/imgBtn3DS/imageBtn5_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#n3ds .btn6 {
+	position: absolute;
+	top: 600px;
+	z-index: 50;
+	background: url(../03/img/imgBtn3DS/imageBtn6_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#n3ds .btn7 {
+	position: absolute;
+	top: 600px;
+	z-index: 50;
+	background: url(../03/img/imgBtn3DS/imageBtn7_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#n3ds .btn8 {
+	position: absolute;
+	top: 600px;
+	z-index: 50;
+	background: url(../03/img/imgBtn3DS/imageBtn8_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+#n3ds .ssFrame3DS {
+	position: absolute;
+	top: 1px;
+	left: 65px;
+	z-index: 3;
+}
+#n3ds .base {
+	background: #fff;
+	width: 670px;
+	height: 612px;
+	position: absolute;
+	border: 1px solid #bebebe;
+	left: 30px;
+}
+
+/* 3ds Half Size */
+#n3ds .base_half {
+	background: #fff;
+	width: 670px;
+	height: 306px;
+	position: absolute;
+	border: 1px solid #bebebe;
+	left: 30px;
+}
+#n3ds .photoTop_half {
+	position: absolute;
+	top: 40px;
+	left: 193px;
+	z-index: 2;
+}
+#n3ds .photoBtm_half {
+	position: absolute;
+	top: 50px;
+	left: 229px;
+	z-index: 2;
+}
+#n3ds .half {
+	position: absolute;
+	top: 295px;
+}
+#n3ds .half {
+	position: absolute;
+	top: 295px;
+}
+#n3ds .half {
+	position: absolute;
+	top: 295px;
+}
+#n3ds .half {
+	position: absolute;
+	top: 295px;
+}
+#n3ds .half {
+	position: absolute;
+	top: 295px;
+}
+#n3ds .half {
+	position: absolute;
+	top: 295px;
+}
+#n3ds .half {
+	position: absolute;
+	top: 295px;
+}
+#n3ds .half {
+	position: absolute;
+	top: 295px;
+}
+/* DS */
+
+#ds .btn1 {
+	position: absolute;
+	top: 308px;
+	z-index: 50;
+	background: url(../03/img/imgBtnDS/imageBtn1_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#ds .btn2 {
+	position: absolute;
+	top: 308px;
+	z-index: 50;
+	background: url(../03/img/imgBtnDS/imageBtn2_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#ds .btn3 {
+	position: absolute;
+	top: 308px;
+	z-index: 50;
+	background: url(../03/img/imgBtnDS/imageBtn3_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#ds .btn4 {
+	position: absolute;
+	top: 308px;
+	z-index: 50;
+	background: url(../03/img/imgBtnDS/imageBtn4_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#ds .btn5 {
+	position: absolute;
+	top: 308px;
+	z-index: 50;
+	background: url(../03/img/imgBtnDS/imageBtn5_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#ds .btn6 {
+	position: absolute;
+	top: 308px;
+	z-index: 50;
+	background: url(../03/img/imgBtnDS/imageBtn6_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#ds .btn7 {
+	position: absolute;
+	top: 308px;
+	z-index: 50;
+	background: url(../03/img/imgBtnDS/imageBtn7_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#ds .btn8 {
+	position: absolute;
+	top: 308px;
+	z-index: 50;
+	background: url(../03/img/imgBtnDS/imageBtn8_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+#ds #ph {
+	position: absolute;
+	top: 1px;
+	left: 72px;
+	z-index: 3;
+}
+#ds .base {
+	background: #fff;
+	width: 670px;
+	height: 320px;
+	position: absolute;
+	border: 1px solid #bebebe;
+	left: 30px;
+}
+
+/* Wii */
+
+#wii .btn1 {
+	position: absolute;
+	top: 440px;
+	z-index: 50;
+	background: url(../04/img/imgBtnWii/imageBtn1_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#wii .btn2 {
+	position: absolute;
+	top: 440px;
+	z-index: 50;
+	background: url(../04/img/imgBtnWii/imageBtn2_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#wii .btn3 {
+	position: absolute;
+	top: 440px;
+	z-index: 50;
+	background: url(../04/img/imgBtnWii/imageBtn3_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#wii .btn4 {
+	position: absolute;
+	top: 440px;
+	z-index: 50;
+	background: url(../04/img/imgBtnWii/imageBtn4_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#wii .btn5 {
+	position: absolute;
+	top: 440px;
+	z-index: 50;
+	background: url(../04/img/imgBtnWii/imageBtn5_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#wii .btn6 {
+	position: absolute;
+	top: 440px;
+	z-index: 50;
+	background: url(../04/img/imgBtnWii/imageBtn6_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#wii .btn7 {
+	position: absolute;
+	top: 440px;
+	z-index: 50;
+	background: url(../04/img/imgBtnWii/imageBtn7_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+
+#wii .btn8 {
+	position: absolute;
+	top: 440px;
+	z-index: 50;
+	background: url(../04/img/imgBtnWii/imageBtn8_ov.png) no-repeat;
+	width: 70px;
+	height: 24px;
+}
+#wii #ph {
+	position: absolute;
+	top: 1px;
+	left: 31px;
+	z-index: 3;
+}
+#wii .base {
+	background: #fff;
+	width: 750px;
+	height: 472px;
+	position: absolute;
+	border: 1px solid #bebebe;
+	left: 30px;
+}
+
+#wii .close {
+	position: absolute;
+	top: 0;
+	left: 781px;
+	z-index: 2;
+}

@@ -1,0 +1,93 @@
+#main {
+	width: 100%;
+	background: url(../02/img/mainPhoto.jpg) no-repeat 30% top;
+	border-bottom: 1px solid #bebebe;
+	height: 588px;
+}
+#wrap #main #alternativeContents {
+	width: 960px;
+	height: 588px;
+	position: relative;
+	margin: 0 auto;
+}
+#wrap #main #alternativeContents .logo {
+	position: absolute;
+	right: 0;
+	top: 25px;
+}
+#wrap #main #alternativeContents .sttl01 {
+	position: absolute;
+	right: 223px;
+	top: 91px;
+}
+#wrap #main #alternativeContents a .btn01 {
+	position: absolute;
+	right: 0;
+	top: 91px;
+}
+#wrap #main #alternativeContents .btn03 {
+	position: absolute;
+	right: 0;
+	top: 259px;
+}
+#wrap #main #alternativeContents .btn04 {
+	position: absolute;
+	right: 0;
+	top: 347px;
+}
+
+.ftrBG {
+	display: none;
+}
+#main a .hdrLogo {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+#wrap #sList {
+	width: 960px;
+	height: 213px;
+	position: relative;
+	margin: 0 auto 0;
+}
+#wrap #sList .ttlSoft {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#wrap #sList #btnSoft01 {
+	position: absolute;
+	top: 81px;
+	left: 0;
+}
+#wrap #sList #btnSoft02 {
+	position: absolute;
+	top: 81px;
+	right: 0;
+}
+#wrap #vList {
+	width: 960px;
+	height: 350px;
+	position: relative;
+	margin: 50px auto 0;
+}
+#wrap #vList .ttlSoft {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#wrap #vList #btnVoice01 {
+	position: absolute;
+	top: 81px;
+	left: 0;
+}
+#wrap #vList #btnVoice02 {
+	position: absolute;
+	top: 81px;
+	right: 0;
+}
+#wrap #vList a #btnE3Network {
+	position: absolute;
+	top: 224px;
+	left: 153px;
+}
