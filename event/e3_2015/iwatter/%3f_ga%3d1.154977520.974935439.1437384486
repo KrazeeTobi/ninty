@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Iwatter（イワッター） | 任天堂 E3 2015情報</title>
+<!-- name appearance -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<!-- name contents -->
+<meta name="keywords" content="任天堂, E3 2015, Iwatter, イワッター">
+<meta name="description" content="任天堂社長 岩田聡がE3に合わせて、Twitterの任天堂公式アカウントより、ハッシュタグ『#Iwatter』を使ってさまざまな情報を「直接」お届けします。">
+<!-- og -->
+<meta property="og:title" content="Iwatter（イワッター） | 任天堂 E3 2015情報">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://www.nintendo.co.jp/event/e3_2015/iwatter/index.html">
+<meta property="og:description" content="任天堂社長 岩田聡がE3に合わせて、Twitterの任天堂公式アカウントより、ハッシュタグ『#Iwatter』を使ってさまざまな情報を「直接」お届けします。">
+<meta property="og:image" content="http://www.nintendo.co.jp/event/e3_2015/iwatter/img/ogimage.png">
+<meta property="og:locale" content="ja_JP">
+<!-- style -->
+<link rel="stylesheet" href="../common/css/core.css">
+<link rel="stylesheet" href="css/iwatter.css">
+<!-- scripts -->
+<script src="../common/js/jquery.js"></script>
+<script src="../common/js/e3.js"></script>
+<script src="../common/js/plugins.js"></script>
+<script src="../common/js/core.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/iwatter.js"></script>
+<script src="/common/js/ua/ua.js"></script>
+<script>
+$(function(){
+	if(Polaris.html.hasWebgl){
+		var animation = new E3.Triangles('#back', {
+			num : 1
+			,background: '#ffffff'
+			,speed : 0.01
+			,minAlpha : 0.09
+			,maxAlpha : 0.19
+			,boundsX : 800
+			,boundsY : 600
+			,colors : ['#0096c8', '#00c8c8']
+			,webgl : true
+		});
+			animation.start();
+	}
+});
+</script>
+
+                  <script type="text/javascript">
+                    var w=window;
+                    if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document,AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(a,b){AKSB.q.push(["mark",a,b||(new Date).getTime()])};AKSB.measure=function(a,b,c){AKSB.q.push(["measure",a,b,c||(new Date).getTime()])};AKSB.done=function(a){AKSB.q.push(["done",a])};AKSB.mark("firstbyte",(new Date).getTime());AKSB.prof={custid:"413768",ustr:"cs",originlat:0,clientrtt:3,ghostip:"63.80.12.202",
+                    ipv6:false,pct:10,xhrtest:false,clientip:"207.241.229.223",requestid:"4d1def3",protocol:"",blver:5,akM:"g",akN:"ae",akTT:"O",akTX:"1",akTI:"4d1def3",ai:"268862"};(function(a){var b=d.createElement("script");b.async="async";b.src=a;a=d.getElementsByTagName("script");a=a[a.length-1];a.parentNode.insertBefore(b,
+                    a)})(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")};
+                  </script>
+                  </head>
+<body id="#pagetop">
+<div id="back" class="mask"></div>
+<div class="page_wrapper">
+
+	<div class="page_header">
+		<header role="banner" class="g_header">
+			<h1 class="logo_e3"><a href="../index.html"><img src="../common/img/h_logo_e3-2015.png" alt="E3 2015" width="138" height="32"></a></h1>
+			<p class="logo_nintendo"><a href="../../../"><img src="../common/img/h_logo_ntd.png" alt="nintendo" width="76" height="18"></a></p>
+			<nav class="g_nav" role="navigation">
+				<ul class="g_nav__inner clearfix">
+					<li></li>
+				</ul>
+			</nav>
+			<ul class="g_sns">
+				<li class="tw"><a href=""><img src="../common/img/h_sns_tw.png" alt="twitter" width="28" height="28"></a></li>
+				<li class="fb"><a href=""><img src="../common/img/h_sns_fb.png" alt="facebook" width="28" height="28"></a></li>
+			</ul>
+		</header>
+	</div>
+
+	<div class="page_contents_container">
+		<main role="main">
+			<article class="page_contents">
+
+				<section class="page_contents_inner">
+					<div class="page_head">
+						<h2 class="head_title"><img src="img/head_title.png" alt="Iwatter（イワッター）" width="504" height="110"></h2>
+						<div class="page_info">
+							<p class="info_icon"><img src="img/info_icon.png" alt="#Iwatter" width="397" height="400"></p>
+							<p class="info_text"><img src="img/info_text.png" alt="任天堂社長 岩田聡がE3に合わせて、Twitterの任天堂公式アカウントより、ハッシュタグ『#Iwatter』を使ってさまざまな情報を「直接」お届けします。" width="476" height="79"></p>
+						</div>
+					</div>
+					<div class="tweet_container">
+						<ol class="tweet_contents">
+						</ol>
+						<p class="tweet_more"><a href=""><span>もっと見る</span></a></p>
+					</div>
+				</section>
+
+			</article><!-- /.page_contents_inner -->
+		</main>
+	</div><!-- /.page_contents -->
+
+	<div class="page_footer">
+		<footer class="g-footer" role="contentinfo">
+			<span class="pagetop">
+				<span class="f_pagetop"><img src="../common/img/f_pagetop.png" width="304" height="154" alt="" usemap="#f_pagetop"></span>
+				<map name="f_pagetop" id="f_pagetop">
+					<area shape="poly" coords="152,0,284,134,20,134" href="#pagetop" alt="ページトップ">
+				</map>
+				<a href="#pagetop" class="f_logo_ntd"><img src="../common/img/f_logo_ntd.png" alt="" width="67" height="16"></a>
+				<a href="#pagetop" class="f_logo_e3-2015"><img src="../common/img/f_logo_e3-2015.png" alt="" width="118" height="27"></a>
+			</span>
+			<ul class="g-footer__links">
+				<li><a href="../../../" class="link_arrow">任天堂ホームページ</a></li><!--
+			--><li><a href="http://e3.nintendo.com/" class="link_arrow" target="_blank">米国任天堂E3サイト</a></li>
+			</ul>
+			<p class="copyright"><small><img src="../common/img/f_copyright.png" alt="copyright 2015 Nintendo" width="74" height="7"></small></p>
+		</footer>
+	</div>
+
+</div><!-- /.page_wrapper -->
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+img {
+	border: 0;
+}
+
+#wrap {
+	width: 812px;
+	height: 490px;
+	margin: 34px auto 0;
+	position: relative;
+}
+
+.logo {
+	width: 358px;
+	height: 80px;
+	border-right: 1px solid #bebebe;
+	padding-top: 7px;	
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: left;
+}
+
+.text {
+	position: absolute;
+	top: 23px;
+	right: 0;
+}
+
+.qr01 {
+	position: absolute;
+	top: 130px;
+	left: 19px;
+}
+
+.howto {
+	position: absolute;
+	top: 360px;
+	left: 0;
+}
+
+.note {
+	position: absolute;
+	top: 473px;
+	left: 0;
+}
+
+.btnShop {
+	position: absolute;
+	top: 473px;
+	right: 0;
+}
+
+#TB_btnClose {
+	width: 40px;
+	height: 40px;
+	background: url(../img/btnCloseBg.png) no-repeat 0 -80px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+#TB_btnClose img {
+	width: 40px;
+	height: 40px;
+}

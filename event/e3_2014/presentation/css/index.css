@@ -1,0 +1,153 @@
+@charset "Shift_JIS";
+
+/*--- common ---*/
+
+
+body{
+}
+.pagecontainer{
+	position: relative;
+	width: 100%;
+	min-width: 960px;
+    margin: 0 auto;
+    background: url(../../sharedimg/bg_dot.png) left top;
+}
+#globalheader{
+}
+#globalfooter{
+}
+.abs #globalheader{
+	position: absolute!important;
+}
+
+#presentationcontainer{
+	padding-top: 90px;
+	width: 804px;
+	margin: 0 auto;
+}
+
+#content{
+	padding-bottom: 80px;
+}
+
+#presentationcontent{
+	width: 804px;
+}
+
+
+#presentationcontent .title{
+	margin: 0 0 15px;
+}
+
+#presentationcontent .movie{
+	width: 802px;
+	height: 481px;
+	border: #bababa 1px solid;
+	background-color: #FFF;
+	margin: 0 auto 21px auto;
+}
+#presentationcontent .bnrwrap{
+	position: relative;
+	width: 804px;
+	height: 96px;
+	margin: 0 auto;
+}
+#presentationcontent .bnrwrap .bnr01{
+	position: absolute;
+	left: -25px;
+	top: 0;
+}
+#presentationcontent .bnrwrap .bnr02{
+	position: absolute;
+	right: 0;
+	top:10px;
+}
+
+
+#presentationcontent .buttonswrap{
+	width: 856px;
+	margin: 0 0 0 -26px;
+}
+
+#presentationcontent .buttonswrap li{
+	width: 162px;
+	display: inline-block;
+	margin:0 24px 24px 24px;
+}
+
+#presentationcontent .buttonswrap li span{
+	display: block;
+	text-align: left;
+}
+#presentationcontent .buttonswrap li .moviethumb{
+	position: relative;
+	width: 162px;
+	height: 91px;
+}
+#presentationcontent .buttonswrap li .moviethumb img{
+	display: block;
+	position: absolute;
+}
+
+#presentationcontent .buttonswrap li .moviethumb .icon {
+	left: 50%;
+	top: 50%;
+	margin: -20px 0 0 -20px;
+}
+
+#presentationcontent .buttonswrap li .movietitle{
+	color: #616161;
+	font-size: 12px;
+	line-height: 1.2;
+	font-weight: bold;
+	letter-spacing: 0.06em;
+	min-height: 2.5em;
+	display: table;
+	margin-bottom: 3px;
+}
+#presentationcontent .buttonswrap li .movietitle span{
+	display: table-cell;
+	vertical-align: middle;
+}
+#presentationcontent .buttonswrap li .cu .movietitle{
+	color: #0899ca;
+}
+#presentationcontent .buttonswrap li .movietime{
+	margin-top: 5px;
+	font-size: 11px;
+	line-height: 1.4;
+}
+
+#presentationcontent .buttonswrap li .cu {
+	cursor: default;
+}
+
+#presentationcontent .buttonswrap li .cu .moviethumb .icon {
+	display: none;
+}
+
+#presentationcontent .buttonswrap li .moviethumb .hover {
+	display: none;
+}
+
+#presentationcontent .buttonswrap li .cu .moviethumb .hover {
+	display: block!important;
+}
+
+#presentationcontent .buttonswrap li.new .movietitle{
+	background: url(../img/icon_movienew.png) 0 50% no-repeat ;
+	padding-left: 40px;
+}
+
+#presentationcontent .line{
+	width: 804px;
+	height: 1px;
+	background-color: #bababa;
+	margin: 0 0 10px 0;
+}
+
+.buttons{
+	left: 0!important;
+	position: static!important;
+}
+

@@ -1,0 +1,34 @@
+#leftContent #contents{
+	padding:136px 0 70px 0;
+	width: 100%;
+}
+
+#leftContent #contents .wrap {
+	width: 740px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#leftContent #contents .wrap .title {
+	margin-bottom: 15px;
+}
+
+#leftContent #contents .wrap .leadText {
+	margin-bottom: 45px;
+}
+
+#leftContent #contents .wrapBtm {
+	margin-bottom: 13px;
+}
+
+#leftContent #contents .wrap .ttlList {
+	margin-bottom: 20px;
+}
+
+#leftContent #contents .ov {
+	z-index: 2;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}

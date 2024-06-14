@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=shift_jis" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+
+<link rel="stylesheet" type="text/css" href="css/eshop.css" />
+
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="js/eshop.js"></script>
+
+<title>任天堂 E3 2012情報</title>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24515934-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body>
+
+<div id="wrap">
+	<div class="logo"><img src="img_eshop/logo.png" width="336" height="65" alt="ニンテンドーeショップ" /></div>
+	<img src="img_eshop/text.png" width="434" height="31" alt="以下のQRコードをお手持ちのニンテンドー3DSのカメラを使って読み取れば、ニンテンドーeショップでソフトの3D映像をご覧いただけます。" class="text" />
+	<img src="img_eshop/qr.png" width="772" height="179" alt="New SUPER MARIO BROS. 2 国内タイトル：New スーパーマリオブラザーズ 2　Luigi's Mansion: Dark Moon 国内タイトル：ルイージマンション2（仮称）　Paper Mario: Sticker Star 国内タイトル：ペーパーマリオ（箇所）" class="qr01" /><img src="img_eshop/howto.png" width="812" height="106" alt="QRコードを読みとるには？" class="howto" />
+	<img src="img_eshop/note.png" width="453" height="25" alt="※「ニンテンドーeショップ」はインターネットに接続したニンテンドー3DSでご利用ください。" class="note" />
+	<a href="../../../3ds/eshop/index.html" target="_top"><img src="img_eshop/btnShop.png" width="269" height="25" alt="「ニンテンドーeショップ」についてくわしくはこちら" class="btnShop hover" /></a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,294 @@
+/*/*--------------------------settings*/
+html, body, div, ul, li{
+	margin:0;
+	padding:0;
+}
+
+html, body	{
+	height: 100%;
+}
+
+* {
+-webkit-text-size-adjust:100%;
+}
+
+ul{
+	list-style:none;
+}
+
+body{
+	background-color: #ededed;
+	font-family:"‚l‚r ‚oƒSƒVƒbƒN","ƒqƒ‰ƒMƒmŠpƒS Pro W3","Hiragino Kaku Gothic Pro","ƒƒCƒŠƒI","Meiryo",Osaka,verdana,arial,clean,sans-serif;
+	font-size: 12px;
+	line-height: 1.4;
+	_font-size: 75%;
+}
+
+*+html body{font-size: 75%;}
+
+img{
+	border: 0;
+	outline: none;
+	-ms-interpolation-mode: bicubic; 
+}
+
+h1,h2,h3,h4,p{
+	margin:5px;
+	padding:0;
+}
+
+a{
+	text-decoration:none;
+	color:#0096c8;
+}
+
+a:hover{
+	color:#1fafdf;
+}
+
+hr {
+   border-width: 1px 0 0 0;
+   border-style: solid;
+   border-color: #bebebe;
+   height: 1px;
+   margin: 45px auto;
+}
+
+object,
+object:focus{
+    outline:none;
+}
+
+/*--------------------------container*/
+#container{
+	margin:0 auto;
+	width:960px;
+	height:100%;
+	min-height:100%;
+	border-left:7px solid #ededed;
+	border-right:7px solid #ededed;
+	background-color:#fff;
+	background-image:url(../img_cmn/bgContainer.png) ;
+	background-repeat:repeat-y;
+	background-position:right;	
+}
+
+body > #container{
+	height:auto;
+}
+
+
+
+/*--------------------------left content*/
+#leftContent{
+	width:773px;
+	float:left;
+	position:relative;
+	background-color:#fff;
+}
+
+
+#header {
+	width: 773px;
+	height: 68px;
+	background: url(../img_cmn/bgHdr.png);
+	border-top:7px solid #ededed;
+	border-bottom:1px solid #dcdcdc;
+	position:absolute;
+	top:0;
+	z-index:10;
+}
+
+#header .logoNintendo {
+	position: absolute;
+	top: 24px;
+	left: 17px;
+}
+
+#header .btnNewsRelease {
+	position: absolute;
+	top: 24px;
+	right: 17px;
+}
+
+#header .btnTop {
+	position: absolute;
+	top: 0;
+	right: 17px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	width:66px;
+	height:36px;
+	background: url(../img_cmn/btnTop.png) no-repeat left -5px;
+}
+
+#header .pankuzu {
+	position: absolute;
+	top: 47px;
+	right: 17px;
+	font-size: 80%;
+	color: #666;
+	letter-spacing: 0.2em;
+	width: auto;
+}
+
+#header .pankuzu li {
+	float: left;
+}
+
+#header .pankuzu li a {
+	color: #999;
+	width: auto;
+	display: block;
+	background: url(../img_cmn/bgPankuzu.png) no-repeat right 4px;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+#header .pankuzu li a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+
+#leftContent #contents{
+	background:#fff;
+	padding:74px 0 40px 0;
+}
+
+
+/*--------------------------right content*/
+#rightContent{
+	float:right;
+	width:180px;
+	position:relative;
+	background-color:#0096c8;
+}
+
+#rightContent #menuContainer{
+	background-color:#0096c8;
+	border-top:7px solid #ededed;
+	width:180px;
+}
+
+
+#rightContent #menuContainer #logo{
+	text-indent:-9999px;
+	width:180px;
+	height:180px;
+	background:url(../img_cmn/logoE3.png);
+}
+
+#rightContent #menuContainer ul li {
+	margin: 0;
+	padding: 0;
+}
+
+#rightContent #menuContainer ul li.ov {
+	background: url(../img_cmn/btnOV.png) no-repeat -180px 0;
+	height: 59px;
+}
+
+#rightContent #menuContainer ul li.cu {
+	background: url(../img_cmn/btnOV.png) no-repeat 0 0;
+	height: 59px;
+}
+
+#rightContent #menuContainer li.sub {
+	margin-top: 10px;
+}
+
+
+#menu ul{
+	border-top:1px solid #fff;
+	margin:0;
+	padding:0;
+}
+
+#menu ul li{
+	border-bottom:1px solid #fff;
+}
+
+#subMenu{
+	padding-top:10px;
+}
+
+.current {
+	position: absolute;
+	left: -7px;
+	width: 7px;
+	height: 58px;
+	background: url(../img_cmn/current.png) no-repeat 0 0;
+}
+
+#report .current {
+	top: 180px;
+}
+
+#guide .current {
+	top: 360px;
+}
+
+
+
+/*--------------------------footer*/
+#footer {
+	width:100%;
+	position:relative;
+	background-color:#ededed;
+	height:7px;
+	display:block;
+}
+
+#footerInside {
+	margin:0 auto;
+	width: 960px;
+	
+	height:7px;
+	background-color:#ededed;
+	border-left:7px solid #ededed;
+	border-right:7px solid #ededed;
+	
+}
+
+#footerInside #footerLeftContent{
+	float: left;
+	margin:5px 0 0 7px;
+	
+}
+
+#footerInside #footerRightContent{
+	float: right;
+	margin:5px 7px 0 0;
+	position:relative;
+}
+
+#footerInside #pageTopWrap {
+	width: 773px;
+	height: 68px;
+	position: relative;
+	height:7px;
+}
+#footerInside #pageTopWrap .btnPageTop {
+	position: absolute;
+	top: -25px;
+	right: 0;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 41px;
+	height: 43px;
+	background: url(../img_cmn/btnPageTop.png) no-repeat left 0;
+	display: none;
+}
+
+
+
+/*--------------------------clearfix*/
+.clearfix {width:100%;}
+.clearfix:after{
+    content: ""; 
+    display: block; 
+    clear: both;}
+
+

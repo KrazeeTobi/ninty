@@ -1,0 +1,87 @@
+#leftContent #contents{
+	padding:136px 0 70px 0;
+	width: 100%;
+}
+
+#leftContent #contents .wrap {
+	width: 740px;
+	margin: 0 auto;
+}
+
+#leftContent #contents .wrap .title {
+	margin-bottom: 15px;
+}
+
+#leftContent #contents .wrap .leadText {
+	margin-bottom: 30px;
+}
+
+#leftContent #contents .wrap .ttlList {
+	margin-bottom: 34px;
+}
+
+#leftContent #contents .wrap #listContainer {
+    width: 740px;
+    margin: 0;
+    overflow: hidden;
+}
+ 
+#leftContent #contents .wrap #listContainer ul {
+    margin: -10px -13px 0 0;
+    padding: 0;
+    zoom: 1;
+}
+ 
+#leftContent #contents .wrap #listContainer ul li {
+    width: 238px;
+	height: 194px;
+    margin: 13px 13px 0 0;
+    float: left;
+    list-style: none;
+	position: relative;
+}
+ 
+#leftContent #contents .wrap #listContainer ul li a img {
+	position: absolute;
+	top: 0px;
+	left:0;	
+}
+
+#leftContent #contents .wrap{
+	
+}
+
+#leftContent #contents .ov {
+	z-index: 2;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#leftContent #contents .movCu {
+	position: absolute;
+	z-index: 3;
+}
+
+#nDirect {
+	position: relative;
+}
+
+#nDirect img {	
+	padding-top: 30px;
+}
+
+#movPlayer {
+	height: 415px;
+	text-align: center;
+}
+
+
+/*-- ie 6 --*/
+* html img.title { margin-left:10px; }
+* html img.leadText { margin-left:10px; }
+* html #movPlayer{ margin-left:10px; }
+* html #listContainer { padding:0 0 20px 5px; }
+* html #leftContent #contents .wrap #listContainer ul li { margin: 10px 10px 0 0; }
+

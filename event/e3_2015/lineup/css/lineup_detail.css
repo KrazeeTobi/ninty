@@ -1,0 +1,651 @@
+/* modeules
+------------------------------------------------------------------------------*/
+.btn_style {
+  position: relative;
+  display: inline-block;
+  height: 34px;
+  width: 100%;
+}
+
+.btn_style .btn_bg {
+  position: absolute;
+  display: block;
+  top: 3px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #A3DDF1;
+  border-radius: 6px;
+}
+
+.btn_style .btn_bg:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0096c8;
+  border-radius: 6px;
+}
+
+.btn_style img {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.n3ds .btn_style .btn_bg {
+  background: #eba3a5;
+}
+.n3ds .btn_style .btn_bg:before {
+  background: #cd202c;
+}
+
+/* page styles
+------------------------------------------------------------------------------*/
+#back {
+  background: url(../img/detail/bg_webgl_legacy_wiiu.png) center bottom no-repeat;
+  background-size: cover;
+}
+
+#back.n3ds {
+  background: url(../img/detail/bg_webgl_legacy_3ds.png) center bottom no-repeat;
+  background-size: cover;
+}
+
+.page_contents_inner {
+  max-width: 1154px;
+  min-width: 980px;
+  margin: 0 auto;
+}
+
+.page_contents_container .contents__header {
+  height: 128px;
+  width: 100%;
+  margin-top: 53px;
+  position: relative;
+}
+.page_contents_container .h_lineup_title {
+  padding-top: 8px;
+  padding-left: 32px;
+}
+.page_contents_container .h_logo_hard {
+  display: block;
+  position: absolute;
+  top: 24px;
+  right: 31px;
+}
+.page_contents_container .h_logo_hard > img {
+  display: inline-block;
+}
+.page_contents_container .h_logo_hard img + img {
+  padding-left: 21px;
+  border-left: 1px solid #868686;
+  margin-left: 14px;
+}
+.page_contents_container .h_logo_hard .logo_wiiu {
+  position: relative;
+}
+.page_contents_container .h_logo_hard .logo_3ds {
+  position: relative;
+}
+.page_contents_container .contents__body {
+  width: 74%;
+  float: left;
+}
+.page_contents_container .contents__body .item_img img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 34px;
+}
+
+.page_contents_container .contents__body .item_img a.ov img{
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.page_contents_container .contents__body .item_img a.ov:hover img{
+    -webkit-filter: contrast( 1.5 );
+    -mos-filter: contrast( 1.5 );
+    -ms-filter: contrast( 1.5 );
+    -0-filter: contrast( 1.5 );
+}
+
+
+.page_contents_container .contents__body .item_info {
+  width: 100%;
+  display: table;
+  margin-bottom: 34px;
+}
+.page_contents_container .contents__body .item_info__title,
+.page_contents_container .contents__body .item_info__detail,
+.page_contents_container .contents__body .item_info__links {
+  display: table-cell;
+  vertical-align: top;
+}
+.page_contents_container .contents__body .item_info__links {
+  width: 236px;
+  padding-left: 3%;
+}
+.page_contents_container .contents__body .item_info__links .btn_style {
+  margin-bottom: 4px;
+}
+.page_contents_container .contents__body .item_info__links > div:first-child .btn_style {
+  margin-bottom: 12px;
+}
+.page_contents_container .contents__body .item_info__links .btn_style img {
+  padding-left: 14px;
+}
+.page_contents_container .contents__body .item_info__title {
+  padding-right: 1%;
+  padding-left: 1%;
+  vertical-align: middle;
+  text-align: center;
+  border-right: 5px solid #0096c8;
+}
+.page_contents_container .contents__body .item_info__detail {
+  color: #0096c8;
+  padding-left: 30px;
+  max-width: 280px;
+}
+.page_contents_container .contents__body .item_info__detail .listy {
+  width: 100%;
+  line-height: 1;
+  padding-top: 6px;
+}
+.page_contents_container .contents__body .item_info__detail .listy:nth-child(2) {
+  padding-bottom: 12px;
+}
+.page_contents_container .contents__body .item_info__detail .listy > dt,
+.page_contents_container .contents__body .item_info__detail .listy > dd {
+  font-size: 14px;
+  font-size: 1.4rem;
+  display: inline-block;
+}
+.page_contents_container .contents__body .item_info__detail .listy > dt {
+  width: 80px;
+}
+.page_contents_container .contents__body .item_info__detail .listCorrespond{
+	padding-bottom: 12px;
+}
+.page_contents_container .contents__body .item_info__detail .listCorrespond li{
+	text-indent: -1em;
+	padding-left: 1em;
+}
+.page_contents_container .contents__body .item_info__detail .listCorrespond span{
+	font-size: 10px;
+	vertical-align: middle;
+	padding-right: 5px;
+}
+
+.page_contents_container .contents__body .item_info__detail .note,
+.page_contents_container .contents__body .item_info__detail .copyright {
+  font-size: 10px;
+}
+.page_contents_container .contents__body .item_info__text {
+  width: 100%;
+  color: #585858;
+  line-height: 2.5;
+  vertical-align: top;
+}
+
+a.n3ds {
+	padding:0 0 0 20px;
+	color:#ce181e;
+	background:url(../img/icon_arrow_3ds.png) no-repeat 0 2px;	
+}
+
+a.n3ds:hover{
+	text-decoration:underline;
+}
+
+a.wiiu {
+	padding:0 0 0 20px;
+	color:#0096c8;
+	background:url(../img/icon_arrow_wiiu.png) no-repeat 0 2px;	
+}
+
+a.wiiu:hover{
+	text-decoration:underline;
+}
+
+.page_contents_container .contents__body .item_info__text .btn_interview {
+  position: relative;
+  vertical-align: top;
+  margin-top: 0.5em;
+  float: right;
+  display: block;
+  padding-left: 3%;
+}
+.page_contents_container .contents__body .item_info__text .btn_interview .btn_style {
+  width: 214px;
+  height: 214px;
+}
+.page_contents_container .contents__body .item_info__text .btn_interview .btn_style:hover {
+  background: none;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.page_contents_container .contents__body .item_info__text .btn_interview .btn_viewmovie {
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 140px;
+  height: 26px;
+  margin: auto;
+  padding: 8px 0 4px 0;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 13px;
+  text-align: center;
+  -webkit-transition: all 150ms ease-in-out;
+  -moz-transition: all 150ms ease-in-out;
+  -ms-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.page_contents_container .contents__body .item_info__text .btn_interview .btn_style:hover .btn_viewmovie {
+  opacity: 1;
+}
+.page_contents_container .contents__body .item_info__text .btn_interview .btn_style .btn_viewmovie img,
+.page_contents_container .contents__body .item_info__text .btn_interview .btn_style:hover .btn_viewmovie img {
+  position: static;
+}
+.page_contents_container .contents__body .item_info__text .btn_interview .btn_style > img {
+  width: 214px;
+  height: 214px;
+}
+.page_contents_container .contents__body .item_info__text .btn_interview .btn_style:hover > img {
+  top: 0;
+  opacity: 0.8;
+}
+.page_contents_container .n3ds .contents__body .item_info__detail {
+  color: #cd202c;
+}
+.page_contents_container .n3ds .contents__body .item_info__title {
+  border-right: 5px solid #cd202c;
+}
+.page_contents_container .lineup_detail_nav {
+  position: relative;
+  width: 23%;
+  float: right;
+  border-left: 4px solid #808080;
+  min-height: 814px;
+  padding-left: 14px;
+  color: #808080;
+  font-size: 13px;
+  font-size: 1.2rem;
+}
+.page_contents_container .lineup_detail_nav .lineuplist_wiiu,
+.page_contents_container .lineup_detail_nav .lineuplist_3ds,
+.page_contents_container .lineup_detail_nav .lineuplist_amiibo {
+  margin-top: 32px;
+  margin-bottom: 18px;
+  margin-left: 8px;
+}
+.page_contents_container .lineup_detail_nav .lineuplist_wiiu_items,
+.page_contents_container .lineup_detail_nav .lineuplist_3ds_items,
+.page_contents_container .lineup_detail_nav .lineuplist_amiibo_items {
+  margin-left: 8px;
+}
+.page_contents_container .lineup_detail_nav .nav__item {
+  margin-bottom: 0.8em;
+  letter-spacing: 0.04em;
+}
+.page_contents_container .lineup_detail_nav .nav__item.cu a {
+  font-family: HelveticaNeue,Helvetica Neue,Helvetica,Arial,Roboto,"Droid Sans",Hiragino Kaku Gothic ProN,"メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+  text-decoration: underline;
+}
+.page_contents_container .lineup_detail_nav .nav__item a[target="_blank"]:after {
+  content: '';
+  display: inline-block;
+  height: 12px;
+
+  position: relative;
+  bottom: -1px;
+}
+.page_contents_container .lineup_detail_nav .lineuplist_wiiu_items .nav__item a.out {
+    padding-right:18px;
+  background: url(../../common/img/icon_blank_wiiu.png) no-repeat right 4px;
+}
+.page_contents_container .lineup_detail_nav .lineuplist_3ds_items .nav__item a.out {
+    padding-right:18px;
+  background: url(../../common/img/icon_out_3ds.png) no-repeat right 4px;;
+}
+
+.page_contents_container .lineup_detail_nav .btn_lineuplist {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.page_contents_container .lineup_detail_nav .btn_lineuplist a {
+  display: inline-block;
+  width: 88%;
+  line-height: 1;
+  margin-top: 14px;
+}
+.page_contents_container .lineup_detail_nav .btn_lineuplist:after {
+  content: "";
+  display: block;
+  background-color: #808080;
+  width: 88%;
+  height: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.noTouch .btn_lineuplist a {
+  padding-bottom: 0px;
+  border-bottom: 0 solid #ffff00;
+}
+.noTouch .btn_lineuplist a img {
+  -webkit-transition: all 50ms ease-in-out;
+  -moz-transition: all 50ms ease-in-out;
+  -ms-transition: all 50ms ease-in-out;
+  transition: all 50ms ease-in-out;
+}
+.noTouch .btn_lineuplist a:hover img {
+  opacity: 0.8;
+}
+.noTouch .lineuplist_wiiu_items a:hover {
+  color: #0096c8;
+  text-decoration: underline;
+}
+.noTouch .lineuplist_3ds_items a:hover {
+  color: #cd202c;
+  text-decoration: underline;
+}
+.noTouch .lineuplist_amiibo_items a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+/* amiibo
+------------------------------------------------------------------------------*/
+.page_contents_container .amiibo {
+  padding-bottom: 98px;
+}
+.page_contents_container .amiibo .item_img img {
+  margin-bottom: 19px;
+}
+.page_contents_container .amiibo .item_attention {
+  margin-left: 4px;
+  margin-bottom: 44px;
+  padding-left: 1em;
+  text-indent: -1em;
+  font-size: 10px;
+  line-height: 1.4;
+  color: #0096c8;
+}
+.page_contents_container .amiibo .amiibo_container {
+  overflow: hidden;
+  background: url(../detail_amiibo/img/line_dot.png) left bottom repeat-x;
+}
+.page_contents_container .amiibo #smabra.amiibo_container {
+  margin-bottom: 42px;
+  padding-bottom: 40px;
+}
+.page_contents_container .amiibo #mario30th.amiibo_container {
+  margin-bottom: 35px;
+  padding-bottom: 36px;
+}
+.page_contents_container .amiibo #chibirobo.amiibo_container {
+    margin-bottom: 35px;
+    padding-bottom: 36px;
+}
+.page_contents_container .amiibo #dobutsucard1.amiibo_container {
+  margin-bottom: 35px;
+  padding-bottom: 36px;
+}
+.page_contents_container .amiibo #dobutsu.amiibo_container {
+  margin-bottom: 36px;
+  padding-bottom: 36px;
+}
+.page_contents_container .amiibo #yoshi.amiibo_container {
+  background: none;
+}
+.page_contents_container .amiibo .amiibo_title_container {
+  float: left;
+  width: 29.5%;
+  margin-right: 1%;
+}
+.page_contents_container .amiibo .amiibo_title_container img {
+  max-width: 100%;
+  height: auto;
+}
+.page_contents_container .amiibo .amiibo_logo_title {
+  margin-bottom: 18px;
+}
+.page_contents_container .amiibo #dobutsucard1 .amiibo_logo_title {
+  margin-bottom: 15px;
+}
+.page_contents_container .amiibo #dobutsu .amiibo_logo_title {
+  margin-bottom: 2px;
+}
+.page_contents_container .amiibo #yoshi .amiibo_logo_title {
+  margin-bottom: 22px;
+}
+.page_contents_container .amiibo .amiibo_logo {
+  display: block;
+  text-align: center;
+}
+.page_contents_container .amiibo #smabra .amiibo_logo {
+  margin-top: -11px;
+  margin-bottom: 32px;
+}
+.page_contents_container .amiibo #mario30th .amiibo_logo {
+  margin-top: 5px;
+  margin-bottom: 16px;
+}
+.page_contents_container .amiibo #chibirobo .amiibo_logo {
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+.page_contents_container .amiibo #dobutsucard1 .amiibo_logo {
+  margin-top: 10px;
+  margin-bottom: 26px;
+}
+.page_contents_container .amiibo #dobutsu .amiibo_logo {
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.page_contents_container .amiibo .amiibo_title {
+  display: block;
+  text-align: center;
+}
+.page_contents_container .amiibo .amiibo_date {
+  text-align: center;
+}
+.page_contents_container .amiibo .amiibo_list_container {
+  position: relative;
+  float: left;
+  width: 69.5%;
+  padding-top: 3px;
+}
+.page_contents_container .amiibo .amiibo_list_container:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -6px;
+  width: 4px;
+  height: 100%;
+}
+.page_contents_container .amiibo .amiibo_list_container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -6px;
+  width: 4px;
+  height: 100px;
+}
+.page_contents_container .amiibo #smabra .amiibo_list_container:before {
+  background-color: #BEBEBE;
+}
+.page_contents_container .amiibo #smabra .amiibo_list_container:after {
+  background-color: #000000;
+}
+.page_contents_container .amiibo #mario30th .amiibo_list_container:before {
+  background-color: #facd00;
+}
+.page_contents_container .amiibo #mario30th .amiibo_list_container:after {
+  background-color: #fe9007;
+}
+.page_contents_container .amiibo #chibirobo .amiibo_list_container:before {
+    background-color: #b5b4b6;
+}
+.page_contents_container .amiibo #chibirobo .amiibo_list_container:after {
+    background-color: #2f2f30;
+}
+.page_contents_container .amiibo #dobutsucard1 .amiibo_list_container:before {
+  background-color: #b8d232;
+}
+.page_contents_container .amiibo #dobutsucard1 .amiibo_list_container:after {
+  background-color: #009468;
+}
+.page_contents_container .amiibo #dobutsu .amiibo_list_container:before {
+  background-color: #b8d232;
+}
+.page_contents_container .amiibo #dobutsu .amiibo_list_container:after {
+  background-color: #009468;
+}
+.page_contents_container .amiibo #yoshi .amiibo_list_container:before {
+  background-color: #fd9d4d;
+}
+.page_contents_container .amiibo #yoshi .amiibo_list_container:after {
+  background-color: #fe6a4a;
+}
+.page_contents_container .amiibo .amiibo_item {
+  display: inline-block;
+  min-width: 27%;
+  margin-left: 5.5%;
+  margin-right: -1.8%;
+  margin-bottom: 83px;
+  vertical-align: bottom;
+  text-align: center;
+}
+.page_contents_container .amiibo .amiibo_item img {
+  max-width: 100%;
+  height: auto;
+}
+.page_contents_container .amiibo #mario30th .amiibo_item {
+  vertical-align: top;
+}
+.page_contents_container .amiibo #chibirobo .amiibo_item {
+    vertical-align: top;
+    margin-bottom: 13px;
+}
+.page_contents_container .amiibo #dobutsucard1 .amiibo_item {
+  min-width: 28%;
+  margin-bottom: 17px;
+  padding-top: 16px;
+  vertical-align: top;
+}
+.page_contents_container .amiibo #dobutsu .amiibo_item {
+  min-width: 28.3%;
+  margin-bottom: 2px;
+  padding-top: 29px;
+  vertical-align: top;
+}
+.page_contents_container .amiibo #yoshi .amiibo_item {
+  margin-top: -4px;
+  margin-left: 3.9%;
+  margin-bottom: 20px;
+}
+.page_contents_container .amiibo #smabra .amiibo_item.last_line {
+  margin-bottom: 20px;
+}
+.page_contents_container .amiibo #mario30th .amiibo_item.last_line {
+  margin-bottom: 13px;
+}
+.page_contents_container .amiibo #dobutsucard1 .amiibo_item.last_line {
+  margin-bottom: -5px;
+}
+.page_contents_container .amiibo #dobutsu .amiibo_item.last_line {
+  margin-bottom: 3px;
+}
+.page_contents_container .amiibo .amiibo_img {
+  display: table;
+  width: 100%;
+  margin-bottom: 13px;
+}
+.page_contents_container .amiibo .amiibo_img span {
+  box-sizing: border-box;
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: bottom;
+}
+.page_contents_container .amiibo #gamewatch .amiibo_img span {
+  position: relative;
+  left: -8px;
+}
+.page_contents_container .amiibo #robot .amiibo_img span {
+  position: relative;
+  left: 18px;
+}
+.page_contents_container .amiibo #falco .amiibo_img span {
+  position: relative;
+  left: 24px;
+}
+.page_contents_container .amiibo #mario30th .amiibo_img {
+  height: 194px;
+}
+.page_contents_container .amiibo #chibirobo .amiibo_img {
+  height: 194px;
+}
+.page_contents_container .amiibo #dobutsu .amiibo_img {
+  height: 166px;
+}
+.page_contents_container .amiibo .amiibo_name {
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #000000;
+}
+.page_contents_container .amiibo .amiibo_name.line2 {
+  min-height: 40px;
+}
+.page_contents_container .amiibo #dobutsu .amiibo_item.last_line .amiibo_name {
+  margin-bottom: 0;
+}
+.page_contents_container .amiibo .amiibo_btn {
+  max-width: 166px;
+  margin: 0 auto;
+}
+.page_contents_container .amiibo .btn_style {
+  height: 30px;
+}
+.page_contents_container .amiibo .btn_bg {
+  background-color: #999B9C;
+}
+.page_contents_container .amiibo .btn_bg:before {
+  background-color: #000000;
+}

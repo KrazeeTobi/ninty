@@ -1,0 +1,386 @@
+#leftContent #contents{
+	padding:136px 0 70px 0;
+	width: 100%;
+}
+
+#leftContent #contents .ov {
+	z-index: 3;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#leftContent #contents .wrap {
+	width: 740px;
+	margin: 0 auto;
+	position: relative;
+	cursor: default;
+}
+
+#leftContent #contents .wrap .title {
+	margin-bottom: 32px;
+}
+
+#leftContent #contents .wrap .hardCategory {
+	position: absolute;
+	right: 0;
+	top: 12px;
+}
+
+#leftContent #contents .wrap #mainArea {
+	position: relative;
+	width: 740px;
+	height: 461px;
+	overflow: hidden;
+}
+
+#leftContent #contents .wrap #mainArea .mainVisualFrame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+#leftContent #contents .wrap #mainArea #cuArrow {
+	position: absolute;
+	top: 12px;
+	left: 658px;
+	z-index: 2;
+	display: none;
+}
+
+#leftContent #contents .wrap #mainArea #cuBox {
+	position: absolute;
+	top: 12px;
+	right: 1px;
+	z-index: 2;
+	display: none;
+}
+
+#leftContent #contents .wrap #mainArea ul {
+	position: absolute;
+	width: 76px;
+	height: 461px;
+	top: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	display: none;
+}
+
+.wiiu #leftContent #contents .wrap #mainArea ul {
+	border-left: 1px solid #0096c8;
+}
+
+.n3ds #leftContent #contents .wrap #mainArea ul {
+	border-left: 1px solid #ce181e;
+}
+
+#leftContent #contents .wrap #mainArea li {
+	padding: 0 0 4px 5px;
+	line-height: 0.1;
+	position: relative;
+}
+
+*:first-child+html #leftContent #contents .wrap #mainArea li {
+	padding: 0 0 0 5px;	
+}
+
+
+#leftContent #contents .wrap #mainArea .selectImg .ov {
+	left: 5px;
+}
+
+#leftContent #contents .wrap #mainVisual {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+#leftContent #contents .btnWide {
+	margin-top: 20px;
+}
+
+#leftContent #contents .wrap .movieSS {
+	margin-top: 35px;
+}
+
+.wiiu #leftContent #contents .wrap .movieSS .movieWrap {
+	float: left;
+	width: 222px;
+	border-right: 1px solid #bebebe;
+}
+
+.3ds #leftContent #contents .wrap .ssTitle {
+	float: left;
+	width: 223px;
+}
+
+
+.n3ds #leftContent #contents .wrap .movieSS .movieWrap {
+	float: left;
+	width: 229px;
+	border-right: 1px solid #bebebe;
+}
+
+
+#leftContent #contents .wrap .movieSS .movieWrap li {
+	line-height: 0.1;
+}
+
+#leftContent #contents .wrap .movieSS .movieWrap .movThumb {
+	position: relative;
+	width: 197px;
+}
+
+#leftContent #contents .wrap .movieSS .movieWrap .movThumb .movIcon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+
+
+.wiiu #leftContent #contents .wrap .movieSS .ssWrap {
+	float: right;
+	width: 493px;
+    overflow: hidden;
+	
+	
+}
+
+.wiiu #leftContent #contents .wrap .movieSS .wiifitu {
+	width: 300px;
+}
+
+.n3ds #leftContent #contents .wrap .movieSS .ssWrap {
+	float: right;
+	width: 493px;
+    overflow: hidden;
+}
+
+.wiiu #leftContent #contents .wrap .movieSS .accessoryWrap {
+	float: right;
+	height: 148px;
+	border-left: 1px solid #bebebe;
+	width: 50px;
+	margin-right: 0px;
+	padding-right: 90px;
+	padding-left:10px;
+}
+ 
+#leftContent #contents .wrap .ssList {
+    margin: -7px -7px 0 0;
+    padding: 0;
+    zoom: 1;
+}
+ 
+#leftContent #contents .wrap .ssList li {
+    width: 93px;
+    margin: 7px 7px 0 0;
+    float: left;
+    list-style: none;
+	position: relative;
+}
+ 
+.wiiu #leftContent #contents .wrap .ssList li {
+	height: 52px;
+}
+ 
+.n3ds #leftContent #contents .wrap .ssList li {
+	height: 56px;
+}
+
+#leftContent #contents .copyright {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	text-align: center;
+	margin-top: 40px;
+	color: #555;
+}
+
+#leftContent #contents .wrap .ttlList {
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: default;
+}
+
+#leftContent #contents .wrap .btnList {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+#leftContent #contents .wrap #listIndexWrap {
+    width: 740px;
+    margin: 0 auto;
+    overflow: hidden;
+	padding: 75px 0 50px;
+	cursor: default;
+}
+ 
+#leftContent #contents .wrap #listIndexWrap ul {
+    margin: 0 -16px 0 0;
+    padding: 0;
+    zoom: 1;
+}
+ 
+#leftContent #contents .wrap #listIndexWrap ul li {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 88%;
+	color: #555;
+    width: 236px;
+	height: 45px;
+    margin: 0 16px 0 0;
+    float: left;
+    list-style: none;
+	position: relative;
+	border-bottom: 1px solid #bebebe;
+	line-height: 45px;
+}
+ 
+.wiiu #leftContent #contents .wrap #listIndexWrap ul li {
+	background: url(../img/detail/bgListCu_wiiu.png);
+}
+ 
+.n3ds #leftContent #contents .wrap #listIndexWrap ul li {
+	background: url(../img/detail/bgListCu_3ds.png);
+}
+ 
+.wiiu #leftContent #contents .wrap #listIndexWrap ul .cu {
+    width: 223px;
+	background: url(../img/detail/bgListCu_wiiu.png) left 50%;
+	padding-left: 13px;
+	cursor: default;
+}
+ 
+.wiiu #leftContent #contents .wrap #listIndexWrap ul li a {
+	color: #555;
+	display: block;
+	background: url(../img/detail/listIndexArrow_wiiu.png) no-repeat left 50%;
+	padding-left: 13px;
+}
+ 
+.n3ds #leftContent #contents .wrap #listIndexWrap ul .cu {
+    width: 223px;
+	background: url(../img/detail/bgListCu_3ds.png) left 50%;
+	padding-left: 13px;
+	cursor: default;
+}
+ 
+.n3ds #leftContent #contents .wrap #listIndexWrap ul li a {
+	color: #555;
+	display: block;
+	background: url(../img/detail/listIndexArrow_3ds.png) no-repeat left 50%;
+	padding-left: 13px;
+}
+
+/*------slider---------------*/
+
+
+#sliderContent{
+	position:fixed;
+	z-index:40;
+	
+}
+
+#sliderContent #bg{
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#000;
+}
+
+/*-- detail --*/
+#sliderDetail{
+	position:fixed;
+	z-index:41;
+	left:0;
+	list-style:none;
+
+}
+
+#sliderDetail ul{
+	position:absolute;
+}
+
+#sliderDetail ul li{
+	height:451px;
+	list-style:none;
+	padding-bottom:40px;
+
+}
+
+/*-- menu --*/
+#sliderMenu{
+	position:fixed;
+	z-index:41;
+	left:0;
+	list-style:none;
+	
+}
+
+#sliderMenu li{
+	list-style:none;
+	width:56px;
+	padding-bottom:3px;
+}
+
+#sliderMenu li img{
+	cursor:pointer;
+	width:100%;
+	
+}
+
+/*-- close btn --*/
+#sliderCloseBtn{
+	position:fixed;
+	z-index:51;
+	right:0;
+	cursor:pointer;
+	background:url(../../cmn/img/btnCloseBg.png) no-repeat 0 -80px;
+}
+
+/*-- alert --*/
+#alertWrap {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 900;
+	background-color:#000;
+	opacity: 0.92;
+	filter: alpha(opacity=92);
+	-moz-opacity: 0.92;
+	display: none;
+}
+
+#alertWin {
+	position: absolute;
+	width: 500px;
+	height: 316px;	
+	z-index: 901;
+	background-color:#fff;
+	top: 50%;
+	left: 50%;
+	margin: -158px 0 0 -250px;
+	padding-top: 15px;
+	display: none;
+}
+
+#alertWin .alertBtn {
+	width: 334px;
+	margin: 15px auto 0;
+}
+
+#alertWin .alertBtn img {
+	float: left;
+}
+
+

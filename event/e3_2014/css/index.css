@@ -1,0 +1,143 @@
+@charset "Shift_JIS";
+
+/*--- common ---*/
+html{
+	height:100%;
+}
+
+body{
+	height:100%;
+	min-height: 620px;
+}
+.pagecontainer{
+	position: relative;
+	width: 100%;
+	min-width: 960px;
+	height:100%;
+    min-height: 100%;
+    margin: 0 auto;
+    background:#f8f8f8;
+}
+body > .pagecontainer{
+	height: auto;
+}
+
+#globalfooter{
+	position: fixed;
+	z-index: 10001;
+	left: 0;
+	bottom: 0;
+}
+
+#content .contenttitle {
+	position: absolute;
+	left: 50%;
+	top: 43%;
+	margin:-169px 0 0 -169px;
+	width: 338px;
+	height: 338px;
+}
+#content .contenttitle .obverse {
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	margin:-100px 0 0 -145px;
+}
+#content .contenttitle .reverse {
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	margin:-120px 0 0 -169px;
+	display: none;
+}
+#content .contenttitle .btnlinklineup{
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	margin:156px 0 0 -78px;
+	display: none;
+}
+#content .bnrssi{
+	position: absolute;
+	left: 50%;
+	bottom: 57px;
+	margin: 0 0 0 -314px;
+}
+#content .thumb{
+	float: left;
+}
+
+#content {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#content .container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+#content .thumb {
+	position: absolute;
+	overflow: hidden;
+}
+
+#content .thumb img {
+	width: 100%;
+	height: auto;
+}
+
+#content .thumb .mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#content .thumb .mask .bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200%;
+	height: 150%;
+}
+#content .thumb .mask .ov {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+#content .thumb .mask .ov img,
+#content .thumb .mask .ov rect {
+	position: relative;
+	max-width: 384px;
+	margin: 0 auto;
+}
+#content .thumb .mask .ov rect {
+	width: 100%!important;
+	height: 100%!important;
+}
+
+#content .thumb .n3ds .bg {
+	background: #ce181e;
+}
+#content .thumb .wiiu .bg {
+	background: #21a3cf;
+}
+#content .thumb .smash .bg {
+	background: #000;
+}
+
+#content .thumb .cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #f8f8f8;
+}

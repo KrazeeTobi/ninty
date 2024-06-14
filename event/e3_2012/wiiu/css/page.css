@@ -1,0 +1,347 @@
+#leftContent #contents{
+	padding:136px 0 70px 0;
+	width: 100%;
+}
+
+/*-- page common --*/
+.wrap{
+	width: 100%;
+	margin: 0 auto;
+	border-bottom:1px solid #bebebe;
+}
+
+.posFix{
+	position:relative;
+}
+
+.leftWrap{
+	float:left;
+}
+
+.rightWrap{
+	float:right;
+}
+
+dd, dt, dl{
+	margin:0;
+	padding:0;
+}
+
+/*-- main area --*/
+#mainArea {
+	padding: 20px 0 30px 70px;
+	border:none;
+}
+
+#mainArea #mainLeft {
+	float:left;
+	width:45%;
+}
+#mainArea #mainRight {
+	float:left;
+	width:45%;
+}
+
+#mainArea #mainRight img,
+#mainArea #mainLeft img{
+	width:100%;
+	
+}
+
+
+/*-- info --*/
+#info {
+	padding:20px 0 30px 0;
+}
+
+#info .leftWrap{
+	width:272px;
+	text-align:right;
+	margin-left: 5px;
+}
+
+#info .rightWrap{
+	padding-top:14px;
+	width:480px;
+}
+
+#info .rightWrap ul{
+}
+
+#info .rightWrap ul li{
+	margin-left:4px;
+	border-bottom:4px solid #ccc;
+	float:left;
+}
+
+#info .rightWrap ul li img{
+	
+}
+
+
+/*-- movie --*/
+#movie{
+	display: table;
+	padding: 60px 0;
+}
+
+#movieLeft{
+	display: table-cell;
+	width: 36%;
+	vertical-align: middle;
+}
+
+#movieRight{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	}
+
+#movie #movieRight #btn1{
+	margin-bottom:7px;
+}
+
+#movie #movieRight #btn2{
+}
+
+#movie #movieRight #btn3{
+	border-top: 1px dotted #bebebe;
+	padding-top: 12px;
+	margin: 12px auto 0;
+	width: 418px;
+	position: relative;
+}
+
+#movie #movieRight #btn3 .btn3ov {
+	position: absolute;
+	z-index: 2;
+	margin: 0 0 0 -418px;
+	opacity: 0;
+}
+
+
+/*-- color --*/
+#color{
+	margin:0 auto;
+	padding:50px 0 80px 0;
+	width:740px;
+	position:relative;
+}
+
+#color .leftWrap{
+	padding-top:120px;
+	float:left;
+	width:38%;
+}
+
+#color .leftWrap img{
+	
+}
+
+#color .rightWrap{
+	padding-top:20px;
+	float:right;
+	width:62%;
+}
+
+#color #controller1{
+	float:left;
+	width:50%;
+	text-align:center;
+}
+
+
+#color #controller2{
+	float:right;
+	width:50%;
+	text-align:center;
+}
+
+
+#color .front{
+	padding-bottom:10px;
+}
+
+#color .front img{
+	width:80%;
+}
+
+#color .hard{
+	padding-bottom:20px;	
+}
+#color .hard img{
+	width:85%;
+}
+
+#color .name img{
+	width:78%;
+}
+
+/*-- accessory --*/
+#accessories{
+	padding:50px 0 30px 0;
+	
+}
+
+#accessories img#accessoriesTitle{
+	margin-left:70px;
+}
+
+#accessories #items{
+	margin:0 auto;
+	padding:30px 0 0 0;
+	width:740px;
+	
+}
+
+#accessories #items ul{
+	padding-top:50px;
+}
+
+#accessories #items ul li{
+	margin-right:65px;
+	float:left;
+}
+
+#accessories #items ul li:last-child{
+	margin-right:0px;
+}
+
+
+
+#accessories #cation{
+	padding:20px 0 60px 0;
+	text-align:center;
+}
+
+/*-- spec --*/
+#hardTitleWrap{
+	display: table;
+	width: 100%;
+	margin-top: -95px;
+	position: relative;
+}
+
+#hardTitleLeft{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+#hardTitleLeft p{
+	margin: 17% auto 0;
+	width:740px;
+	text-align: left;
+}
+
+
+#hardTitleRight{
+	display: table-cell;
+	vertical-align: middle;
+	width: 36%;
+	text-align: right;
+}
+
+#hard{
+	margin:-80px auto 0;
+	padding-top:70px;
+	width:740px;
+}
+
+#hard img#hardTitle{
+	margin-bottom:70px;
+}
+
+#specContainer{
+	width:100%;
+	background:url(../../img_cmn/line_len.gif) repeat-y center;
+}
+
+#leftSpec{
+	float:left;
+	width:45%;
+	margin-bottom: -30px;
+}
+
+#rightSpec{
+	float:right;
+	width:45%;
+	
+}
+
+.spec .subTitle{
+	padding:0 0 30px 0;
+}
+
+.spec dl{
+	
+}
+
+.spec dt{
+	border-top:1px solid #bebebe;
+	padding-top:30px;
+}
+
+.spec dd{
+	padding:20px 0 30px 2px;
+	color:#555;
+	line-height:20px;
+}
+.spec dd p{
+	font-size: 90%;
+	margin-left: 0;
+}
+
+.spec dd .notes{
+	text-indent: -1em;
+	margin-top: -6px;
+	margin-left: 1em;
+	letter-spacing: 0.05em;
+}
+
+
+.spec dd:last-child{
+	margin-bottom:50px;	
+	border-bottom:1px solid #bebebe;
+}
+
+.spec dd ul li{
+	padding:0 0 20px 16px;
+	background:url(../img/hard_list_circle.gif) no-repeat 0 4px;
+}
+
+.spec dd ul li:last-child{
+	padding:0 0 0 18px;
+	background:url(../img/hard_list_circle.gif) no-repeat 0 4px;
+}
+
+.spec div#c_photo{
+	width: 315px;
+	margin: 20px auto 0;
+}
+
+.spec div.p{
+	height: 112px;
+	display: inline;
+}
+
+.spec div img{
+	margin: 0 8px 0;
+}
+
+.noline{
+	border:none;
+}
+
+
+/*--------------------------zoom*/
+#zoomIcon{
+	width:69px;
+	height:20px;
+	display:block;
+	background: url(../../img_cmn/icon_zoom.png) no-repeat -0 0;
+	z-index:2;
+	position:fixed;
+	top:-20px;
+}
+

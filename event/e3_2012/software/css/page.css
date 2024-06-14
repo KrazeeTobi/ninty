@@ -1,0 +1,217 @@
+#leftContent #contents{
+	padding:136px 0 70px 0;
+	width: 100%;
+}
+
+#leftContent #contents .wrap {
+	width: 740px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#leftContent #contents .wrapBtm {
+	margin-bottom: 13px;
+}
+
+#leftContent #contents .btnInterview {
+	width: 740px;
+	margin: 0 auto;
+}
+
+#leftContent #contents .ov {
+	z-index: 2;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#leftContent #contents .wrap .title {
+	margin-bottom: 15px;
+}
+
+#leftContent #contents .wrap .leadText {
+	margin-bottom: 25px;
+}
+
+#leftContent #contents #ttlWiiU {
+	width: 100%;
+	height: 460px;
+	position: relative;
+}
+
+#leftContent #contents .wrap .ttlList {
+	margin-bottom: 34px;
+}
+
+#leftContent #contents #ttlWiiU .categoryTitle {
+	width: 740px;
+	margin: 0 auto;
+	padding-top: 154px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -370px;
+	z-index: 3;
+}
+
+#mainBg {
+	background: url(../img/mainPlaystyle/1.jpg) no-repeat 50% 0;
+	width: 100%;
+	height: 460px;
+	z-index: 1;
+}
+
+#leftContent #contents .wrap .listContainer {
+	border-top: 1px dotted #8c8c8c;
+    width: 740px;
+    margin: 26px auto 0;
+	padding-top: 26px;
+    overflow: hidden;
+}
+
+#leftContent #contents .wrap .List3ds {
+	border-top: none;
+}
+ 
+#leftContent #contents .wrap .listContainer ul {
+    margin: -10px -13px 0 0;
+    padding: 0;
+    zoom: 1;
+}
+ 
+#leftContent #contents .wrap .listContainer ul li {
+    width: 238px;
+	height: 194px;
+    margin: 6px 13px 0 0;
+    float: left;
+    list-style: none;
+	position: relative;
+}
+
+#leftContent #contents .ttlThird {
+	width: 740px;
+	margin: 60px auto 20px;
+}
+
+#leftContent #contents .btnWide3DS {
+	width: 740px;
+	margin: 0 auto 10px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #bebebe;
+}
+
+#leftContent #contents .ttlThird3DS {
+	width: 740px;
+	margin: 60px auto 30px;
+}
+
+#leftContent #contents .wrap .listThirdContainer {
+    width: 740px;
+    margin: 13px auto 0;
+	padding-top: 13px;
+    overflow: hidden;
+}
+
+#leftContent #contents .wrap .listThird3dsContainer {
+    width: 740px;
+    margin: 26px auto 0;
+	padding-top: 8px;
+    overflow: hidden;
+}
+ 
+#leftContent #contents .wrap .listThirdContainer ul, #leftContent #contents .wrap .listThird3dsContainer ul {
+    margin: 0;
+    padding: 0;
+}
+ 
+#leftContent #contents .wrap .listThirdContainer ul li {
+    width: 703px;
+	height: 82px;
+    margin: 0;
+    float: left;
+    list-style: none;
+	position: relative;
+	border-bottom: 1px solid #bebebe;
+	padding: 12px 0 0 137px;
+}
+ 
+#leftContent #contents .wrap .listThird3dsContainer ul li {
+    width: 703px;
+	height: 82px;
+    margin: 0;
+    float: left;
+    list-style: none;
+	position: relative;
+	border-bottom: 1px solid #bebebe;
+	padding: 12px 0 0 137px;
+}
+
+#leftContent #contents .wrap .movSS {
+	width: 310px;
+	position: absolute;
+	left: 430px;
+	top: 30px;
+	text-align: right;
+}
+ 
+#leftContent #contents .wrap .listThirdContainer ul .border, #leftContent #contents .wrap .listThird3dsContainer ul .border {
+	border-top: 1px solid #bebebe;
+}
+
+#leftContent #contents .wrap .listThirdContainer ul li .thumb, #leftContent #contents .wrap .listThird3dsContainer ul li .thumb {
+	position: absolute;
+	top: 12px;
+	left: 3px;
+}
+
+#leftContent #contents .wrap .listThirdContainer ul li p {
+	display: table-cell;
+	width: 450px;
+	height: 72px;
+	vertical-align: middle;
+	color: #0096c8;
+	font-size: 100%;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#leftContent #contents .wrap .listThird3dsContainer ul li p {
+	display: table-cell;
+	width: 450px;
+	height: 72px;
+	vertical-align: middle;
+	color: #ce181e;
+	font-size: 100%;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#leftContent #contents .wrap .listThirdContainer ul li p span, #leftContent #contents .wrap .listThird3dsContainer ul li p span {
+	color: #555;
+	font-size: 80%;
+	font-weight: normal;
+	line-height: 1.8;
+}
+
+#leftContent #contents .note {
+	font-size: 80%;
+	color: #8c8c8c;
+	text-align: right;
+	padding-top: 7px;
+	letter-spacing: 0.2em;
+}
+
+#leftContent #contents .ttlCategory3DS {
+	width: 740px;
+	margin: 70px auto 30px;
+}
+
+#leftContent #copyright {
+	width: 740px;
+	margin: 80px auto 30px;
+	color: #777;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 70%;
+	line-height: 1.4;
+}

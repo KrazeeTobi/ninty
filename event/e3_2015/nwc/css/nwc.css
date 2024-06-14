@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+
+/* page styles
+------------------------------------------------------------------------------*/
+.page_contents_inner {
+	width:100%;
+	margin: 0 auto;
+	padding-bottom: 97px;
+}
+
+.page_contents_inner {
+  /* .broadcast_list */
+  /* .about_e3 */
+}
+
+.page_contents_inner .nwc2015_title_part {
+	position:relative;
+	width:924px;
+	height:338px;
+	margin:0 auto;
+}
+.page_contents_inner .nwc2015_title_part h2 {
+	position:absolute;
+	left:89px;
+	top:27px;
+}
+.page_contents_inner .nwc2015_title_part p {
+	position:absolute;
+	left:406px;
+	top:213px;
+}
+.page_contents_inner .nwc2015_title_part p a{
+	position:relative;
+	width:431px;
+	height:37px;
+}
+.page_contents_inner .nwc2015_title_part p a .btn_skew_shadow{
+	position:absolute;
+	left:22px;
+	top:4px;
+	width:403px;
+	height:33px;
+	-webkit-transform: skew(-36deg);
+	-moz-transform: skew(-36deg);
+	-ms-transform: skew(-36deg);
+	transform: skew(-36deg);
+	background:#0096c8;
+	display:block;
+}
+.noTouch .page_contents_inner .nwc2015_title_part p a .btn_skew_floor,
+.noTouch .page_contents_inner .nwc2015_title_part p a img{
+	-webkit-transition: all 50ms ease-in-out;
+	-moz-transition: all 50ms ease-in-out;
+	-ms-transition: all 50ms ease-in-out;
+	transition: all 50ms ease-in-out;
+}
+.page_contents_inner .nwc2015_title_part p a .btn_skew_floor{
+	position:absolute;
+	left:18px;
+	top:0;
+	width:403px;
+	height:33px;
+	-webkit-transform: skew(-36deg);
+	-moz-transform: skew(-36deg);
+	-ms-transform: skew(-36deg);
+	transform: skew(-36deg);
+	background:#fed816;
+	display:block;
+}
+.page_contents_inner .nwc2015_title_part p a img{
+	position:absolute;
+	left:37px;
+	top:7px;
+}
+.noTouch .page_contents_inner .nwc2015_title_part p a:hover .btn_skew_floor{
+	left:22px;
+	top:4px;
+}
+.noTouch .page_contents_inner .nwc2015_title_part p a:hover img{
+	left:41px;
+	top:11px;
+}
+
+.page_contents_inner .nwc2015_movie_part {
+ 	background: url(../img/bg_star.png) 50% 0 repeat;
+	width:100%;
+	min-width:924px;
+	margin:-44px auto 0;
+	border-top:6px #003755 solid;
+	border-bottom:6px #003755 solid;
+}
+.page_contents_inner .nwc2015_movie_part .nwc2015_movie_bg {
+ 	background: url(../img/bg_movie.png) 0 0 no-repeat;
+	position:relative;
+	width:772px;
+	height:448px;
+	margin:42px auto 0;
+}
+.page_contents_inner .nwc2015_movie_part .nwc2015_movie {
+	padding-left:18px;
+	padding-top:15px;
+}
+.page_contents_inner .nwc2015_movie_part .nwc2015_movie_text {
+	width:757px;
+	margin:0 auto;
+	padding-top:15px;
+	padding-left:15px;
+	padding-bottom:20px;
+	color: #fff;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height:1.5;
+	letter-spacing:0.1em;
+}
+
+.page_contents_inner .nwc2015_about_part {
+ 	background: url(../img/bg_about.png) 0 0 no-repeat;
+	position:relative;
+	width:100%;
+/* 	max-width: 1136px; */
+	max-width: 924px;
+	min-width: 924px;
+	height:234px;
+	margin:14px auto 0;
+	padding-bottom: 60px;
+}
+.page_contents_inner .nwc2015_about_part .nwc2015_about_title {
+	position:absolute;
+	left:236px;
+	top:36px;
+}
+.page_contents_inner .nwc2015_about_part .nwc2015_about_img {
+	position:absolute;
+	left:0;
+	top:33px;
+}
+.page_contents_inner .nwc2015_about_part .nwc2015_about_text {
+	position:absolute;
+	left:230px;
+	top:128px;
+	color: #fff;
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height:1.7;
+	letter-spacing:0.05em;
+}
+.page_contents_inner .nwc2015_stage_part {
+ 	background: url(../img/bg_stage.png) 100% 0 no-repeat;
+	position:relative;
+	width:100%;
+	max-width: 1076px;
+	min-width: 924px;
+	height:245px;
+	margin:14px auto 0;
+}
+.page_contents_inner .nwc2015_stage_part .nwc2015_stage_title {
+	position:absolute;
+	right:626px;
+	top:41px;
+	z-index:3;
+}
+.page_contents_inner .nwc2015_stage_part .nwc2015_stage_img {
+	position:absolute;
+	right:59px;
+	top:44px;
+	z-index:2;
+}
+.page_contents_inner .nwc2015_stage_part .nwc2015_stage_text {
+	position:absolute;
+	right:0;
+	top:114px;
+	width: 871px;
+	padding-left:53px;
+	color: #245571;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height:1.3;
+	text-align:left;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>イベントレポート｜任天堂 E3 2015情報</title>
+<!-- name appearance -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<!-- name contents -->
+<meta name="keywords" content="任天堂, E3 2015">
+<meta name="description" content="『大乱闘スマッシュブラザーズ』即日配信！ 新要素のお知らせ">
+<!-- og -->
+<meta property="og:title" content="イベントレポート｜任天堂 E3 2015情報">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://www.nintendo.co.jp/event/e3_2015/event/061401/index.html">
+<meta property="og:description" content="『大乱闘スマッシュブラザーズ』即日配信！ 新要素のお知らせ">
+<meta property="og:image" content="http://www.nintendo.co.jp/event/e3_2015/event/061401/img/ogimage.png">
+<meta property="og:locale" content="ja_JP">
+<!-- style -->
+<link rel="stylesheet" href="../../common/css/core.css">
+<link rel="stylesheet" href="../css/event_article.css">
+<link rel="stylesheet" href="css/page.css">
+<!-- scripts -->
+<script src="../../common/js/jquery.js"></script>
+<script src="../../common/js/e3.js"></script>
+<script src="../../common/js/plugins.js"></script>
+<script src="../../common/js/core.js"></script>
+<script src="../js/event_article.js"></script>
+<script src="/common/js/ua/ua.js"></script>
+</head>
+<body id="#pagetop"><div id="back"></div>
+<div class="page_wrapper">
+
+<div class="page_header">
+	<header role="banner" class="g_header">
+		<h1 class="logo_e3"><a href="../../index.html"><img src="../../common/img/h_logo_e3-2015.png" alt="E3 2015" width="138" height="32"></a></h1>
+		<p class="logo_nintendo"><a href="../../../../"><img src="../../common/img/h_logo_ntd.png" alt="nintendo" width="76" height="18"></a></p>
+		<nav class="g_nav" role="navigation">
+			<ul class="g_nav__inner clearfix">
+				<li></li>
+			</ul>
+		</nav>
+		<ul class="g_sns">
+			<li class="tw"><a href=""><img src="../../common/img/h_sns_tw.png" alt="twitter" width="28" height="28"></a></li>
+			<li class="fb"><a href=""><img src="../../common/img/h_sns_fb.png" alt="facebook" width="28" height="28"></a></li>
+		</ul>
+	</header>
+</div>
+
+<div class="page_contents_container">
+	<main role="main">
+		<article class="page_contents">
+			<section class="page_contents_inner clearfix">
+
+				<section class="contents_body">
+					<div class="contents_article_title clearfix">
+			  		<h2>『大乱闘スマッシュブラザーズ』即日配信！ 新要素のお知らせ</h2>
+			  		<p class="date">2015.6.14 23:40</p>
+			  	</div>
+					<div class="contents_article_main">
+						<p class="article_mainmovie"><div class="iframe-item_Wrap"><iframe style="border:1px solid #E8E8E8; width="640" height="390" src="https://www.youtube.com/embed/xvSiyZsiV8U?showinfo=0&wmode=transparent&amp;rel=0" frameborder="0" allowfullscreen></iframe></div></p>
+
+						<p>「『大乱闘スマッシュブラザーズ』即日配信！ 新要素のお知らせ」を放送いたしました。<br/>
+                        新参戦ファイターやMiiコスチュームなど、追加コンテンツ第2弾の配信を開始しました。</p>
+                        <a href="http://www.smashbros.com/jp/dlc/index.html" target="_blank"><img src="img/_banner.jpg" width="329" height="150"></a>
+			  	</div>
+				</section>
+
+				<nav class="contents_list">
+        	<div class="contents_article_list_border">
+            	<div class="contents_article_list">
+              	<dl class="contents_article_list_title">
+                	<dt><img src="../img/txt_eventreport.png" alt="EVENT REPORT" width="230" height="21"></dt>
+                  <dd>現地で行われたイベントの様子や、<br>プレゼンテーションなどの映像をお届けします。</dd>
+                </dl>
+                <div class="contents_article_list_set" id="eventList">
+                	<dl class="day0619"></dl>
+                	<dl class="day0618"></dl>
+                	<dl class="day0617"></dl>
+                	<dl class="day0616"></dl>
+                	<dl class="day0615"></dl>
+                	<dl class="day0614"></dl>
+                </div>
+                <p class="btn_eventreporttop"><a href="../index.html"><img src="../img/btn_eventreport_inner.png" alt="EVENT REPORTトップへ戻る" width="204" height="15"></a></p>
+             </div>
+        	</div>
+					<div class="contents_banner_list">
+					<a href="../../nwc/index.html" class="bnr_nwc">
+          	<div class="contents_banner">
+              	<p class="contents_banner_logo"><img src="../img/bnr_nwc_logo.png" alt="Nintendo World Championships 2015" width="201" height="152"></p>
+                <p class="contents_banner_text"><img src="../img/bnr_nwc_text.png" alt="現地で行われたトーナメントの映像をお届けします。" width="278" height="30"></p>
+                <div class="contents_banner_btn">
+                	<p><span><img src="../img/btn_nwc_inner.png" alt="くわしくはこちら" width="124" height="14"></span></p>
+                </div>
+            </div>
+          </a>
+         </div>
+      	</nav>
+
+			</section>
+		</article><!-- /.page_contents_inner -->
+	</main>
+</div><!-- /.page_contents -->
+
+<div class="page_footer">
+	<footer class="g-footer" role="contentinfo">
+		<span class="pagetop">
+			<span class="f_pagetop"><img src="../../common/img/f_pagetop.png" width="304" height="154" alt="" usemap="#f_pagetop"></span>
+			<map name="f_pagetop" id="f_pagetop">
+				<area shape="poly" coords="152,0,284,134,20,134" href="#pagetop" alt="ページトップ">
+			</map>
+			<a href="#pagetop" class="f_logo_ntd"><img src="../../common/img/f_logo_ntd.png" alt="" width="67" height="16"></a>
+			<a href="#pagetop" class="f_logo_e3-2015"><img src="../../common/img/f_logo_e3-2015.png" alt="" width="118" height="27"></a>
+		</span>
+		<ul class="g-footer__links">
+			<li><a href="../../../../index.html" class="link_arrow">任天堂ホームページ</a></li><!--
+		--><li><a href="http://e3.nintendo.com/" class="link_arrow" target="_blank">米国任天堂E3サイト</a></li>
+		</ul>
+		<p class="copyright"><small><img src="../../common/img/f_copyright.png" alt="copyright Nintendo 2015" width="74" height="7"></small></p>
+	</footer>
+</div>
+
+</div><!-- /.page_wrapper -->
+</body>
+</html>

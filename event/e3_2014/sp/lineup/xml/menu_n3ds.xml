@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<item>
+		<blank>1</blank>
+		<text><![CDATA[大乱闘スマッシュブラザーズ for Nintendo 3DS]]></text>
+		<url>http://www.smashbros.com/jp/</url>
+	</item>
+	<item>
+		<blank>1</blank>
+		<text><![CDATA[ポケットモンスター オメガルビー アルファサファイア]]></text>
+		<url>http://www.pokemon.co.jp/ex/oras/</url>
+	</item>
+	<item>
+		<blank>1</blank>
+		<text><![CDATA[ポケモンアートアカデミー]]></text>
+		<url>../../../../../3ds/bpcj/index.html</url>
+	</item>
+	<item>
+		<text><![CDATA[Code Name: S.T.E.A.M.]]></text>
+		<url>../steam/index.html</url>
+	</item>
+</menu>

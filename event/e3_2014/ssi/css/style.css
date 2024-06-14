@@ -1,0 +1,527 @@
+@charset "Shift_JIS";
+
+/*--- reset ---*/
+body {font:13px/1.4 "ÇlÇr ÇoÉSÉVÉbÉN","ÉqÉâÉMÉmäpÉS ProN W3","Hiragino Kaku Gothic ProN","ÉÅÉCÉäÉI",Meiryo,sans-serif;*font-size:small;*font:x-small;color: #434343;}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,
+form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;margin:0;}
+caption,th {text-align: left;}
+img{border: 0;vertical-align:bottom;}
+ul,ol,li {list-style-type: none;}
+a {outline: none;}
+
+html {text-rendering: optimizeLegibility;}
+br {letter-spacing: 0!important;}
+img {-ms-interpolation-mode:bicubic;}
+* {filter: inherit;}
+
+/*--- clearfix ---*/
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+/*--- text ---*/
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.text{
+	font-size: 100%;
+	line-height: 2.235;
+	letter-spacing: 0.05em;
+	text-shadow: 0 1px 0 #fff;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.stext{
+	font-size: 78%;
+	line-height: 1.6;
+	letter-spacing: 0.06em;
+	color: #8c8c8c;
+}
+.note{
+	font-size: 78%;
+	line-height: 1.6;
+	letter-spacing: 0.06em;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	color: #8c8c8c;
+	padding-left: 1.33em;
+	text-indent: -1.53em;
+	margin:0 0 14px 0;
+}
+.note:before{
+	content: "Å¶ ";
+}
+
+body{
+	background: #f5f5f5;
+	-webkit-text-size-adjust: 100%;
+}
+
+
+
+/*--- common ---*/
+.pagecontainer{
+	position: relative;
+	min-width: 960px;
+	overflow: hidden;
+	max-height: 99999px;
+}
+
+
+/*--- globalheader ---*/
+#globalheader {
+	position: relative;
+	height: 64px;
+	background: url(../img/gheader_bg.png) top center repeat-x;
+}
+#globalheader .gheader_logo_nintendo {
+	position: absolute;
+	top: 18px;
+	left: 37px;
+}
+#globalheader .gnavbutton{
+    position: absolute;
+    top: 0;
+    border-left: #3b3b3b 1px solid;
+    height: 59px;
+}
+#globalheader .gnavbutton a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    perspective: 4000px;
+}
+#globalheader .gnavbutton a span{
+    display: block;
+    position: absolute;
+
+    -webkit-transition: all 0.20s;
+    transition: all 0.20s;
+}
+#globalheader .gnavbutton a .hover{
+    width: 100%;
+    height: 100%;
+    background-color: #444444;
+    
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+    -webkit-transform-origin: 50% 50% -29px;
+    -moz-transform-origin: 50% 50% -29px;
+    transform-origin: 50% 50% -29px;
+
+    z-index: 1;
+}
+#globalheader .gnavbutton a .body{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transform-origin: 50% 50% -29px;
+    -moz-transform-origin: 50% 50% -29px;
+    transform-origin: 50% 50% -29px;
+    
+    z-index: 2;
+}
+#globalheader .gnavbutton a:hover .hover{
+    
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    
+    z-index: 2;
+}
+#globalheader .gnavbutton a:hover .body{
+    
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    
+    z-index: 1;
+}
+#globalheader .gnavcurrent{
+    background-color: #0096c8;
+    position: absolute;
+    top: 0;
+    border-left: #e7e7e7 1px solid;
+    height: 59px;
+}
+
+#globalheader .gnavtop{
+    right: 473px;
+    width: 95px;
+}
+#globalheader .gnavpresentation{
+    right: 288px;
+    width: 184px;
+}
+#globalheader .gnavlineup{
+    right: 143px;
+    width: 144px;
+}
+#globalheader .gnavinterview{
+    right: 0;
+    width: 142px;
+}
+
+
+/*--- maincontainer ---*/
+.maincontainer {
+	width: 100%;
+	background: #FFFFFF url(../img/main_bg_left.png) bottom left no-repeat;
+}
+.maincontainer .bg_right {
+	position: relative;
+	width: 100%;
+	background: url(../img/main_bg_right.png) top right no-repeat;
+}
+.maincontainer .logo_e3 {
+	position: absolute;
+	top: 12px;
+	left: 39px;
+}
+
+
+/*--- maincontainer sns ---*/
+.maincontainer .sns {
+	position: absolute;
+	top: -4px;
+	right: 0;
+	width: 288px;
+	height: 56px;
+	background: url(../img/gheader_bg_sns.png) top right no-repeat;
+}
+.maincontainer .sns .gheader_sns_text {
+	float: left;
+	padding: 12px 0 0 42px;
+}
+.maincontainer .sns .btntwitter {
+	float: left;
+	padding: 5px 0 0 14px;
+}
+.maincontainer .sns .btnfacebook {
+	float: left;
+	padding: 5px 0 0 8px;
+}
+.maincontainer .sns .tooltiptwitter {
+	position: absolute;
+	top: 44px;
+	left: 175px;
+}
+.maincontainer .sns .tooltipfacebook {
+	position: absolute;
+	top: 44px;
+	left: 178px;
+}
+
+
+/*--- maincontainer inner ---*/
+.maincontainer .inner {
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+.contentcontainer{
+	width: 100%;
+}
+
+
+
+
+.ssilist li{
+	background: url(../img/icon_ssi.png) 0 1px no-repeat;
+	padding-left: 23px;
+	line-height: 1.616;
+	margin-bottom: 8px;
+	color: #444444;
+}
+
+
+
+
+.aboutcontainer{
+	width: 100%;
+	padding: 0 0 53px 0;
+	border-bottom: 1px dotted #c9c9c9;
+}
+
+#slide{
+	width: 100%;
+	text-align: center;
+	background: #000;
+	padding: 10px 3px 3px 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+#slide img{
+	width: 100%;
+	max-width: 1277px;
+	height: auto !important;
+}
+
+.aboutcontainer h2{
+	width: 100%;
+	background: #000;
+	text-align: center;
+	margin: 0 0 45px 0;
+}
+
+.aboutcontainer .leadcopy{
+	width: 900px;
+	margin: 0 auto;
+	font-size: 124%;
+	font-weight: bold;
+	line-height: 1.65;
+	color: #434343;
+	text-shadow: 0 1px 0 #fff;
+}
+
+.rulecontainer{
+	width: 900px;
+	margin: 0 auto;
+	padding: 0 0 55px 0;
+}
+
+.rulecontainer .title{
+	text-align: center;
+	padding: 17px 0 0 0;
+	margin: 0 0 24px 0;
+}
+
+.rulecontainer .stitle{
+	margin: 0 0 22px 0;
+}
+.rulecontainer .sec01{
+	margin: 0 0 45px 0;
+}
+.rulecontainer .sec01 .ssilist{
+	margin: 0 0 11px 0;
+}
+
+.rulecontainer .sec02{
+	float: left;
+	width: 450px;
+}
+.rulecontainer .sec03{
+	float: right;
+	width: 450px;
+}
+.rulecontainer .sec02 ul{
+	margin-right: 20px;
+}
+.rulecontainer .sec03 h4{
+	margin-left: 20px;
+}
+.rulecontainer .sec03 ul{
+	margin-left: 20px;
+}
+.rulecontainer .playerbtn{
+	clear: both;
+	width: 342px;
+	margin: 0 auto 0 auto;
+	padding-top: 26px;
+}
+
+
+.flowcontainer {
+	position: relative;
+	height: 511px;
+	background-color: #FFFFFF;
+}
+.flowcontainer .bg_right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 511px;
+	background: url(../img/flow_bg_right.png) top right repeat-x;
+}
+.flowcontainer .bg_left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 511px;
+	background: url(../img/flow_bg_left.png) top left repeat-x;
+}
+.flowcontainer .bg_main {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 1540px;
+	height: 511px;
+	margin: 0 0 0 -770px;
+	background: url(../img/flow_bg.jpg) top center no-repeat;
+}
+.flowcontainer .inner {
+	position: relative;
+	width: 960px;
+	height: 511px;
+	margin: 0 auto;
+}
+.flowcontainer .inner {
+	position: relative;
+	width: 960px;
+	height: 511px;
+	margin: 0 auto;
+}
+.flowcontainer .title {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.flowcontainer .logo {
+	position: absolute;
+	top: 32px;
+	left: 719px;
+}
+.flowcontainer .img {
+	position: absolute;
+	top: 131px;
+	left: 12px;
+}
+
+
+.morecontainer {
+	width: 904px;
+	margin: 0 auto;
+	padding: 41px 0 10px 0;
+}
+.morecontainer .bg_foot {
+	width: 904px;
+	padding: 0 0 10px 0;
+	background: url(../img/other_bg_foot.png) bottom center no-repeat;
+}
+.morecontainer .bg_body {
+	width: 904px;
+	padding: 25px 0 15px 0;
+	background: url(../img/other_bg_body.png) top center repeat-y;
+}
+.morecontainer .ssilist {
+	margin: 0 0 19px 0;
+	padding: 0 32px;
+}
+.morecontainer .text {
+	text-align: center;
+}
+
+.banner {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 0 15px 0;
+}
+.banner p {
+	width: 933px;
+	margin: 0 0 0 10px;
+}
+
+
+.footercontainer {
+	position: relative;
+	width: 900px;
+	height: 82px;
+	margin: 0 auto;
+	border-top: 1px #b2b2b2 solid;
+}
+.footercontainer .footer_btn_nintendo {
+	position: absolute;
+	top: 13px;
+	left: 2px;
+}
+.footercontainer .footer_btn_e3 {
+	position: absolute;
+	top: 13px;
+	left: 140px;
+}
+.footercontainer .footer_copyright {
+	position: absolute;
+	top: 18px;
+	left: 412px;
+}
+.footercontainer .footer_btn_pagetop {
+	position: absolute;
+	top: 18px;
+	left: 792px;
+}
+
+/*--- modal ---*/
+#modal {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	min-width: 960px;
+}
+#modal .background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+}
+#modal .wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+#modal .container {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#modal .container iframe {
+	border: none;
+	position: absolute;
+}
+#modal .close {
+	display: block;
+	position: absolute;
+	top: -65px;
+	right: 20px;
+	width: 55px;
+	height: 65px;
+	background: url(../img/btn_close.png) top left no-repeat;
+}
+#modal #next {
+	display: block;
+	width: 61px;
+	height: 61px;
+	background: url(../../sharedimg/btn_next.png) top left no-repeat;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	margin-top: -30px;
+	margin-right: auto; /* js*/
+}
+#modal #prev {
+	display: block;
+	width: 61px;
+	height: 61px;
+	background: url(../../sharedimg/btn_prev.png) top left no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -30px;
+	margin-left: auto; /* js*/
+}

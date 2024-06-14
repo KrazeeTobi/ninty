@@ -1,0 +1,33 @@
+@charset "Shift_JIS";
+
+
+/*--- maincontainer ---*/
+.maincontainer {
+	height: 543px;
+}
+.maincontainer .bg_right {
+	height: 543px;
+}
+
+
+/*--- maincontainer inner ---*/
+.maincontainer .main_logo {
+	position: absolute;
+	top: 25px;
+	left: 287px;
+}
+.maincontainer .main_text01 {
+	position: absolute;
+	top: 255px;
+	left: 150px;
+}
+.maincontainer .main_text02 {
+	position: absolute;
+	top: 359px;
+	left: 245px;
+}
+.maincontainer .main_btnback {
+	position: absolute;
+	top: 442px;
+	left: 368px;
+}

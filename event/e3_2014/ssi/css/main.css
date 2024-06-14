@@ -1,0 +1,71 @@
+@charset "Shift_JIS";
+
+
+/*--- maincontainer ---*/
+.maincontainer {
+	height: 875px;
+}
+.maincontainer .bg_right {
+	height: 875px;
+}
+
+
+/*--- maincontainer inner ---*/
+.maincontainer .main_logo {
+	position: absolute;
+	top: 13px;
+	left: 287px;
+}
+.maincontainer .main_text {
+	position: absolute;
+	top: 220px;
+	left: 120px;
+}
+.maincontainer .main_btn_twitch,
+.maincontainer .main_btn_youtube {
+	position: absolute;
+	top: 275px;
+	left: 530px;
+	line-height: 1;
+}
+.play_youtube .main_btn_youtube,
+.play_twitch .main_btn_twitch {
+	display: none;
+}
+.maincontainer .main_btn_tournament {
+	position: absolute;
+	top: 275px;
+	left: 761px;
+	line-height: 1;
+}
+.maincontainer .main_movie {
+	position: absolute;
+	top: 304px;
+	left: 30px;
+	width: 900px;
+	border: 1px #bebebe solid;
+}
+.maincontainer .main_text_moviesite {
+	position: absolute;
+	top: 822px;
+	left: 449px;
+}
+.maincontainer .main_logo_youtube {
+	position: absolute;
+	top: 822px;
+	left: 692px;
+}
+.maincontainer .main_logo_niconico {
+	position: absolute;
+	top: 822px;
+	left: 762px;
+}
+.maincontainer .main_logo_twitch {
+	position: absolute;
+	top: 822px;
+	left: 872px;
+}
+
+.banner{
+	padding-left:43px;
+}

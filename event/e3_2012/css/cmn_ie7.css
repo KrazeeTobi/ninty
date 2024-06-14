@@ -1,0 +1,24 @@
+
+#top #picupContents{
+	width: auto;
+	padding:0 25px;
+	position: relative;
+}
+#top #titleContents{
+	width:100%;
+	padding:0 0 20px 0;
+	border: none;
+}
+#top #titleContents img{
+	margin: 0 25px;
+}
+
+#top #titleContents img#leftImg{
+	width: 244px;
+	height: 71px;
+}
+
+#top #titleContents img#rightImg{
+	width: 419px;
+	height: 71px;
+}

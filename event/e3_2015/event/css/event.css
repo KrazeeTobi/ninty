@@ -1,0 +1,97 @@
+#back {
+  background: url(../img/bg_webgl_legacy.png) center bottom no-repeat;
+  background-size: cover;
+}
+
+.page_contents_inner {
+  width: 100%;
+  max-width: 1154px;
+  min-width: 980px;
+  margin: 0 auto;
+  padding-top: 56px;
+}
+
+.contents_head {
+  position: relative;
+  margin-bottom: 72px;
+}
+.contents_head h1, .contents_head p {
+  display: inline-block;
+}
+.contents_head h1 {
+  margin-right: 24px;
+}
+.contents_head p {
+  color: #0096c8;
+  font-size: 13px;
+  font-size: 1.3rem;
+}
+
+.contents_body .report__item {
+  width: 28%;
+  float: left;
+  margin: 0 7.5% 50px 0;
+}
+.contents_body .report__item .date {
+  color: #0096c8;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-family: "AxisStd-Medium",sans-serif;
+  letter-spacing: 0.08em;
+  font-size: 18px;
+  font-size: 1.8rem;
+  position: relative;
+}
+.contents_body .report__item .date:after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 5px;
+  background: #0096c8;
+  position: absolute;
+  top: 10px;
+  right: -10px;
+}
+.contents_body .report__item .bnr {
+  background-color: #fff;
+  width: 100%;
+  border: solid 5px #0096c8;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+.contents_body .report__item .bnr img {
+  width: 100%;
+  height: auto;
+  -webkit-transition: all 100ms ease-in-out;
+  -moz-transition: all 100ms ease-in-out;
+  -ms-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  opacity: 1.0;
+}
+.contents_body .report__item .caption {
+  min-height: 2em;
+  color: #585858;
+  font-size: 12px;
+  font-size: 1.2rem;
+  -webkit-transition: all 100ms ease-in-out;
+  -moz-transition: all 100ms ease-in-out;
+  -ms-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+}
+.contents_body .report__item:nth-child(3n) {
+  margin-right: 0;
+}
+.contents_body .report__item.line_last {
+  margin-right: 0;
+}
+
+/*------------------------------------------------------------------------------*/
+/* effect
+/*------------------------------------------------------------------------------*/
+.noTouch .report__item a:hover .caption {
+  color: #0096c8;
+}
+.noTouch .report__item a:hover .bnr img {
+  opacity: 0.75;
+}

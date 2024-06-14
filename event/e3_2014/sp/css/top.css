@@ -1,0 +1,50 @@
+@charset "Shift_JIS";
+
+#pagetop #contents{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	position: relative;
+}
+#pagetop h1.title{
+	position: absolute;
+	left:0;
+	top:65px;
+	text-align:center;
+	width:100%;
+}
+
+#pagetop h1.title span{
+	display:block;
+	margin:0 auto;
+	max-width:400px;
+}
+#pagetop .btn_live{
+	position: absolute;
+	bottom:22px;
+	width:100%;
+	text-align:center;
+}
+#pagetop.landscape .btn_live{
+ 	top:440px;
+}
+#pagetop.view_3ds .btn_live{
+ 	top:350px;
+}
+#pagetop .btn_live span{
+	display:block;
+	margin:0 auto;
+	padding:0 5px;
+	max-width:400px;
+}
+#pagetop ul.list_thumb{
+	overflow: hidden;
+}
+
+#pagetop ul.list_thumb li{
+	display:inline;
+	float:left;
+	width:50%;
+}
+#pagetop ul.list_thumb li img{
+	width:100%;
+}

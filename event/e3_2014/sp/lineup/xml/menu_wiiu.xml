@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<item>
+		<blank>1</blank>
+		<text><![CDATA[大乱闘スマッシュブラザーズ for Wii U]]></text>
+		<url>http://www.smashbros.com/sp/jp/</url>
+	</item>
+	<item>
+		<text><![CDATA[Splatoon(スプラトゥーン)]]></text>
+		<url>../splatoon/index.html</url>
+	</item>
+	<item>
+		<blank>1</blank>
+		<text><![CDATA[ゼルダ無双]]></text>
+		<url>http://www.gamecity.ne.jp/zelda/</url>
+	</item>
+	<item>
+		<text><![CDATA[Yoshi's Woolly World]]></text>
+		<url>../yoshis_woolly_world/index.html</url>
+	</item>
+	<item>
+		<text><![CDATA[XenobladeX]]></text>
+		<url>../xenobladex/index.html</url>
+	</item>
+	<item>
+		<blank>1</blank>
+		<text><![CDATA[ベヨネッタ2]]></text>
+		<url>../../../../../wiiu/aquj/index.html</url>
+	</item>
+	<item>
+		<text><![CDATA[Devil's Third]]></text>
+		<url>../devils_third/index.html</url>
+	</item>
+	<item>
+		<text><![CDATA[Mario Party 10]]></text>
+		<url>../mario_party_10/index.html</url>
+	</item>
+	<item>
+		<text><![CDATA[Captain Toad: Treasure Tracker]]></text>
+		<url>../captain_toad/index.html</url>
+	</item>
+	<item>
+		<text><![CDATA[Mario Maker]]></text>
+		<url>../mario_maker/index.html</url>
+	</item>
+	<item>
+		<text><![CDATA[Kirby and the Rainbow Curse]]></text>
+		<url>../kirby_and_the_rainbow_curse/index.html</url>
+	</item>
+	<item>
+		<text><![CDATA[Mario vs. Donkey Kong]]></text>
+		<url>../mario_vs_donkey_kong/index.html</url>
+	</item>
+	<item>
+		<text><![CDATA[Art Academy]]></text>
+		<url>../art_academy/index.html</url>
+	</item>
+	<item>
+		<text><![CDATA[Wii Sports Club]]></text>
+		<url>../wii_sports_club/index.html</url>
+	</item>
+	<item>
+		<text><![CDATA[ゼルダの伝説 最新作]]></text>
+		<url>../zeldas_new_game/index.html</url>
+	</item>
+</menu>

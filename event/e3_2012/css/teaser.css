@@ -1,0 +1,145 @@
+/*/*--------------------------settings*/
+html, body, div, ul, li{
+	margin:0;
+	padding:0;
+}
+
+html, body	{
+	height: 100%;
+	overflow: auto;
+}
+
+ul{
+	list-style:none;
+}
+
+html{
+}
+
+body{
+	background-color: #ededed;
+	font-family:"ÇlÇr ÇoÉSÉVÉbÉN","ÉqÉâÉMÉmäpÉS Pro W3","Hiragino Kaku Gothic Pro","ÉÅÉCÉäÉI","Meiryo",Osaka,verdana,arial,clean,sans-serif;
+}
+
+img {
+	border: 0;
+	outline: none;
+}
+
+/*--------------------------container*/
+#container{
+	margin: 0;
+	height: 100%;
+	border-left:7px solid #ededed;
+	border-right:7px solid #ededed;
+	background-color:#fff;
+}
+
+/*--------------------------hdr content*/
+#header {
+	position: relative;
+	height: 68px;
+	border-top:7px solid #ededed;
+	
+}
+
+#header .logoNintendo {
+	position: absolute;
+	top: 24px;
+	left: 17px;
+}
+
+#header .logo {
+	position: absolute;
+	top: -7px;
+	right: 14px;
+}
+
+
+/*--------------------------content*/
+#container #contentWrap {
+	width: 670px;
+	height: 387px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	z-index: 10;
+	margin: -270px 0 0 -335px;
+	text-align: center;
+}
+
+#container #contentWrap .text {
+	margin: 30px auto 40px;
+}
+
+#container #contentWrap .subArea {
+	margin : 44px auto 0;
+	width: 555px;
+}
+
+#container #contentWrap .textSub {
+	float: left;
+	margin: 9px 15px 0 0;
+}
+
+#container #contentWrap .bnrUstream {
+	float: left;
+}
+
+#container #contentWrap .bnrNicoNico {
+	float: left;
+}
+
+#container #contentWrap .btnDirect {
+	margin-top: 38px;
+}
+
+
+/*--------------------------footer*/
+#footer {
+	background-color:#ededed;
+	position: absolute;
+	width:100%;
+	height: 29px;
+	bottom: 0px;
+	z-index: 20;
+}
+
+#footer .btnNintendo {
+	position: absolute;
+	left: 12px;
+	bottom: 2px;
+}
+
+#footer .ftrCopyright {
+	position: absolute;
+	right: 12px;
+	bottom: 2px;
+}
+
+#footer .socialBtn {
+	position: absolute;
+	right: 20px;
+	bottom: 44px;
+}
+
+#footer .socialBtn img {
+	float: left;
+	margin-left: 7px;
+}
+
+
+/*/*--------------------------clearfix*/
+.clearfix { display: inline-table; }  
+* html .clearfix { height: 1%; }  
+.clearfix { display: block; }  
+
+.clearfix:after {  
+  content: ".";   
+  display: block;   
+  height: 0;   
+  clear: both;   
+  visibility: hidden;  
+}  
+
+

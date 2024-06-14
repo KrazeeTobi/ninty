@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>任天堂 E3 2015情報</title>
+<!-- name appearance -->
+<meta name="viewport" content="width=1200">
+<meta name="format-detection" content="telephone=no">
+<!-- name contents -->
+<meta name="keywords" content="任天堂, E3 2015">
+<meta name="description" content="E3 2015で出展のソフト情報や米国任天堂によるプレゼンテーション「Nintendo Digital Event」をご紹介します。">
+<!-- og -->
+<meta property="og:title" content="任天堂 E3 2015情報">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.nintendo.co.jp/event/e3_2015/index.html">
+<meta property="og:description" content="E3 2015で出展のソフト情報や米国任天堂によるプレゼンテーション「Nintendo Digital Event」をご紹介します。">
+<meta property="og:image" content="http://www.nintendo.co.jp/event/e3_2015/top/img/ogimage.png">
+<meta property="og:locale" content="ja_JP">
+<!-- style -->
+<link rel="stylesheet" href="common/css/core.css">
+<link rel="stylesheet" href="top/css/top.css">
+<!-- scripts -->
+<script src="common/js/jquery.js"></script>
+<script src="common/js/e3.js"></script>
+<script src="common/js/plugins.js"></script>
+<script src="common/js/core.js"></script>
+<script src="top/js/plugin.js"></script>
+<script src="top/js/plugin.slide.min.js"></script>
+<script src="top/js/top.js"></script>
+<script src="top/js/iwatter_top.js"></script>
+<script src="/common/js/ua/ua.js"></script>
+</head>
+<body id="#pagetop"><div id="back"></div>
+<div class="page_wrapper">
+
+<div class="page_header">
+	<header role="banner" class="g_header">
+		<h1 class="logo_e3"><a href="./index.html"><img src="common/img/h_logo_e3-2015.png" alt="E3 2015" width="138" height="32"></a></h1>
+		<p class="logo_nintendo"><a href="../../"><img src="common/img/h_logo_ntd.png" alt="nintendo" width="76" height="18"></a></p>
+		<nav class="g_nav" role="navigation">
+			<ul class="g_nav__inner clearfix">
+				<li></li>
+			</ul>
+		</nav>
+		<ul class="g_sns">
+			<li class="tw"><a href=""><img src="common/img/h_sns_tw.png" alt="twitter" width="28" height="28"></a></li>
+			<li class="fb"><a href=""><img src="common/img/h_sns_fb.png" alt="facebook" width="28" height="28"></a></li>
+		</ul>
+	</header>
+</div>
+
+<div class="page_contents_container">
+	<main role="main">
+	<article class="page_contents">
+	<section class="page_contents_inner">
+		<section class="contents_head" id="heroSlide">
+			<ul class="slide">
+				<li class="item slide01 slidein">
+					<div id="slide01_video" class="video_wrap">
+						<video class="background-video playVid" poster="top/img/slide01_bg.jpg" width="100%" height="auto" loop auto>
+							<source src="top/mov/digital-event.webm" type="video/webm">
+							<source src="top/mov/digital-event.mp4" type="video/mp4">
+						</video>
+					</div>
+					<div class="slide_inner">
+						<div class="slide01_title"><img src="top/img/slide01_title.png" alt="2015.6.17 Nintendo Digital Event" width="394" height="192"></div>
+						<div class="slide01_maininfo">
+							<img src="top/img/slide01_maininfo.png" alt="Nintendo Digital Event 任天堂デジタルイベント 米国のビデオゲームの展示発表会「E3」。それにあわせ米国任天堂が実施したプレゼンテーションをお届けします。" width="292" height="387">
+							<a href="event/061701/index.html" class="slide_btn slide01_maininfo_btn">
+								<span class="img_over"><img src="top/img/slide01_maininfo_btn_ov.png" alt="Nintendo Digital Event" width="257" height="50"></span>
+								<img src="top/img/slide01_maininfo_btn.png" alt="Nintendo Digital Event" width="257" height="50">
+							</a>
+						</div>
+					</div>
+				</li>
+				<li class="item slide02 slidein">
+					<div class="slide_inner">
+						<div class="slide02_title"><img src="top/img/slide02_title.png" alt="2015.6.17 Three House Live DAY1" width="505" height="193"></div>
+						<div class="slide02_maininfo">
+							<img src="top/img/slide02_maininfo.png" alt="Three House Live DAY1 「Nintendo Threehouse: Live @ E3 2015」1日目 LACCの任天堂ブース内からE3の出展タイトルを紹介するゲーム情報番組「Nintendo Threehouse: Live @ E3 2015」が放送されました。" width="292" height="387">
+							<a href="event/061702/index.html" class="slide_btn slide02_maininfo_btn">
+								<span class="img_over"><img src="top/img/slide02_maininfo_btn_ov.png" alt="くわしくはこちら" width="257" height="50"></span>
+								<img src="top/img/slide02_maininfo_btn.png" alt="くわしくはこちら" width="257" height="50">
+							</a>
+						</div>
+					</div>
+				</li>
+				<li class="item slide03 slidein">
+					<div class="slide_inner">
+						<div class="slide03_title"><img src="top/img/slide03_title.png" alt="2015.6.18 Three House Live DAY2" width="468" height="193"></div>
+						<div class="slide03_maininfo">
+							<img src="top/img/slide03_maininfo.png" alt="Three House Live DAY1 ツリーハウスライブ 2日目 LACC(Los Angeles Convention Center)の任天堂ブース内からE3の出展タイトルを紹介するゲーム情報番組「Nintendo Threehouse: Live @ E3 2015」が放送されました。" width="292" height="387">
+							<a href="event/061801/index.html" class="slide_btn slide03_maininfo_btn">
+								<span class="img_over"><img src="top/img/slide03_maininfo_btn_ov.png" alt="" width="257" height="50"></span>
+								<img src="top/img/slide03_maininfo_btn.png" alt="くわしくはこちら" width="257" height="50">
+							</a>
+						</div>
+					</div>
+				</li>
+				<li class="item slide04 slidein">
+					<div class="slide_inner">
+						<div class="slide04_title"><img src="top/img/slide04_title.png" alt="" width="468" height="193"></div>
+						<div class="slide04_maininfo">
+							<img src="top/img/slide04_maininfo.png" alt="" width= height="387">
+							<a href="event/061901/index.html" class="slide_btn slide04_maininfo_btn">
+								<span class="img_over"><img src="top/img/slide04_maininfo_btn_ov.png" alt="" width="257" height="50"></span>
+								<img src="top/img/slide04_maininfo_btn.png" alt="" width="257" height="50">
+								</a>
+						</div>
+					</div>
+				</li>
+				<li class="item slide05 slidein">
+					<div id="slide05_video" class="video_wrap">
+						<video class="background-video playVid" data-source="top/mov/digest" poster="top/img/slide05_bg.jpg" width="100%" height="auto" loop auto>
+							<source src="top/mov/digest.webm" type="video/webm">
+							<source src="top/mov/digest.mp4" type="video/mp4">
+						</video>
+					</div>
+					<div class="slide_inner">
+						<div class="slide05_title"><img src="top/img/slide05_title.png" alt="" width="468" height="193"></div>
+						<div class="slide05_maininfo">
+							<img src="top/img/slide05_maininfo.png" alt="" width="292" height="387">
+							<a href="event/061902/index.html" class="slide_btn slide05_maininfo_btn">
+								<span class="img_over"><img src="top/img/slide05_maininfo_btn_ov.png" alt="" width="257" height="50"></span>
+								<img src="top/img/slide05_maininfo_btn.png" alt="" width="257" height="50">
+							</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+
+			<div class="heroPager_wrap">
+				<div class="heroPager_inner">
+				<ol class="inds heroPager clearfix" id="heroPager">
+					<li class="inds_custon inds_slide01">6.17<br>1:00</li>
+					<li class="inds_custon inds_slide02">6.17<br>9:00</li>
+					<li class="inds_custon inds_slide03">6.18<br>9:00</li>
+					<li class="inds_custon inds_slide04">6.19<br>9:00</li>
+					<li class="inds_custon inds_slide05">6.19<br>9:00</li>
+				</ol>
+				</div>
+			</div>
+
+		</section>
+		<section class="lineup_wrap">
+			<ul class="lineup_inner clearfix" id="topTitleList">
+				<li class="lineup_item top_box"><a href="lineup/index.html"><img src="top/img/lineup_item00.png" alt="SOFTWARE LINEUP くわしくはこちら" width="248" height="248"><div class="soft_top_wrap"><img src="top/img/lineup_item00_ov.png" alt="SOFTWARE LINEUP くわしくはこちら" width="248" height="248"></div></a></li>
+			</ul>
+		</section>
+
+		<div class="middle">
+			<div class="set_left">
+				<section class="eventreport_wrap">
+					<header class="section_header">
+						<h3><img src="top/img/event-repoart_title.png" alt="EVENT REPORT" width="200" height="18"></h3>
+						<p class="caption">現地で行われたイベントの様子や、プレゼンテーションなどの映像をお届けします。</p>
+					</header>
+					<div class="eventreport_body">
+						<div class="eventreport_body_left">
+							<ul class="eventreport_item">
+								<li><span class="date">6.19 ー</span><a href="event/061902/index.html">Nintendo @ E3 2015 ダイジェスト</a></li>
+                               <li><span class="date">6.19 ー</span><a href="event/061901/index.html">「Nintendo Treehouse: Live @ E3 2015」3日目</a></li>
+							</ul>
+							<p class="link_eventreport"><a href="event/index.html" class="btn_eventreport"><span>イベントレポートへ</span></a></p>
+						</div>
+						<div class="eventreport_body_right">
+							<a href="event/061501/index.html" class="nwc_logo_wrap"><img src="top/img/nwc_logo.png" alt="任天堂ワールド・チャンピオンシップ NINTENDO WORLD CHAMPIONSHIPS" width="260" height="81"></a>
+						</div>
+					</div>
+				</section>
+				<section class="interview_wrap">
+					<header class="section_header">
+						<h3><img src="top/img/interview_title.png" alt="INTERVIEW" width="147" height="18"></h3>
+						<p class="caption">今回出展したソフトについて、開発者たちがご紹介いたします。</p>
+					</header>
+					<ul class="interview_item_box clearfix">
+						<li class="interview_item"><a href="lineup/detail_interview/interview01.html" class="movie modal" data-width="728" data-height="522" data-opacity="0.9"><span class="btn_viewmovie"><img src="top/img/btn_text_viewmovie.png" alt="VIEW MOVIE" width="75" height="9"></span><img src="top/img/interview_bnr_01.png" alt="" width="396" height="192"></a></li>
+						<li class="interview_item"><a href="lineup/detail_interview/interview02.html" class="movie modal" data-width="728" data-height="522" data-opacity="0.9"><span class="btn_viewmovie"><img src="top/img/btn_text_viewmovie.png" alt="VIEW MOVIE" width="75" height="9"></span><img src="top/img/interview_bnr_02.png" alt="" width="396" height="192"></a></li>
+						<li class="interview_item"><a href="lineup/detail_interview/interview03.html" class="movie modal" data-width="728" data-height="522" data-opacity="0.9"><span class="btn_viewmovie"><img src="top/img/btn_text_viewmovie.png" alt="VIEW MOVIE" width="75" height="9"></span><img src="top/img/interview_bnr_03.png" alt="" width="396" height="192"></a></li>
+						<li class="interview_item"><a href="lineup/detail_interview/interview04.html" class="movie modal" data-width="728" data-height="522" data-opacity="0.9"><span class="btn_viewmovie"><img src="top/img/btn_text_viewmovie.png" alt="VIEW MOVIE" width="75" height="9"></span><img src="top/img/interview_bnr_04.png" alt="" width="396" height="192"></a></li>
+					</ul>
+				</section>
+			</div>
+			<div class="set_right">
+				<section class="specialsite_wrap">
+				<header class="section_header">
+						<h3><img src="top/img/special-site_title.png" alt="SPECIAL SITE" width="172" height="18"></h3>
+						<p class="caption">スペシャルサイト</p>
+					</header>
+					<section  class="special_bnr_mario">
+						<a href="../../mario30th/index.html"><img src="top/img/special_bnr_mario.png" alt="Let's Super Mario!" width="333" height="131"></a>
+					</section>
+					<section class="iwatter_wrap">
+						<header class="iwatter_header">
+							<img src="top/img/iwatter_logo.png" alt="Iwatter" width="283" height="74">
+						</header>
+						<div class="iwatter_body">
+							<div class="iwatter_body_inner">
+								<ol class="tweet_contents">
+								</ol>
+							</div>
+						</div>
+						<div class="iwatter_btn_more"><a href="iwatter/index.html"><img src="top/img/iwatter_btn_more.png" alt="もっと見る" width="304" height="37"></a></div>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<section class="about_e3">
+			<dl class="about_e3_inner">
+				<dt class="about-e3__title"><h3><img src="top/img/about-e3_title.png" alt="ABOUT E3 E3について" width="205" height="57"></h3></dt>
+				<dd class="about-e3__contents">
+					<p class="about-e3__text">E3(Electronic Entertainment Expo)は、	年に一度米国内で行われるビデオゲームの発表展示会です。<br>2015年は米国時間の6月16日（火）から3日間ロサンゼルスで開催されます。<br>ビデオゲームの発表展示会としては世界最大の規模で、任天堂を含めさまざまなゲームメーカーが	今後発表する商品などを紹介し、多くのプレスが世界中から訪れて広く報道されます。</p>
+					<p class="about-e3_btn"><a href="http://e3.nintendo.com/" target="_blank"><span class="btn_bg"></span><img src="top/img/m_about-e3_btn_inner.png" width="222" height="13" alt="米国任天堂のE3のサイトはこちら"></a></p>
+				</dd>
+			</dl>
+		</section>
+
+	</section>
+	</article><!-- /.page_contents_inner -->
+	</main>
+</div><!-- /.page_contents -->
+
+<div id="load"><img src="top/img/load_image.png" alt="E3 2015" width="457" height="104"></div>
+
+<div class="page_footer">
+	<footer class="g-footer" role="contentinfo">
+		<span class="pagetop">
+			<span class="f_pagetop"><img src="common/img/f_pagetop.png" width="304" height="154" alt="" usemap="#f_pagetop"></span>
+			<map name="f_pagetop" id="f_pagetop">
+				<area shape="poly" coords="152,0,284,134,20,134" href="#pagetop" alt="ページトップ">
+			</map>
+			<a href="#pagetop" class="f_logo_ntd"><img src="common/img/f_logo_ntd.png" alt="nintendo" width="67" height="16"></a>
+			<a href="#pagetop" class="f_logo_e3-2015"><img src="common/img/f_logo_e3-2015.png" alt="E3 2015" width="118" height="27"></a>
+		</span>
+		<ul class="g-footer__links">
+			<li><a href="../../" class="link_arrow">任天堂ホームページ</a></li><!--
+		--><li><a href="http://e3.nintendo.com/" class="link_arrow" target="_blank">米国任天堂E3サイト</a></li>
+		</ul>
+		<p class="copyright"><small><img src="common/img/f_copyright.png" alt="copyright 2015 Nintendo" width="74" height="7"></small></p>
+	</footer>
+</div>
+
+</div><!-- /.page_wrapper -->
+</body>
+</html>

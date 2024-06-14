@@ -1,0 +1,237 @@
+
+/*----main area----*/
+#container{
+	height:97%;
+	min-height:97%;
+}
+
+body > #container{
+	height:auto;
+}
+
+
+/*----main area----*/
+#top #mainArea{
+	border:1p
+	width:100%;
+	margin: 0 auto;
+	padding: 5px 0;
+	text-align: center;
+	position:relative;
+}
+
+#top #mainArea img{
+	width:76%;
+	padding: 20px 0 0 0;
+}
+
+#contents #socialMedia{
+	position:inherit;
+	padding-right:25px;
+	width:auto;
+	text-align:right;
+}
+
+#contents #socialMedia .btnTweet{
+	padding-right:4px;
+	float:none;
+}
+#contents #socialMedia .btnFacebook{
+	float:none;
+}
+
+
+/*----title area----*/
+#titleContents{
+	width:auto;
+	padding:0 25px 20px 25px;
+	border-bottom:7px solid #ededed;
+}
+
+#titleContents img#leftImg{
+	float:left;
+}
+
+#titleContents img#rightImg{
+	float:right;
+}
+
+/*----picup contents----*/
+#picupContents{
+	width:auto;
+	padding:0 25px;
+	position: relative;
+}
+
+#picupContents .btnGuide {
+	position: absolute;
+	width:301px;
+	top: 38px;
+	right: 25px;
+}
+
+#picupContents #picupTitle{
+	padding:35px 0 30px;
+}
+
+#picupContents #pmLeft{
+	width:67.2%;
+	float:left;
+}
+
+#picupContents #pmRight{
+	width:32.5%;
+	float:right;
+}
+
+#picupMain{
+	margin-bottom:15px;
+	padding-bottom:15px;
+}
+
+/*-- left --*/
+#picupContents #pmLeft img{
+	width:100%;
+}
+
+/*-- right --*/
+#picupContents #pmRight a{
+	
+}
+
+#picupContents #pmRight a img{
+	width:100%;
+}
+
+/*----twitter contents----*/
+#twitterContent{
+	padding:0px 25px 15px 25px;
+}
+
+#twitterInside{
+	background-color:#2cc2f4;
+	border-bottom:1px solid #fff;
+}
+
+
+#twitterInside img{
+	float:left;
+}
+
+#twitterInside img#twitterBtn{
+	float:right;
+	width:207px;
+}
+
+#twitterInside #detail{
+	margin:4px 5px 5px 5px;
+	background:#fff;
+	clear:both;
+}
+
+#twitterInside #detail ul{
+	height:34px;
+	display:block;
+	overflow:hidden;
+	position:relative;
+}
+
+#twitterInside #detail ul li{
+	padding-left: 7px;
+	line-height: 34px;
+	height:34px;
+	width: 99%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	position:absolute;
+	color: #4b4b4b;
+	display: block;
+}
+
+
+
+
+/*---- footer ----*/
+
+#footer{
+	height:34px;
+}
+
+#footerInside {
+	background:url(../img_idx/note.png) no-repeat center;
+	height:34px;
+}
+
+#footerInside .note {
+	position:absolute;
+	top:4px;
+	left:50%;
+	width: 513px;
+	margin-left: -256px;
+}
+
+#footerRightContent #socialMedia{
+	position:absolute;
+	width:164px;
+	top:-37px;
+	right: 2px;
+}
+#socialMedia .btnTweet{
+	float: left;
+}
+#socialMedia .btnShare{
+	float: right;
+}
+
+
+/*----top menu----*/
+
+#container{
+	min-width:946px;
+}
+
+#contents{
+	
+}
+
+#leftContent #menuContainer{
+	margin:0;
+	padding:0;
+	min-width:946px;
+	height:inherit;
+	min-height:inherit;
+	background-color:#0096c8;
+	position:static !important;
+	
+}
+
+#leftContent #menuContainer #logo{
+	text-indent:-9999px;
+	width:175px;
+	height:59px;
+	float:left;
+}
+
+#leftContent #menuContainer ul{
+	height:59px;
+	float:right;
+	background-color:#0096c8;
+}
+
+#leftContent #menuContainer ul li{
+	border-left:1px solid #fff;
+	border-bottom:none;
+	float:left;
+	width:180px;	
+}
+
+
+#leftContent #menuContainer ul li.ov {
+	background: url(../img_cmn/btnOV.png) no-repeat -180px 0;
+	height: 59px;
+}
+
+
+
+

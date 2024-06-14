@@ -1,0 +1,47 @@
+body {
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+#movie {
+	background-color: #fff;
+}
+
+.logo {
+	width: 236px;
+	height: 32px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	cursor: pointer;
+}
+
+#TB_btnClose {
+	width: 80px;
+	height: 80px;
+	background: url(../img/btnCloseBg.png) no-repeat 0 -80px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+#TB_btnClose img {
+	width: 80px;
+	height: 80px;
+}
+
+#TB_btnSwitch {
+	width: 71px;
+	height: 23px;
+	margin: 0 auto 0;
+	position: relative;
+	top: -25px;
+	_left: 300px;
+}
+
+#TB_btnSwitch img {
+	border: 0;
+}

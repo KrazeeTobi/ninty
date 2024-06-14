@@ -1,0 +1,64 @@
+@charset "Shift_JIS";
+
+/*--- reset ---*/
+body {font:13px/1.4 "ÇlÇr ÇoÉSÉVÉbÉN","ÉqÉâÉMÉmäpÉS Pro W3","Hiragino Kaku Gothic Pro","ÉÅÉCÉäÉI","Meiryo",sans-serif;*font-size:small;*font:x-small;color: #646464;}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,
+form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;margin:0;}
+caption,th {text-align: left;}
+img{border: 0;vertical-align:bottom;}
+ul,ol,li {list-style-type: none;}
+a {outline: none;}
+
+html {text-rendering: optimizeLegibility;}
+br {letter-spacing: 0!important;}
+img {-ms-interpolation-mode:bicubic;}
+* {filter: inherit;}
+
+/*--- clearfix ---*/
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+/*--- text ---*/
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+
+/*--- common ---*/
+
+body{
+}
+
+#modalcontent{
+	width: 550px;
+	height: 340px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#modalcontent .title{
+	position: absolute;
+	left: 212px;
+	top: 0;
+}
+
+#modalcontent .text{
+	position: absolute;
+	left: 0;
+	top: 66px;
+}
+
+#modalcontent .btn{
+	position: absolute;
+	left: 103px;
+	top: 274px;
+}

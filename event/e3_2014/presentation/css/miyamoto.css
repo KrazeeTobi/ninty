@@ -1,0 +1,51 @@
+@charset "Shift_JIS";
+
+#miyamoto{
+	background:url(../../sharedimg/bg_dot_gray.png) repeat top left;
+}
+.mhead{
+	background:url(../img/mheadBG.png) repeat-x top left;
+	height:83px;
+}
+
+.mhead h1{
+	text-align:center;
+	padding:20px 0;
+}
+
+.movie{
+	width:800px;
+	padding: 30px 0;
+	margin:0 auto;
+}
+
+.photoWrap{
+	background:#FFF;
+	padding:30px 0 60px;
+}
+
+.photoWrap .boxWrap{
+	width:800px;
+	margin:0 auto;
+}
+.photoWrap dl{
+	width:255px;
+	margin:0 17px 30px 0;
+	float:left;
+	color:#666;
+	line-height:1.8;
+}
+.photoWrap dl.last{
+	margin:0;
+}
+
+.photoWrap dl dt{
+	margin-bottom:20px;
+}
+.boxWrap p{
+	margin-bottom:1.5em;
+	font-size:12px;
+}
+p.mbtn{
+	text-align:center;
+}
