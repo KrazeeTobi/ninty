@@ -1,0 +1,77 @@
+.contentsWrap .wrap .main .con01 {
+	width: 770px;
+	height: 670px;
+	margin: 0 auto;
+	text-align: left;
+	padding-top: 12px;
+	position: relative;
+}
+
+.contentsWrap .wrap .main .con01ttl {
+	padding-top: 32px;
+	height: 98px;
+}
+.contentsWrap .wrap .main .con01 .con01ttl .ttl {
+	float: left;
+}
+
+.contentsWrap .wrap .main .con01 .con01ttl .logoKind {
+	float: right;
+}
+
+.contentsWrap .wrap .main .con01 #movie {
+	text-align: center;
+	height: 434px;
+}
+
+.contentsWrap .wrap .main .con01 .copyright {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 77%;
+	text-align: right;
+}
+
+.contentsWrap .wrap .main .con02 {
+	width: 770px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.contentsWrap .wrap .main .con02 .ttlScreenShot {
+	padding: 13px 0 25px;
+}
+
+
+.contentsWrap .wrap .main .con02 .con02list, .contentsWrap .wrap .main .con02 .con02listDS {
+	clear: both;
+	padding: 0;
+	margin: 0 auto 0;
+	width: 770px;
+	list-style-position:outside;
+	list-style: none;
+}
+
+.contentsWrap .wrap .main .con02 .con02list li {
+	float: left;
+	margin: 0 7px 0 0;
+	display: block;
+	position: relative;
+	font-weight: bold;
+	height: 114px;
+}
+
+.contentsWrap .wrap .main .con02 .con02listDS li {
+	float: left;
+	margin: 0 7px 0 0;
+	display: block;
+	position: relative;
+	font-weight: bold;
+	height: 147px;
+}
+
+.contentsWrap .wrap .main .con02 .con02list li div {
+	padding-top: 3px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:93%;
+	text-align: center;
+}
+

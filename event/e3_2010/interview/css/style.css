@@ -1,0 +1,159 @@
+.contentsWrap .wrap .main .con01 {
+	width: 644px;
+	margin: 35px auto 0;
+	text-align: left;
+}
+.contentsWrap .wrap .main .con01 .con01text {
+	clear: both;
+	padding-bottom: 42px;
+}
+
+.contentsWrap .wrap .main .con01 #movTTL {
+	background-repeat: no-repeat;
+	height: 20px;
+	text-align: right;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #658898;
+	font-size:77%;
+	padding: 12px 18px 0 0;
+}
+.contentsWrap .wrap .main .con02 {
+	width: 770px;
+	margin: 0 auto;
+	text-align: left;
+}
+.contentsWrap .wrap .main .con02ttl img {
+	float: left;
+	padding-bottom: 10px;
+}
+.contentsWrap .wrap .main .con02ttl span {
+	float: right;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:77%;
+	text-align: right;
+	margin: 12px 8px 0 0;
+}
+
+.contentsWrap .wrap .main .con02 .con02subttl {
+	width: 770px;
+	margin: 50px auto 0;
+	text-align: left;
+}
+.contentsWrap .wrap .main .con02 .con02list {
+	clear: both;
+	padding: 0;
+	margin: 0 auto 0;
+	width: 770px;
+	list-style-position:outside;
+	list-style: none;
+}
+
+.contentsWrap .wrap .main .con02 #interviewBTN {
+	clear: both;
+	padding-top: 28px;
+	display: block;
+	position: relative;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:77%;
+	font-weight: bold;
+	height: 103px;
+}
+
+.contentsWrap .wrap .main .con02 #interviewBTN .thumbnail {
+	position: absolute;
+	top: 28px;
+	left: 0px;
+}
+
+.contentsWrap .wrap .main .con02 #interviewBTN .new {
+	position: absolute;
+	top: 28px;
+	left: 0px;
+	z-index: 99;
+}
+
+.contentsWrap .wrap .main .con02 #interviewBTN .cu {
+	position: absolute;
+	top: 28px;
+	left: 0px;
+	z-index: 50;
+}
+
+.contentsWrap .wrap .main .con02 #interviewBTN .ov {
+	position: absolute;
+	top: 28px;
+	left: 0px;
+	display: none;
+	z-index: 10;
+}
+
+.contentsWrap .wrap .main .con02 #interviewBTN div {
+	position: absolute;
+	top: 89px;
+	left: 205px;
+}
+
+.contentsWrap .wrap .main .con02 #interviewBTN .ttl {
+	position: absolute;
+	top: 52px;
+	left: 200px;
+}
+
+.contentsWrap .wrap .main .con02 #interviewBTN a {	
+	width: 185px;
+	height: 150px;
+	display: block;
+	position: absolute;
+	top: 28px;
+	left: 0px;
+	z-index: 101;
+}
+
+.contentsWrap .wrap .main .con02 .current {
+	background: url(../../imgCmn/iconNowPlaying.png) no-repeat 0 13px;
+}
+
+.contentsWrap .wrap .main .con02 .con02list li {
+	float: left;
+	margin: 0 7px 0 0;
+	padding-top: 28px;
+	position: relative;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:77%;
+	font-weight: bold;
+	z-index: 100;
+}
+
+.contentsWrap .wrap .main .con02 .con02list li a {
+	width: 185px;
+	height: 150px;
+	position: absolute;
+	top: 28px;
+	left: 0px;
+	z-index: 101;
+}
+
+.contentsWrap .wrap .main .con02 .con02list li .new {
+	position: absolute;
+	top: 28px;
+	left: 0px;
+	z-index: 99;
+}
+
+.contentsWrap .wrap .main .con02 .con02list li .cu {
+	position: absolute;
+	top: 28px;
+	left: 0px;
+}
+
+.contentsWrap .wrap .main .con02 .con02list li .ov {
+	position: absolute;
+	top: 28px;
+	left: 0px;
+	display: none;
+}
+
+.contentsWrap .wrap .main .con02 .con02list .current {
+	background: url(../../imgCmn/iconNowPlaying.png) no-repeat 0 13px;
+}

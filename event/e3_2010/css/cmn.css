@@ -1,0 +1,210 @@
+@charset "Shift_JIS";
+
+/* -- YUI -- */
+
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.7.0
+*/
+
+/**
+ * YUI Fonts
+ * @module fonts
+ * @namespace yui-
+ * @requires 
+ */
+
+/**
+ * Percents could work for IE, but for backCompat purposes, we are using keywords.
+ * x-small is for IE6/7 quirks mode.
+ */
+body {
+font:13px/1.231 arial,helvetica,clean,sans-serif;
+/* for IE6/7 */ 
+*font-size:small; 
+/* for IE Quirks Mode */
+*font:x-small;
+}
+/* for IE8 */ 
+html>/**/body {  
+font-size:small\9;  
+}  
+
+
+/**
+ * Nudge down to get to 13px equivalent for these form elements
+ */ 
+select,
+input,
+button,
+textarea,
+button {
+font:99% arial,helvetica,clean,sans-serif;
+}
+
+/**
+ * To help tables remember to inherit
+ */
+table {
+font-size:inherit;
+font:100%;
+}
+
+/**
+ * Bump up IE to get to 13px equivalent for these fixed-width elements
+ */
+pre,
+code,
+kbd,
+samp,
+tt {
+font-family:monospace;
+*font-size:108%;
+line-height:100%;
+}
+
+/* -- END YUI -- */
+
+body {
+	background: #527787 url(../imgCmn/bg.jpg) no-repeat center top;
+	padding: 0;
+	margin: 0;
+	color: #5d5d5d;
+	font-family:"ÇlÇr ÇoÉSÉVÉbÉN","ÉqÉâÉMÉmäpÉS Pro W3","Hiragino Kaku Gothic Pro","ÉÅÉCÉäÉI","Meiryo",Osaka,verdana,arial,clean,sans-serif;
+	text-align: center;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: #5d5d5d;
+	text-decoration: none;
+	outline: none;
+}
+
+img {
+	border: 0;
+	outline: none;
+}
+#hdrWrap {
+	height: 62px;
+	margin: 0 auto;
+	width: 960px;
+}
+
+#hdrWrap #logoNintendo {
+	float: left;
+	margin-top: 22px;
+}
+
+#hdrWrap #btnTop {
+	float: right;
+}
+
+#menuWrap {
+	clear: both;
+	background: url(../imgCmn/bgMenu.png) repeat-x;
+	width: 100%;
+	height: 93px;
+	text-align: center;
+}
+
+#menuWrap .wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#menuWrap .wrap .logo {
+	float: left;
+	margin: 20px 0 0 5px;
+}
+
+#menuWrap .wrap .menu {
+	float: right;
+	margin-top: 7px;
+	width: 469px;
+}
+
+#contentsTop {
+	clear: both;
+	background: url(../imgCmn/bgContentsTop.png) repeat-x center top;
+	width: 100%;
+	height: 22px;
+}
+
+#contentsTop .wrap {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+}
+
+#contentsTop .pageTtl {
+	position: absolute;
+	top: 22px;
+	left: 0;
+}
+
+
+.contentsWrap {
+	clear: both;
+	background: #FFF;
+}
+
+.contentsWrap:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+.contentsWrap .wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.contentsWrap .wrap .main {
+	float: left;
+	background: #fff url(../imgCmn/bgContents.png) repeat-y 106px top;
+	width: 854px;
+	padding-left: 106px;
+	z-index: 999;
+}
+
+.contentsSeparate {
+	clear: both;
+	background: #fff url(../imgCmn/bgContentsSeparate.png) repeat-x center top;
+	min-width: 768px;
+	max-width: 100%;
+	height: 76px;
+}
+
+#contentsBtm {
+	clear: both;
+	background: url(../imgCmn/bgContentsBtm.png) repeat-x center top;
+	width: 100%;
+	height: 22px;
+}
+
+#ftr {
+	background: url(../imgCmn/ftrLine.png) repeat-x;
+	padding-top: 34px;
+	clear: both;
+	width: 960px;
+	margin: 0 auto;
+}
+
+#ftr .notes {
+	float: right;
+}
+
+#ftr #btnPageTop {
+	padding-top: 12px;
+	clear: both;
+	text-align: right;
+}
+
+#ftr .nintendoWeb {
+	float: left;
+}

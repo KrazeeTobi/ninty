@@ -1,0 +1,198 @@
+.contentsWrap .wrap .main .con01 {
+	width: 644px;
+	height: 635px;
+	margin: 35px auto 0;
+	text-align: left;
+	position: relative;
+}
+.contentsWrap .wrap .main .con01 .photoTest01 {
+	position: absolute;
+	top: 10px;
+	left: 0px;
+}
+
+.contentsWrap .wrap .main .con01 .logo3DS {
+	position: absolute;
+	top: 151px;
+	left: 350px;
+}
+
+.contentsWrap .wrap .main .con01 .btnPhotoImage {
+	position: absolute;
+	top: 373px;
+	left: 40px;
+}
+
+.contentsWrap .wrap .main .con01 .btnSpec {
+	position: absolute;
+	top: 290px;
+	left: 376px;
+}
+
+.contentsWrap .wrap .main .con01 .btnSpec {
+	position: absolute;
+	top: 373px;
+	left: 336px;
+}
+
+
+.contentsWrap .wrap .main .con01 .imageBtn1 {
+	position: absolute;
+	top: 230px;
+	left: 501px;
+}
+
+.contentsWrap .wrap .main .con01 .imageBtn2 {
+	position: absolute;
+	top: 230px;
+	left: 560px;
+}
+
+.contentsWrap .wrap .main .con01 .btnRelease {
+	position: absolute;
+	top: 583px;
+	left: 361px;
+}
+
+.contentsWrap .wrap .main .con02 {
+	width: 770px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.contentsWrap .wrap .main .con02ttl {
+	margin-top: 10px;
+	padding-bottom: 55px;
+}
+
+.contentsWrap .wrap .main .con02list {
+	background: url(../img/lineMenu.png) repeat-y center top;
+	width: 770px;
+	height: 310px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.contentsWrap .wrap .main .con02list .kid_icarus {
+	width: 370px;
+	margin-right: 15px;
+	text-align: center;
+	float: left;
+}
+
+.contentsWrap .wrap .main .con02list .nintendogs {
+	width: 385px;
+	text-align: center;
+	float: right;
+}
+
+.contentsWrap .wrap .main .con03 {
+	width: 770px;
+	margin: 35px auto 0;
+	text-align: left;
+}
+
+.contentsWrap .wrap .main .con03 .con03list {
+	clear: both;
+	padding: 0;
+	margin: 0 auto 0;
+	width: 770px;
+	list-style-position:outside;
+	list-style: none;
+}
+
+.contentsWrap .wrap .main .con03 .con03list li {
+	float: left;
+	margin: 0 7px 0 0;
+	display: block;
+	position: relative;
+	font-weight: bold;
+	height: 165px;
+}
+
+
+
+.contentsWrap .wrap .main .con03 .con03list li .new {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	z-index: 99;
+}
+
+.contentsWrap .wrap .main .con03 .con03list li div {
+	padding-top: 3px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:93%;
+	text-align: center;
+}
+
+.contentsWrap .wrap .main .con03 .con03list li span {
+	font-size:77%;
+}
+
+
+
+.contentsWrap .wrap .main .con04 {
+	width: 770px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.contentsWrap .wrap .main .con04ttl {
+	padding: 15px 0 35px;
+}
+
+.contentsWrap .wrap .main .con04 .con04list {
+	clear: both;
+	border-top: #8aaab8 1px solid;
+	width: 770px;
+	height: 87px;
+	display: block;
+}
+
+.contentsWrap .wrap .main .con04 .con04list span {
+	font-size: 77%;
+}
+
+.contentsWrap .wrap .main .con04 .con04list .softttl {
+	background-repeat: no-repeat;
+	background-position: 7px 10px;
+	line-height: 87px;
+	padding-left: 145px;
+	float: left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 93%;
+	font-weight: bold;
+	color: #658898;
+}
+
+.contentsWrap .wrap .main .con04 .con04list .softttl .2l {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 93%;
+	line-height: 12px; 
+	position: relative; 
+	top: 30px;
+}
+
+.contentsWrap .wrap .main .con04 .con04list .softttl:hover {
+	background-position: 7px -87px;
+	text-decoration: underline;
+}
+
+.contentsWrap .wrap .main .con04 .con04list .mName {
+	line-height: 87px;
+	float: right;
+	width: 140px;
+	text-align: left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 77%;
+}
+
+.contentsWrap .wrap .main .con04 .con04note {
+	clear: both;
+	border-top: #8aaab8 1px solid;
+	width: 770px;
+	text-align: right;
+	padding: 12px 0 12px;
+	font-size: 85%;
+}

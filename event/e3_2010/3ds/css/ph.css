@@ -1,0 +1,171 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	overflow: hidden;
+}
+
+img {
+	border: 0;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	left: 736px;
+}
+
+.close2 {
+	position: absolute;
+	top: 0;
+	left: 400px;
+}
+
+.logo {
+	position: absolute;
+	top: 419px;
+	left: 736px;
+}
+
+.logo2 {
+	position: absolute;
+	top: 161px;
+	left: 400px;
+}
+
+.title {
+	position: absolute;
+	top: 151px;
+	left: 507px;
+	z-index: 99;
+}
+
+.photo {
+	position: absolute;
+	top: 19px;
+	left: 36px;
+	z-index: 99;
+}
+
+.photoTop {
+	position: absolute;
+	top: 68px;
+	left: 132px;
+	z-index: 2;
+}
+
+.photoBtm {
+	position: absolute;
+	top: 280px;
+	left: 158px;
+	z-index: 2;
+}
+
+.photo02 {
+	position: absolute;
+	top: 19px;
+	left: 146px;
+	z-index: 99;
+}
+
+.photoTop02 {
+	position: absolute;
+	top: 68px;
+	left: 242px;
+	z-index: 2;
+}
+
+.photoBtm02 {
+	position: absolute;
+	top: 280px;
+	left: 268px;
+	z-index: 2;
+}
+
+.btn1 img, .btn2 img, .btn3 img, .btn4 img, .btn5 img, .btn6 img, .btn7 img, .btn8 img {
+	cursor: pointer;
+}
+
+.btn1 {
+	position: absolute;
+	top: 490px;
+	z-index: 50;
+	background: url(../img/imageBtn1_ov.png) no-repeat;
+	width: 55px;
+	height: 18px;
+}
+
+.btn2 {
+	position: absolute;
+	top: 490px;
+	z-index: 50;
+	background: url(../img/imageBtn2_ov.png) no-repeat;
+	width: 55px;
+	height: 18px;
+}
+
+.btn3 {
+	position: absolute;
+	top: 490px;
+	z-index: 50;
+	background: url(../img/imageBtn3_ov.png) no-repeat;
+	width: 55px;
+	height: 18px;
+}
+
+.btn4 {
+	position: absolute;
+	top: 490px;
+	z-index: 50;
+	background: url(../img/imageBtn4_ov.png) no-repeat;
+	width: 55px;
+	height: 18px;
+}
+
+.btn5 {
+	position: absolute;
+	top: 490px;
+	z-index: 50;
+	background: url(../img/imageBtn5_ov.png) no-repeat;
+	width: 55px;
+	height: 18px;
+}
+
+.btn6 {
+	position: absolute;
+	top: 490px;
+	z-index: 50;
+	background: url(../img/imageBtn6_ov.png) no-repeat;
+	width: 55px;
+	height: 18px;
+}
+
+.btn7 {
+	position: absolute;
+	top: 490px;
+	z-index: 50;
+	background: url(../img/imageBtn7_ov.png) no-repeat;
+	width: 55px;
+	height: 18px;
+}
+
+.btn8 {
+	position: absolute;
+	top: 490px;
+	z-index: 50;
+	background: url(../img/imageBtn8_ov.png) no-repeat;
+	width: 55px;
+	height: 18px;
+}
+
+.copyright {
+	color:#666;
+	position: absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	line-height: 1.4;
+	z-index: 50;
+	left: 507px;
+	width: 208px;
+	text-align: right;
+}

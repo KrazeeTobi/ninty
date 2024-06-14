@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=shift_jis">
+<meta name="description" content="">
+<meta name="Keywords" content="">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<title>任天堂 E3 2010情報</title>
+
+<link rel="stylesheet" type="text/css" href="css/aboutE3.css" media="all">
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery_auto.js"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+	function isWii() { return (navigator.userAgent.indexOf("Wii") != -1); }
+	function isDSi () { return (navigator.userAgent.indexOf("Nintendo DSi") != -1); }
+	function closeWin(){
+		if(isWii() || isDSi()){
+		window.history.back();
+		}
+	}
+//-->
+</script>
+
+
+</HEAD>
+
+<BODY>
+<A HREF="javascript:parent.tb_remove();void(0);" onClick="closeWin();"><IMG SRC="imgCmn/btnCloseWindow.png" WIDTH="31" HEIGHT="31" ALT="" CLASS="close hover"></A>
+<img src="imgCmn/windowLogo.gif" width="34" height="79" alt="E3 2010" class="logo">
+<div style="background: #fff; width: 600px; height: 300px;"><span class="contentsTop"><img src="imgTeaser/aboutE3.png" width="476" height="202" alt="E3とは？&#13;&#10;E3（Electronic Entertainment Expo）は、年に一度米国内で行われるビデオゲームの発表展示会です。2010年は米国時間の6月15日（火）から3日間ロサンゼルスで開催されます。ビデオゲームの発表展示会としては世界最大の規模で、任天堂を含めさまざまなゲームメーカーが今後発売する商品などを紹介し、多くのプレスが世界中から訪れて広く報道されます。" style="padding: 49px 0 0 62px;"></span></div>
+
+</BODY>
+</HTML>

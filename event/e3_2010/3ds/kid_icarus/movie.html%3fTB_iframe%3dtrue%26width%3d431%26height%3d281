@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=shift_jis">
+<meta name="description" content="">
+<meta name="Keywords" content="">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<title>任天堂 E3 2010情報</title>
+
+<link rel="stylesheet" type="text/css" href="../css/ph.css" media="all">
+
+<script type="text/javascript">
+<!--
+	var setImageNum = 5;
+//-->
+</script>
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery_auto.js"></script>
+<script type="text/javascript" src="../../js/ph.js"></script>
+<script type="text/javascript" src="../../js/kid_icarus.js"></script>
+
+</HEAD>
+
+<BODY>
+<A HREF="javascript:parent.tb_remove();void(0);" onClick="closeWin();"><IMG SRC="../../imgCmn/btnCloseWindow.png" WIDTH="31" HEIGHT="31" ALT="" CLASS="close2 hover"></A>
+<script language="JavaScript" type="text/javascript">
+<!-- 
+	setMov('kid_icarus',2,1,'../img/kid_icarus/movieTop.gif');
+// -->
+</script>
+<noscript><img src="../../imgCmn/windowLogo.gif" width="34" height="79" alt="E3 2010" class="logo2"><img src="../img/kid_icarus/noPlugin.jpg" width="400" height="240" alt="この動画はパソコンのブラウザでJavaScriptを有効にして、最新のAdobe Flash Playerをインストールしてからご覧ください。"></noscript>
+</BODY>
+</HTML>

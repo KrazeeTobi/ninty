@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=shift_jis">
+<meta name="description" content="">
+<meta name="Keywords" content="">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<title>任天堂 E3 2010情報</title>
+
+<link rel="stylesheet" type="text/css" href="../css/ph.css" media="all">
+
+<script type="text/javascript">
+<!--
+	var setImageNum = 6;
+//-->
+</script>
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery_auto.js"></script>
+<script type="text/javascript" src="../../js/3dsPH.js"></script>
+
+</HEAD>
+
+<BODY>
+<A HREF="javascript:parent.tb_remove();void(0);" onClick="closeWin();"><IMG SRC="../../imgCmn/btnCloseWindow.png" WIDTH="31" HEIGHT="31" ALT="" CLASS="close hover"></A>
+<img src="../../imgCmn/windowLogo.gif" width="34" height="79" alt="E3 2010" class="logo" style="top: 390px;">
+
+<div id="movieArea" style="background: url(../img/phCTR1.jpg) no-repeat; height: 470px; width: 736px;"></div>
+<div class="btn1" style="left: 203px; top: 480px;"><img src="../img/imageBtn1.png" width="55" height="18" alt="1" class="hover" onClick="phChange('1');"></div>
+<div class="btn2" style="left: 261px; top: 480px;"><img src="../img/imageBtn2.png" width="55" height="18" alt="2" class="hover" onClick="phChange('2');"></div>
+<div class="btn3" style="left: 319px; top: 480px;"><img src="../img/imageBtn3.png" width="55" height="18" alt="3" class="hover" onClick="phChange('3');"></div>
+<div class="btn4" style="left: 377px; top: 480px;"><img src="../img/imageBtn4.png" width="55" height="18" alt="4" class="hover" onClick="phChange('4');"></div>
+<div class="btn5" style="left: 436px; top: 480px;"><img src="../img/imageBtn5.png" width="55" height="18" alt="5" class="hover" onClick="phChange('5');"></div>
+<div class="btn6" style="left: 495px; top: 480px;"><img src="../img/imageBtn6.png" width="55" height="18" alt="5" class="hover" onClick="phChange('6');"></div>
+</BODY>
+</HTML>

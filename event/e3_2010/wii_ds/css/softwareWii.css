@@ -1,0 +1,77 @@
+#hdrWrap {
+width: 768px;
+}
+#menuWrap .wrap {
+width: 768px;
+}
+#contentsTop {
+	background-position: right top;
+}
+#contentsTop .wrap {
+width: 768px;
+}
+.contentsWrap .wrap {
+width: 768px;
+}
+.contentsWrap .wrap .main {
+width: 670px;
+}
+.contentsWrap .wrap .main {
+	background-image: none;
+}
+.contentsSeparate {
+	background-image: url(../../imgCmn/bgContentsSeparate768.png);
+}
+#contentsBtm {
+	background-position: right top;
+}
+#ftr {
+width: 768px;
+}
+	
+.contentsWrap .wrap .main .con01 {
+width: 620px;
+}
+.contentsWrap .wrap .main .con01list {
+width: 620px;
+}
+.contentsWrap .wrap .main .con01list {
+	background-position: 310px top;
+}
+	
+.contentsWrap .wrap .main .con02 {
+width: 620px;
+}
+.contentsWrap .wrap .main .con02list {
+width: 620px;
+}
+.contentsWrap .wrap .main .con02list {
+marginLeft: 25px;
+}
+.contentsWrap .wrap .main .con02list {
+	background-position: 310px top;
+}
+.contentsWrap .wrap .main .con02list li {
+marginRight: 9px;
+}
+.contentsWrap .wrap .main .con02list li {
+height: 118px;
+}
+.contentsWrap .wrap .main .con02 .ttlScreenShot {
+marginLeft: 25px;
+}
+.contentsWrap .wrap .main .con02listDS {
+width: 620px;
+}
+.contentsWrap .wrap .main .con02listDS {
+marginLeft: 25px;
+}
+.contentsWrap .wrap .main .con02listDS {
+	background-position: 310px top;
+}
+.contentsWrap .wrap .main .con02listDS li {
+marginRight: 9px;
+}
+.contentsWrap .wrap .main .con02listDS li {
+height: 156px;
+}

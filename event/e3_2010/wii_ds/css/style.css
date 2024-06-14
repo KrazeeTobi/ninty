@@ -1,0 +1,90 @@
+.contentsWrap .wrap .main .con01 {
+	width: 770px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.contentsWrap .wrap .main .con01ttl {
+	padding: 30px 6px 50px;
+}
+
+.contentsWrap .wrap .main .con01 .con01list {
+	clear: both;
+	padding: 0;
+	margin: 0 auto 0;
+	width: 770px;
+	list-style-position:outside;
+	list-style: none;
+}
+
+.contentsWrap .wrap .main .con01 .con01list li {
+	float: left;
+	margin: 0 7px 0 0;
+	display: block;
+	position: relative;
+	font-weight: bold;
+	height: 157px;
+}
+
+.contentsWrap .wrap .main .con01 .con01list li .new {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	z-index: 99;
+}
+
+
+.contentsWrap .wrap .main .con01 .con01list span, .contentsWrap .wrap .main .con02 .con02list span {
+	font-size: 77%;
+}
+
+.contentsWrap .wrap .main .con01 .con01list li div {
+	padding-top: 3px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:93%;
+	color: #34beed;
+	text-align: center;
+}
+
+.contentsWrap .wrap .main .con02 {
+	width: 770px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.contentsWrap .wrap .main .con02ttl {
+	padding: 15px 2px 50px;
+}
+
+.contentsWrap .wrap .main .con02 .con02list {
+	clear: both;
+	padding: 0;
+	margin: 0 auto 0;
+	width: 770px;
+	list-style-position:outside;
+	list-style: none;
+}
+
+.contentsWrap .wrap .main .con02 .con02list li {
+	float: left;
+	margin: 0 7px 0 0;
+	display: block;
+	position: relative;
+	font-weight: bold;
+	height: 155px;
+}
+
+.contentsWrap .wrap .main .con02 .con02list li .new {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	z-index: 99;
+}
+
+.contentsWrap .wrap .main .con02 .con02list li div {
+	padding-top: 3px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:93%;
+	color: #ff418c;
+	text-align: center;
+}
