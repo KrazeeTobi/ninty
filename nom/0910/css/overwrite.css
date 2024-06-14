@@ -1,0 +1,162 @@
+@charset "Shift_JIS";
+
+/*--- information
+--------------------------------------------------------------------------	
+
+	Build Date : 2009/09/28;
+	Site Name : N.O.M Nintendo Online Magazine No.135;
+	About : N.O.MÉyÅ[ÉWï è„èëÇ´CSS;
+
+	00.common
+	01.body container wrapper
+	02.header
+	03.main
+	04.link
+	05.footer
+
+--------------------------------------------------------------------------*/
+
+/*--- 00.common
+--------------------------------------------------------------------------*/
+
+/*--- font-size adjustment
+
+ -------------+-------------
+  pixels (px) | percent (%)
+ -------------+-------------
+       10     |     77
+       11     |     85
+       12     |     93
+       13     |    100
+       14     |    107
+       15     |    114
+       16     |    122
+       17     |    129
+       18     |    136
+       19     |    144
+       20     |    152
+       21     |    159
+       22     |    167
+       23     |    174
+       24     |    182
+       25     |    189
+       26     |    197
+ -------------+-------------
+ 
+--------------------------------------------------------------------------*/
+
+
+
+/*--- 01.body container wrapper
+--------------------------------------------------------------------------*/
+
+
+#page0 #container {
+	background-image:url(../img0/bg_ill.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+
+#page1 #container {
+	background-image:url(../img1/bg_ill.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+
+#page2 #container {
+	background-image:url(../img2/bg_ill.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+
+#page3 #container {
+	background-image:url(../img3/bg_ill.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+
+#page4 #container {
+	background-image:url(../img4/bg_ill.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+
+#page5 #container {
+	background-image:url(../img5/bg_ill.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+
+
+/*--- 02.header
+--------------------------------------------------------------------------*/
+
+#page0 #header {
+	background-image:url(../img0/bg_header.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+#page1 #header {
+	background-image:url(../img1/bg_header.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+#page2 #header {
+	background-image:url(../img2/bg_header.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+#page3 #header {
+	background-image:url(../img3/bg_header.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+#page4 #header {
+	background-image:url(../img4/bg_header.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+#page5 #header {
+	background-image:url(../img5/bg_header.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+
+/*--- 03.main
+--------------------------------------------------------------------------*/
+
+#page1 .pagebtnbox {
+	background-image:url(../img1/bg_btpage.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+#page2 .pagebtnbox {
+	background-image:url(../img2/bg_btpage.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+#page3 .pagebtnbox {
+	background-image:url(../img3/bg_btpage.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+#page4 .pagebtnbox {
+	background-image:url(../img4/bg_btpage.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+#page5 .pagebtnbox {
+	background-image:url(../img5/bg_btpage.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}

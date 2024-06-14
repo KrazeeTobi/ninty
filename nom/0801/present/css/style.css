@@ -1,0 +1,42 @@
+@charset "Shift_JIS";
+
+.tb_padding {
+	padding:15px 0;
+	}
+
+#img_area {
+	width:460px;
+	text-align:left;
+	padding-bottom: 15px;
+		}
+
+#lead {
+	width:460px;
+	padding-bottom: 15px;
+	font-family: "ＭＳ ゴシック", Osaka;
+	font-size: 12px;
+	color: #666666;
+	line-height: 1.5em;
+	text-align:left;
+	}
+
+/*　枠（↓）*/
+#waku_bg {
+	width:720px;
+	height:auto;
+	background-image:url(../../img_cmn/waku_bg.gif);
+	background-repeat:y-repeat;
+	margin:0 auto;
+	padding:0 0 0;
+	}
+
+/*　フッタ－エリア（↓）*/
+#top_footer {
+	width:100%;
+	vertical-align:middle;
+	padding:10px 0 8 0;
+	font-family: "ＭＳ ゴシック", Osaka;
+	font-size: 12px;
+	text-align:center;
+	}
+

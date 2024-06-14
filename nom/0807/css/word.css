@@ -1,0 +1,138 @@
+@charset "Shift_JIS";
+
+
+/*========================================↓「バンブラＤＸ」用語*/
+
+
+/*========================================↓詳細説明部分：固有設定*/
+
+
+dl {
+	width:694px;
+	height:auto;
+	margin:0 auto;
+	padding:0;
+	border:3px #fabf00 solid;
+	text-align:left;
+	}
+/*ここからハック*/
+dl:after {
+	content:".";
+	display:block;
+	visibility:hidden;
+	height:0.1px;
+	font-size:0.1em;
+	line-height:0;
+	clear:both;
+	}
+dl {/* for IE7*/
+    zoom:1;
+	}
+/*ここまでハック*/
+
+dl dt {
+	margin:0;
+	padding:5px 10px;
+	color:#333;
+	font-weight:bold;
+	background-color:#fabf00;
+	}
+dl dd {
+	margin:0;
+	padding:10px;
+	}
+
+/*ここからハック*/
+dl dd:after {
+	content:".";
+	display:block;
+	visibility:hidden;
+	height:0.1px;
+	font-size:0.1em;
+	line-height:0;
+	clear:both;
+	}
+dl dd {/* for IE7*/
+    zoom:1;
+	}
+/*ここまでハック*/
+
+dl ul {
+	margin:10px 0 0;
+	list-style:decimal outside;
+	}
+
+dl ul li {
+	height:auto;
+	margin:0 0 10px 20px;
+	padding:0;
+	font-size:12px;
+	line-height:15px;
+	text-align:left;
+	}
+
+p.ret_page {
+	width:694px;
+	height:1.2em;
+	margin:0 auto 20px;
+	padding:0 3px;
+	font-size:10px;
+	text-align:right;
+	}
+
+/*↓画像に対してテキストを上下揃え、ここから_____*/
+
+
+/*リンクさせるので、要素を p から span に変更*/
+
+dt span {
+	height:auto;
+	display:table-cell;
+	vertical-align:middle;
+	margin:0;
+	padding:0;
+	}
+
+/*for IE6 */  
+* html dt span {
+	display:inline;
+	zoom:1;
+	}
+
+/*for IE7 */
+*:first-child+html dt span {
+	display:inline;
+	zoom:1;
+	}
+
+dt span img.onpu {
+	margin:0 5px 0 0;
+	padding:0;
+	}
+
+ul.maru {
+	list-style:disc inside;
+	}
+
+
+
+dl dl.block {
+	width:auto;
+	height:auto;
+	margin:5px 0 0;
+	padding:0;
+	border:0;
+	text-align:left;
+	}
+dl dl.block dt {
+	margin:0;
+	padding:0;
+	color:#9b7600;
+	font-weight:bold;
+	background-color:#fff;
+	}
+dl dl.block dd {
+	margin:0;
+	padding:0 0 0 10px;
+	}
+

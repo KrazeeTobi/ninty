@@ -1,0 +1,103 @@
+@charset "Shift_JIS";
+
+/*--- information
+--------------------------------------------------------------------------	
+
+	Build Date : 2009/09/28;
+	Site Name : N.O.M Nintendo Online Magazine No.135;
+	About : N.O.MÉyÅ[ÉWï è„èëÇ´CSS;
+
+	00.common
+	01.body container wrapper
+	02.header
+	03.main
+	04.link
+	05.footer
+
+--------------------------------------------------------------------------*/
+
+/*--- 00.common
+--------------------------------------------------------------------------*/
+
+/*--- font-size adjustment
+
+ -------------+-------------
+  pixels (px) | percent (%)
+ -------------+-------------
+       10     |     77
+       11     |     85
+       12     |     93
+       13     |    100
+       14     |    107
+       15     |    114
+       16     |    122
+       17     |    129
+       18     |    136
+       19     |    144
+       20     |    152
+       21     |    159
+       22     |    167
+       23     |    174
+       24     |    182
+       25     |    189
+       26     |    197
+ -------------+-------------
+ 
+--------------------------------------------------------------------------*/
+
+
+
+/*--- 01.body container wrapper
+--------------------------------------------------------------------------*/
+
+
+
+/*--- 02.header
+--------------------------------------------------------------------------*/
+
+
+
+/*--- 03.main
+--------------------------------------------------------------------------*/
+
+#page1 .pagebtnbox {
+	background-image:url(../img1/numlinkbase.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+#page2 .pagebtnbox {
+	background-image:url(../img2/numlinkbase.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+#page3 .pagebtnbox {
+	background-image:url(../img3/numlinkbase.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+#page4 .pagebtnbox {
+	background-image:url(../img4/numlinkbase.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+#page5 .pagebtnbox {
+	background-image:url(../img5/numlinkbase.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+#page6 .pagebtnbox {
+	background-image:url(../img6/numlinkbase.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+#page7 .pagebtnbox {
+	background-image:url(../img7/numlinkbase.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}

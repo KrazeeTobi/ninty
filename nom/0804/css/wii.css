@@ -1,0 +1,13 @@
+@charset "Shift_JIS";
+
+/*«WiiƒŠƒ“ƒNİ’è====================*/
+a:hover {
+    outline: 0;
+}
+a:hover img, a:hover object, a:hover area, a:hover map, a:hover embed {
+    outline: 0;
+}
+input:hover, select:hover, option:hover, map:hover, area:hover {
+    outline: 0;
+}
+

@@ -1,0 +1,30 @@
+@charset "Shift_JIS";
+
+
+/*　本文基本テキスト　*/
+td.text12 {
+	font-family: "ＭＳ ゴシック", Osaka;
+	font-size: 12px;
+	color: #666666;
+	line-height: 1.5em;
+	text-align:left;
+	}
+
+.txt12 {
+	font-family: "ＭＳ ゴシック", Osaka;
+	font-size: 12px;
+	color: #666666;
+	line-height: 1.5em;
+	text-align:left;
+	}
+
+.notice {
+ width:460px;
+	font-family: "ＭＳ ゴシック", Osaka;
+	font-size: 10px;
+	color: #999999;
+	line-height: 1.5em;
+	text-align:left;
+	padding: 5px 0 20px 0;
+	}
+

@@ -1,0 +1,295 @@
+@charset "Shift_JIS";
+
+/*--- information
+--------------------------------------------------------------------------	
+
+	Build Date : 2009/11/27;
+	Update Date : ;
+	Site Name : NOM0912;
+	URL : ;
+	About : NOM0912;
+	Author : ;
+
+--------------------------------------------------------------------------*/
+
+/*--- font-size adjustment
+
+ -------------+-------------
+  pixels (px) | percent (%)
+ -------------+-------------
+       10     |     77
+       11     |     85
+       12     |     93
+       13     |    100
+       14     |    107
+       15     |    114
+       16     |    122
+       17     |    129
+       18     |    136
+       19     |    144
+       20     |    152
+       21     |    159
+       22     |    167
+       23     |    174
+       24     |    182
+       25     |    189
+       26     |    197
+ -------------+-------------
+ 
+--------------------------------------------------------------------------*/
+
+/*--- 00.nom
+--------------------------------------------------------------------------*/
+
+* {
+	margin:0;
+	padding:0;
+	border:0;
+	font-family:"Hiragino Kaku Gothic Pro","Hiragino Kaku Gothic Pro W3","HiraKakuPro-W3","MS UI Gothic","MS P Gothic","MS Gothic","Meiryo";
+	font-size:12px;
+	font-weight:normal;
+	line-height:1.5;
+	outline:none;
+	/*For IE Only*/
+	word-break:break-all;
+}
+
+body {
+	font-size:12px;
+}
+
+/* for IE6 */
+/* Hides from IE-mac \*/
+
+* html body {
+	font-size:93%;
+}
+
+* html p {
+	font-size:93%;
+}
+
+/* End hide from IE-mac */
+/* for IE7 */
+
+*:first-child+html body {
+	font-size:93%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+a: hover {
+	text-decoration: underline;
+}
+
+body {
+	text-align:center;
+	background: #229eb4 url(../rrc/popup/img/rrc_popup_bg.jpg) top left repeat-x;
+}
+
+#container {
+	width: 768px;
+	margin:0 auto;
+	background-image: url(../rrc/popup/img/rrc_popup_bg5.jpg);
+	background-position: 0 0;
+	background-repeat: repeat-y;
+}
+
+#wrapper {
+	width:768px;
+	margin:0 auto;
+	text-align:left;
+	background-image: url(../rrc/popup/img/rrc_popup_bg4.jpg);
+	background-position: 0 31px;
+	background-repeat: no-repeat;
+}
+
+#footer {
+	width: 768px;
+	margin:0 auto;
+	padding-bottom: 20px;
+}
+
+#navi {
+	background: transparent url(../rrc/popup/img/rrc_popup_bg3.jpg) top left no-repeat;
+}
+
+#main {
+	width: 768px;
+}
+
+#main2 {
+	width: 748px;
+	margin-left: 10px;
+}
+
+.backbtn2 {
+	display: block;
+	float: left;
+	margin-left: 10px;
+	width: 78px;
+	height: 31px;
+	background-image: url(../rrc/popup/img/back_btn.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	text-indent:-9999px;
+	font-size:0.1%;
+	line-height:0.1%;
+}
+
+.backbtn2:hover {
+	background-position: 0 -31px;
+}
+
+.backbtnn2 {
+	display: block;
+	float: left;
+	margin-left: 10px;
+	width: 78px;
+	height: 31px;
+	background-image: url(../rrc/popup/img/back_btn_none.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	text-indent:-9999px;
+	font-size:0.1%;
+	line-height:0.1%;
+}
+
+.nextbtn2 {
+	display: block;
+	float: left;
+	width: 78px;
+	height: 31px;
+	background-image: url(../rrc/popup/img/next_btn.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	text-indent:-9999px;
+	font-size:0.1%;
+	line-height:0.1%;
+}
+
+.nextbtn2:hover {
+	background-position: 0 -31px;
+}
+
+.nextbtnn2 {
+	display: block;
+	float: left;
+	width: 78px;
+	height: 31px;
+	background-image: url(../rrc/popup/img/next_btn_none.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	text-indent:-9999px;
+	font-size:0.1%;
+	line-height:0.1%;
+}
+
+#footer p {
+	text-align: left;
+}
+
+#footer p a {
+	font-size: 30px;
+}
+
+.backbtn {
+	margin-left: 20px;
+	float: left;
+	color: #ffff00;
+	/* font-weight: bold; */
+}
+
+.backbtn:hover {
+	/* color: #EB6100; */
+	color: #ffffff;
+}
+
+.backbtnn {
+	margin-left: 20px;
+	float: left;
+	/* color: #ffff00; */
+	color: #65bbcb;
+}
+
+.nextbtn {
+	margin-right: 20px;
+	float: right;
+	color: #ffff00;
+	/* font-weight: bold; */
+}
+
+.nextbtn:hover {
+	color: #ffffff;
+}
+
+.nextbtnn {
+	margin-right: 20px;
+	float: right;
+	/* color: #ffff00; */
+	color: #65bbcb;
+}
+
+.closebtn {
+	display: block;
+	float: right;
+	margin-right: 10px;
+	width: 92px;
+	height: 31px;
+	background-image: url(../rrc/popup/img/close_btn.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	text-indent:-9999px;
+	font-size:0.1%;
+	line-height:0.1%;
+}
+
+.closebtn:hover {
+	background-position: 0 -31px;
+}
+
+.title {
+	width: 748px;
+}
+
+.text1 {
+	float: left;
+}
+
+.text2 {
+	flaot: right;
+}
+
+.pict1 {
+	float: left;
+}
+
+.pict2 {
+	float: right;
+}
+
+.comment1 {
+	float: left;
+	width: 466px;
+}
+
+.comment2 {
+	float: left;
+	width: 546px;
+}
+
+.gifanime1 {
+	float: left;
+	padding-left: 34px;
+}

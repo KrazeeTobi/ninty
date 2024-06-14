@@ -1,0 +1,52 @@
+@charset "Shift_JIS";
+
+.btn-topback{
+	width:46px;
+	height:30px;
+	margin:0;
+	padding:0;
+	display:block;
+	text-indent:-9999px;
+	font-size:0.1%;
+	line-height:0.1%;	
+	background:url(../zone/img-tuk/tsukuba-btn-top.jpg) 0 0 no-repeat;
+	position:absolute;
+	right:19px;
+	top:12px;	
+}
+
+a.btn-topback:hover{background-position:0 -30px;}
+
+.tsukuba-foot{
+	height:278px;
+	background:url(../zone/img-tuk/tsukuba-page-footer.jpg) 0 0 no-repeat;
+}
+
+.tukuba-hp{
+	width:278px;
+	height:54px;
+	display:block;
+	text-indent:-9999px;
+	font-size:0.1%;
+	line-height:0.1%;
+	background:url(../zone/img-tuk/tsukuba-hp.jpg) 0 0 no-repeat;
+	float:right;
+}
+
+a.tukuba-hp:hover{background-position:0 -54px;}
+
+.tukuba-mcd{
+	width:380px;
+	height:53px;
+	display:block;
+	text-indent:-9999px;
+	font-size:0.1%;
+	line-height:0.1%;
+	position:absolute;
+	right:31px;
+	bottom:54px;
+	background:url(../zone/img-tuk/tsukuba-mcd-report.jpg) 0 0 no-repeat;
+}
+
+a.tukuba-mcd:hover{background-position:0 -53px;}
+	

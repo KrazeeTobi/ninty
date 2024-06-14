@@ -1,0 +1,366 @@
+@charset "Shift_JIS";
+
+/*--- information
+--------------------------------------------------------------------------
+
+	Build Date : 2009/05/28;
+	Site Name : NOM2009îN6åéçÜ;
+	URL : http://www.nintendo.co.jp/nom/0906/index.html;
+	About : NOM2009îN6åéçÜópCSS;
+
+	00.common
+	01.body container wrapper
+	02.header
+	03.main
+	04.link
+	05.footer
+
+--------------------------------------------------------------------------*/
+
+/*--- 00.common
+--------------------------------------------------------------------------*/
+
+/*--- font-size adjustment
+
+ -------------+-------------
+  pixels (px) | percent (%)
+ -------------+-------------
+       10     |     77
+       11     |     85
+       12     |     93
+       13     |    100
+       14     |    107
+       15     |    114
+       16     |    122
+       17     |    129
+       18     |    136
+       19     |    144
+       20     |    152
+       21     |    159
+       22     |    167
+       23     |    174
+       24     |    182
+       25     |    189
+       26     |    197
+ -------------+-------------
+ 
+--------------------------------------------------------------------------*/
+
+
+/*--- 01.body container wrapper
+--------------------------------------------------------------------------*/
+
+
+/*--- 02.header
+--------------------------------------------------------------------------*/
+
+#header {
+	width:768px;
+	height:50px;
+	margin:0 auto;
+	background:#000 url(../interview/img_cmn/bg_header.jpg) 0 0 no-repeat;
+}
+
+h1 {
+	width:270px;
+	height:50px;
+	margin:0 auto 0 0;
+	font-size:0.1px;
+	line-height:0.1;
+	background:#000 url(../interview/img_cmn/img_h1.jpg) 0 0 no-repeat;
+}
+
+h1 a {
+	display:block;
+	width:270px;
+	height:50px;
+	text-indent:-9999px;
+	font-size:0.1px;
+	line-height:0.1;
+}
+
+.pagecmn {
+	width:768px;
+	height:390px;
+	margin:0 auto;
+	padding:0;
+}
+
+h2 {
+	width:768px;
+	height:130px;
+	margin:0;
+}
+
+.members {
+	width:768px;
+	height:150px;
+	margin:0;
+}
+
+.page-btn-area {
+	width:768px;
+	height:60px;
+	position:relative;
+	display:block;
+	background-image:url(../interview/img_cmn/bg_pagenum.jpg);
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+
+.pagenumbox {
+	display:block;
+	width:210px;
+	height:35px;
+	position:absolute;
+	top:15px;
+	left:524px;
+}
+
+.pagenumbox p {
+	display:inline;
+	float:left;
+}
+	
+.pagenumbox a {
+	display:block;
+	width:30px;
+	height:35px;
+	text-indent:-9999px;
+	font-size:0.1%;
+	line-height:0.1%;
+	background-image:url(../interview/img_cmn/bt_pagenum.jpg);
+	background-repeat:no-repeat;
+}
+
+.page-btn1 {
+	background-position:0 0;
+}
+.page-btn1:hover {
+	background-position:0 -35px;
+}
+.page-btn1s {
+	background-position:0 -70px;
+}
+
+.page-btn2 {
+	background-position:-30px 0;
+}
+.page-btn2:hover {
+	background-position:-30px -35px;
+}
+
+.page-btn2s {
+	background-position:-30px -70px;
+}
+
+.page-btn3 {
+	background-position:-60px 0;
+}
+.page-btn3:hover {
+	background-position:-60px -35px;
+}
+.page-btn3s {
+	background-position:-60px -70px;
+}
+
+.page-btn4 {
+	background-position:-90px 0;
+}
+.page-btn4:hover {
+	background-position:-90px -35px;
+}
+.page-btn4s {
+	background-position:-90px -70px;
+}
+
+.page-btn5 {
+	background-position:-120px 0;
+}
+.page-btn5:hover {
+	background-position:-120px -35px;
+}
+.page-btn5s {
+	background-position:-120px -70px;
+}
+
+.page-btn6 {
+	background-position:-150px 0;
+}
+.page-btn6:hover {
+	background-position:-150px -35px;
+}
+.page-btn6s {
+	background-position:-150px -70px;
+}
+
+.page-btn7 {
+	background-position:-180px 0;
+}
+.page-btn7:hover {
+	background-position:-180px -35px;
+}
+.page-btn7s {
+	background-position:-180px -70px;
+}
+
+h3 {
+	width:768px;
+	height:50px;
+	margin:0;
+	text-indent:-9999px;
+	font-size:0.1px;
+	line-height:0.1;
+}
+
+h3.page1 {
+	background-image:url(../interview/img1/img_h3.jpg);
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+
+h3.page2 {
+	background-image:url(../interview/img2/img_h3.jpg);
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+
+h3.page3 {
+	background-image:url(../interview/img3/img_h3.jpg);
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+
+h3.page4 {
+	background-image:url(../interview/img4/img_h3.jpg);
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+
+h3.page5 {
+	background-image:url(../interview/img5/img_h3.jpg);
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+
+h3.page6 {
+	background-image:url(../interview/img6/img_h3.jpg);
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+
+h3.page7 {
+	background-image:url(../interview/img7/img_h3.jpg);
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+
+
+/*--- 03.main
+--------------------------------------------------------------------------*/
+
+#mainarea {
+	width:768px;
+	margin:0 auto;
+	padding:20px 0 0;
+	background:#000 url(../interview/img_cmn/bg_base.jpg) 0 0 repeat-y;
+}
+
+table.int-table {
+	width:670px;
+	margin:0 49px;
+}
+
+table.int-table td {
+	padding:0 0 10px;
+	text-align:left;
+	line-height:1.7;
+	vertical-align:top;
+}
+
+.nom-name, .nom-text {
+	color:#d09fec;	
+	font-weight:bold;
+}
+table.int-table td.nom-name {
+	text-align:right;
+	padding:0 3px 0 0;
+}
+table.int-table td.nom-text {
+	letter-spacing:0.05em;
+}
+
+table.int-table td.member-name {
+	color:#67b6c7;	
+	font-weight:bold;
+	text-align:right;
+}
+
+table.int-table td.member-text {
+	letter-spacing:0.05em;
+}
+
+table.int-table td.img-right {
+	padding-left:10px;
+}
+
+table.int-table td a {
+	font-size:100%;
+}
+
+.name-color {
+	color:#67b6c7;	
+	font-weight:bold;
+}
+
+.img-center {
+	width:670px;
+	margin:0 auto 10px;
+}
+
+.img-center2 {
+	width:440px;
+	margin:0 auto;
+}
+
+.img-center3 {
+	width:600px;
+	margin:0 auto;
+}
+
+.img-btm-10px {
+	margin-bottom:10px;
+}
+
+.img-tbtm {
+	margin:0 1px;
+	vertical-align:text-bottom;
+}
+
+#link {
+	width:768px;
+	height:160px;
+	margin:0 auto;
+	background:#000 url(../interview/img_cmn/bg_btm.jpg) 0 0 no-repeat;
+}
+
+.linkbox {
+	width:740px;
+	margin:0 auto;
+	padding-top:50px;
+	text-align:center;
+}
+
+.linkbox p {
+	display:inline;
+	padding:0 2px;
+	font-size:93%;
+}
+
+
+/*--- 04.link
+--------------------------------------------------------------------------*/
+
+
+/*--- 05.footer
+--------------------------------------------------------------------------*/

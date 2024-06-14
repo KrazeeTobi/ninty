@@ -1,0 +1,98 @@
+@charset "Shift_JIS";
+
+/*--- information
+--------------------------------------------------------------------------
+
+	Build Date : 2009/07/30;
+	Site Name : NOM2009年8月号;
+	About : NOM2009年8月号用プログラマーCSS;
+
+	00.common
+
+--------------------------------------------------------------------------*/
+
+/*--- 00.common
+--------------------------------------------------------------------------*/
+
+h1 a {
+	background-color:#FFF;
+}
+
+/*人物紹介*/
+.member01 {
+	width:768px;
+	height:390px;
+	background-image:url(../world/img/member01.jpg);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	position:relative;
+}
+
+.btnpop02box {
+	width:175px;
+	height:161px;
+	position:absolute;
+	top:210px;
+	left:338px;
+}
+
+.member02 {
+	width:768px;
+	height:360px;
+	background-image:url(../world/img/member02.jpg);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	position:relative;
+}
+
+.btnpop03box {
+	width:204px;
+	height:140px;
+	position:absolute;
+	top:175px;
+	left:286px;
+}
+
+
+/*見出し*/
+.sobox1 {
+	width:700px;
+	margin:0 34px;
+}
+
+/*漫画*/
+.sobox2 {
+	width:320px;
+	margin:0 224px;
+}
+
+/*写真*/
+.sobox3 {
+	width:480px;
+	margin:0 144px;
+}
+
+/*ボタン*/
+.sobox4 {
+	width:280px;
+	height:150px;
+	margin:0 244px;
+}
+
+/*スクリーンショット*/
+.sobox5 {
+	width:320px;
+	margin:0 224px;
+}
+
+/*漫画2*/
+.sobox6 {
+	width:480px;
+	height:170px;
+	margin:0 144px;
+}
+
+#footer {
+	padding: 0 0 30px 0;
+}
+
